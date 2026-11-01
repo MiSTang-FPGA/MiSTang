@@ -20,7 +20,9 @@ Nothing here claims a MiSTer core already runs on this board unless the catalog 
 One core per repository, all built from the same [template](https://github.com/MiSTang-FPGA/mistang-core-template):
 - [mistang-core-gbc](https://github.com/MiSTang-FPGA/mistang-core-gbc) — Game Boy / Color (from open-pocket-gbc)
 
-It is not hooked into the launcher yet. Policy: cores are the author's own (open-pocket-gbc / open-pocket-ws) or written from scratch here — no forks of other projects.
+- [mistang-core-ws](https://github.com/MiSTang-FPGA/mistang-core-ws) — WonderSwan / Color (from open-pocket-ws)
+
+Neither is hooked into the launcher yet. Policy: cores are the author's own (open-pocket-gbc / open-pocket-ws) or written from scratch here — no forks of other projects.
 
 ## Layout
 ```

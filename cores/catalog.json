@@ -36,6 +36,7 @@
   "category": "console",
   "systems": "WonderSwan / WonderSwan Color",
   "sdram": true,
+  "mistang": "https://github.com/MiSTang-FPGA/mistang-core-ws",
   "tier": "proven",
   "note": "Sister project built for this board (not re-verified here)",
   "id": "open-pocket-ws"

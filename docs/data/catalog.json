@@ -15,6 +15,7 @@
   "category": "console",
   "systems": "Nintendo NES / Famicom (Tang Nano 20K port)",
   "sdram": true,
+  "mistang": "https://github.com/MiSTang-FPGA/mistang-core-nes",
   "tier": "proven",
   "note": "nand2mario/nestang runs on Tang Nano 20K",
   "id": "nestang"
@@ -25,6 +26,7 @@
   "category": "console",
   "systems": "Game Boy / Game Boy Color",
   "sdram": true,
+  "mistang": "https://github.com/MiSTang-FPGA/mistang-core-gbc",
   "tier": "proven",
   "note": "Same author as MiSTang; its release bitstream loads on this Tang Nano 20K (DONE flag verified over JTAG)",
   "id": "open-pocket-gbc"

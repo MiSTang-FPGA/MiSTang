@@ -29,7 +29,7 @@ function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','
 function draw(){const q=$('#q').value.toLowerCase(),cat=$('#cat').value;
 const rows=data.filter(c=>(!tier||c.tier===tier)&&(!cat||c.category===cat)&&(c.name+' '+c.systems).toLowerCase().includes(q));
 $('#count').textContent=rows.length+' cores';
-$('#grid').innerHTML=rows.map(c=>`<a class="core" href="${esc(c.repo)}" target="_blank" rel="noopener"><div style="display:flex;justify-content:space-between;gap:8px"><b>${esc(c.name)}</b><span class="pill ${c.tier}">${c.tier}</span></div><small>${esc(c.systems)}</small><small style="color:var(--mute);flex:0">${esc(c.note||'')}</small><div class="m"><span>${c.category}</span><span>${c.sdram?'SDRAM':'BRAM only'}</span></div></a>`).join('');
+$('#grid').innerHTML=rows.map(c=>`<a class="core" href="${esc(c.repo)}" target="_blank" rel="noopener"><div style="display:flex;justify-content:space-between;gap:8px"><b>${esc(c.name)}</b><span class="pill ${c.tier}">${c.tier}</span></div><small>${esc(c.systems)}</small><small style="color:var(--mute);flex:0">${esc(c.note||'')}</small><div class="m"><span>${c.category}</span><span>${c.sdram?'SDRAM':'BRAM only'}</span></div>${c.mistang?`<object><a href="${esc(c.mistang)}" target="_blank" rel="noopener" style="color:var(--tang2);font:600 12px var(--mono)">MiSTang repo →</a></object>`:''}</a>`).join('');
 for(const b of document.querySelectorAll('.tb'))b.classList.toggle('on',b.dataset.t===tier)}
 $('#tiers').onclick=e=>{const b=e.target.closest('.tb');if(b){tier=b.dataset.t;draw()}};$('#q').oninput=draw;$('#cat').onchange=draw;draw();
 </script>''')

@@ -1,0 +1,15 @@
+import { createRequire } from 'node:module';
+import fs from 'node:fs';
+const { WebUSB } = createRequire(new URL('../../build/hw/', import.meta.url))('usb');
+import { Jtag } from '../../docs/studio/jtag.mjs';
+import { Gowin } from '../../docs/studio/gowin.mjs';
+import { parseBitstream, sramBytes } from '../../docs/studio/fsparse.mjs';
+const bs = parseBitstream(new Uint8Array(fs.readFileSync(process.argv[2])));
+const w = new WebUSB({ allowAllDevices: true });
+const dev = (await w.getDevices()).find(d => d.vendorId === 0x0403 && d.productId === 0x6010);
+const j = new Jtag(dev); await j.open(+(process.argv[3] || 6e6));
+const g = new Gowin(j); await g.detect();
+const t = Date.now();
+const s = await g.loadSram(sramBytes(bs.bytes), bs.hdr.checksum ?? null);
+console.log('loaded ms', Date.now() - t, 'status 0x' + s.toString(16));
+await j.close();

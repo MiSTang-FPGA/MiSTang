@@ -1,0 +1,15 @@
+import { createRequire } from 'node:module';
+const { WebUSB } = createRequire(new URL('../../build/hw/', import.meta.url))('usb');
+import { Jtag } from '../../docs/studio/jtag.mjs';
+import { Gowin } from '../../docs/studio/gowin.mjs';
+const w = new WebUSB({ allowAllDevices: true });
+const dev = (await w.getDevices()).find(d => d.vendorId === 0x0403 && d.productId === 0x6010);
+const j = new Jtag(dev); await j.open(6e6);
+const g = new Gowin(j); await g.detect();
+console.log('flash', await g.flashOpen());
+const t = Date.now();
+const d = await g.flashRead(0, 64 * 1024);
+console.log('read 64K ms', Date.now() - t, Buffer.from(d.subarray(0, 32)).toString('hex'));
+let nz = 0; for (const b of await g.flashRead(0x100000, 4096)) if (b !== 0xff) nz++;
+console.log('non-FF bytes @1MB:', nz);
+await g.flashClose(); await j.close();

@@ -1,0 +1,13 @@
+import { createRequire } from 'node:module';
+const { WebUSB } = createRequire(new URL('../../build/hw/', import.meta.url))('usb');
+import { Jtag } from '../../docs/studio/jtag.mjs';
+import { Gowin } from '../../docs/studio/gowin.mjs';
+const w = new WebUSB({ allowAllDevices: true });
+const dev = (await w.getDevices()).find(d => d.vendorId === 0x0403 && d.productId === 0x6010);
+if (!dev) throw new Error('no FT2232');
+const j = new Jtag(dev);
+await j.open(6e6);
+const g = new Gowin(j);
+console.log('detect', await g.detect());
+console.log('status 0x' + (await g.status()).toString(16));
+await j.close();

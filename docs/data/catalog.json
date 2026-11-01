@@ -1,0 +1,2302 @@
+[
+ {
+  "name": "MSXHeroTN",
+  "repo": "https://www.msx.org/fr/node/70265",
+  "category": "computer",
+  "systems": "MSX2+ (Tang Nano 20K)",
+  "sdram": true,
+  "tier": "proven",
+  "note": "MSX2+ for Tang Nano 20K",
+  "id": "msxherotn"
+ },
+ {
+  "name": "NESTang",
+  "repo": "https://github.com/nand2mario/nestang",
+  "category": "console",
+  "systems": "Nintendo NES / Famicom (Tang Nano 20K port)",
+  "sdram": true,
+  "tier": "proven",
+  "note": "nand2mario/nestang runs on Tang Nano 20K",
+  "id": "nestang"
+ },
+ {
+  "name": "Open Pocket GBC",
+  "repo": "https://github.com/LakoMoor/open-pocket-gbc",
+  "category": "console",
+  "systems": "Game Boy / Game Boy Color",
+  "sdram": true,
+  "tier": "proven",
+  "note": "built and tested on this board",
+  "id": "open-pocket-gbc"
+ },
+ {
+  "name": "Open Pocket WS",
+  "repo": "https://github.com/LakoMoor/open-pocket-ws",
+  "category": "console",
+  "systems": "WonderSwan / WonderSwan Color",
+  "sdram": true,
+  "tier": "proven",
+  "note": "built for this board",
+  "id": "open-pocket-ws"
+ },
+ {
+  "name": "SNESTang",
+  "repo": "https://github.com/nand2mario/snestang",
+  "category": "console",
+  "systems": "Nintendo SNES (Tang Nano 20K, ROM <= 3.75 MB)",
+  "sdram": true,
+  "tier": "proven",
+  "note": "nand2mario/snestang runs on Tang Nano 20K (ROM size limit)",
+  "id": "snestang"
+ },
+ {
+  "name": "Arkanoid",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Arkanoid_MISTer",
+  "category": "arcade",
+  "systems": "Arkanoid",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "arkanoid"
+ },
+ {
+  "name": "Asteroids",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Asteroids_MiSTer",
+  "category": "arcade",
+  "systems": "Asteroids",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "asteroids"
+ },
+ {
+  "name": "AsteroidsDeluxe",
+  "repo": "https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_MiSTer",
+  "category": "arcade",
+  "systems": "Asteroids Deluxe",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "asteroidsdeluxe"
+ },
+ {
+  "name": "ATetris",
+  "repo": "https://github.com/MiSTer-devel/Arcade-ATetris_MiSTer",
+  "category": "arcade",
+  "systems": "Tetris (Atari)",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "atetris"
+ },
+ {
+  "name": "Athena",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Athena_MiSTer",
+  "category": "arcade",
+  "systems": "Athena / Country Club / Fighting Golf",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "athena"
+ },
+ {
+  "name": "Bagman",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer",
+  "category": "arcade",
+  "systems": "Bagman / Botanic / Pickin' / Squash / Super Bagman",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "bagman"
+ },
+ {
+  "name": "BankPanic",
+  "repo": "https://github.com/MiSTer-devel/Arcade-BankPanic_MiSTer",
+  "category": "arcade",
+  "systems": "Bank Panic / Combat Hawk",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "bankpanic"
+ },
+ {
+  "name": "BattleZone",
+  "repo": "https://github.com/MiSTer-devel/Arcade-BattleZone_MiSTer",
+  "category": "arcade",
+  "systems": "Battle Zone / Bradley Trainer / Red Baron",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "battlezone"
+ },
+ {
+  "name": "Berzerk",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Berzerk_MiSTer",
+  "category": "arcade",
+  "systems": "Berzerk",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "berzerk"
+ },
+ {
+  "name": "BlackWidow",
+  "repo": "https://github.com/MiSTer-devel/Arcade-BlackWidow_MiSTer",
+  "category": "arcade",
+  "systems": "Black Widow / Gravitar / Lunar Battle(prototype)",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "blackwidow"
+ },
+ {
+  "name": "Blockade",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer",
+  "category": "arcade",
+  "systems": "Blasto / Blockade / CoMotion / Hustle",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "blockade"
+ },
+ {
+  "name": "BombJack",
+  "repo": "https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer",
+  "category": "arcade",
+  "systems": "Bomb Jack",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "bombjack"
+ },
+ {
+  "name": "Bosconian",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Bosconian_MiSTer",
+  "category": "arcade",
+  "systems": "Bosconian - Star Destroyer",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "bosconian"
+ },
+ {
+  "name": "Breakout",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Breakout_MiSTer",
+  "category": "arcade",
+  "systems": "Breakout (TTL)",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "breakout"
+ },
+ {
+  "name": "BurgerTime",
+  "repo": "https://github.com/MiSTer-devel/Arcade-BurgerTime_MiSTer",
+  "category": "arcade",
+  "systems": "Burger Time",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "burgertime"
+ },
+ {
+  "name": "BurningRubber",
+  "repo": "https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer",
+  "category": "arcade",
+  "systems": "Burnin' Rubber",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "burningrubber"
+ },
+ {
+  "name": "CanyonBomber",
+  "repo": "https://github.com/MiSTer-devel/Arcade-CanyonBomber_MiSTer",
+  "category": "arcade",
+  "systems": "Canyon Bomber",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "canyonbomber"
+ },
+ {
+  "name": "Centipede",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer",
+  "category": "arcade",
+  "systems": "Centipede",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "centipede"
+ },
+ {
+  "name": "Chameleon",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Chameleon_MiSTer",
+  "category": "arcade",
+  "systems": "Chameleon",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "chameleon"
+ },
+ {
+  "name": "ComputerSpace",
+  "repo": "https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer",
+  "category": "arcade",
+  "systems": "Computer Space",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "computerspace"
+ },
+ {
+  "name": "CongoBongo",
+  "repo": "https://github.com/MiSTer-devel/Arcade-CongoBongo_MiSTer",
+  "category": "arcade",
+  "systems": "Congo Bongo/Tip Top",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "congobongo"
+ },
+ {
+  "name": "CrazyBalloon",
+  "repo": "https://github.com/MiSTer-devel/Arcade-CrazyBalloon_MiSTer",
+  "category": "arcade",
+  "systems": "Crazy Balloon",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "crazyballoon"
+ },
+ {
+  "name": "CrazyClimber",
+  "repo": "https://github.com/MiSTer-devel/Arcade-CrazyClimber_MiSTer",
+  "category": "arcade",
+  "systems": "Crazy Climber",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "crazyclimber"
+ },
+ {
+  "name": "CrazyKong",
+  "repo": "https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer",
+  "category": "arcade",
+  "systems": "Crazy Kong",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "crazykong"
+ },
+ {
+  "name": "CrystalCastles",
+  "repo": "https://github.com/MiSTer-devel/Arcade-CrystalCastles_MiSTer",
+  "category": "arcade",
+  "systems": "Crystal Castles",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "crystalcastles"
+ },
+ {
+  "name": "Defender",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Defender_MiSTer",
+  "category": "arcade",
+  "systems": "Colony 7 / Defender / Jin / Mayday",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "defender"
+ },
+ {
+  "name": "DigDug",
+  "repo": "https://github.com/MiSTer-devel/Arcade-DigDug_MiSTer",
+  "category": "arcade",
+  "systems": "Dig Dug",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "digdug"
+ },
+ {
+  "name": "Dominos",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Dominos_MiSTer",
+  "category": "arcade",
+  "systems": "Dominos",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "dominos"
+ },
+ {
+  "name": "DonkeyKong",
+  "repo": "https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer",
+  "category": "arcade",
+  "systems": "Donkey Kong / Pest Place / Radar Scope",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "donkeykong"
+ },
+ {
+  "name": "DonkeyKong3",
+  "repo": "https://github.com/MiSTer-devel/Arcade-DonkeyKong3_MiSTer",
+  "category": "arcade",
+  "systems": "Donkey Kong 3",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "donkeykong3"
+ },
+ {
+  "name": "DonkeyKongJunior",
+  "repo": "https://github.com/MiSTer-devel/Arcade-DonkeyKongJunior_MiSTer",
+  "category": "arcade",
+  "systems": "Donkey Kong Junior",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "donkeykongjunior"
+ },
+ {
+  "name": "DottoriKun",
+  "repo": "https://github.com/MiSTer-devel/Arcade-DottoriKun_MiSTer",
+  "category": "arcade",
+  "systems": "Dottori-Kun / Dottori-Man Jr",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "dottorikun"
+ },
+ {
+  "name": "Druaga",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer",
+  "category": "arcade",
+  "systems": "Dig Dug II / Grobda / Mappy / Motos / Pac & Pal / Pac-Man & Chomp Chomp / Super Pac-Man / The Tower of Druaga",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "druaga"
+ },
+ {
+  "name": "Exerion",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Exerion_MiSTer",
+  "category": "arcade",
+  "systems": "Exerion",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "exerion"
+ },
+ {
+  "name": "ExpressRaider",
+  "repo": "https://github.com/MiSTer-devel/Arcade-ExpressRaider_MiSTer",
+  "category": "arcade",
+  "systems": "Express Raider / Western Express",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "expressraider"
+ },
+ {
+  "name": "Finalizer",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Finalizer_MiSTer",
+  "category": "arcade",
+  "systems": "Finalizer - Super Transformation",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "finalizer"
+ },
+ {
+  "name": "FoodFight",
+  "repo": "https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer",
+  "category": "arcade",
+  "systems": "Food Fight",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "foodfight"
+ },
+ {
+  "name": "Freeze",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Freeze_MiSTer",
+  "category": "arcade",
+  "systems": "Freeze / Jack the Giantkiller / Super Casino / Tri-Pool / Zzyzzyxx",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "freeze"
+ },
+ {
+  "name": "Frenzy",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Frenzy_MiSTer",
+  "category": "arcade",
+  "systems": "Frenzy",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "frenzy"
+ },
+ {
+  "name": "Galaga",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer",
+  "category": "arcade",
+  "systems": "Galaga",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "galaga"
+ },
+ {
+  "name": "Galaxian",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Galaxian_MiSTer",
+  "category": "arcade",
+  "systems": "Azurian Attack / Black Hole / Catacomb / Clean Sweep / Devil Fish / Galaxian / King and Balloon / Lucky Today / Moon Cresta / Mr. Do Nightmare / Omega / Orbitron / Pisces / UniWar S / Victory / War of the Bugs",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "galaxian"
+ },
+ {
+  "name": "Galivan",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Galivan_MiSTer",
+  "category": "arcade",
+  "systems": "Cosmo Police Galivan / Ufo Robo Dangar",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "galivan"
+ },
+ {
+  "name": "Gaplus",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Gaplus_MiSTer",
+  "category": "arcade",
+  "systems": "Galaga 3 / Gaplus",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "gaplus"
+ },
+ {
+  "name": "Gyruss",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Gyruss_MiSTer",
+  "category": "arcade",
+  "systems": "Gyruss",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "gyruss"
+ },
+ {
+  "name": "IronHorse",
+  "repo": "https://github.com/MiSTer-devel/Arcade-IronHorse_MiSTer",
+  "category": "arcade",
+  "systems": "Iron Horse",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "ironhorse"
+ },
+ {
+  "name": "Jailbreak",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Jailbreak_MiSTer",
+  "category": "arcade",
+  "systems": "Jailbreak / Manhattan 24 Bunsyo",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "jailbreak"
+ },
+ {
+  "name": "Joust2",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Joust2_MiSTer",
+  "category": "arcade",
+  "systems": "Joust 2 - Survival of the Fittest",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "joust2"
+ },
+ {
+  "name": "Ladybug",
+  "repo": "https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer",
+  "category": "arcade",
+  "systems": "Cosmic Avenger / Dorodon / Lady Bug / Snap Jack",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "ladybug"
+ },
+ {
+  "name": "LunarLander",
+  "repo": "https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer",
+  "category": "arcade",
+  "systems": "Lunar Lander",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "lunarlander"
+ },
+ {
+  "name": "MarioBros",
+  "repo": "https://github.com/MiSTer-devel/Arcade-MarioBros_MiSTer",
+  "category": "arcade",
+  "systems": "Mario Bros.",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "mariobros"
+ },
+ {
+  "name": "MissileCommand",
+  "repo": "https://github.com/MiSTer-devel/Arcade-MissileCommand_MiSTer",
+  "category": "arcade",
+  "systems": "Missile Command",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "missilecommand"
+ },
+ {
+  "name": "MrDo",
+  "repo": "https://github.com/MiSTer-devel/Arcade-MrDo_MiSTer",
+  "category": "arcade",
+  "systems": "Mr. Do!",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "mrdo"
+ },
+ {
+  "name": "MrJong",
+  "repo": "https://github.com/MiSTer-devel/Arcade-MrJong_MiSTer",
+  "category": "arcade",
+  "systems": "BlockBuster / Crazy Blocks / Mr. Jong",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "mrjong"
+ },
+ {
+  "name": "MysticMarathon",
+  "repo": "https://github.com/MiSTer-devel/Arcade-MysticMarathon_MiSTer",
+  "category": "arcade",
+  "systems": "Mystic Marathon",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "mysticmarathon"
+ },
+ {
+  "name": "NinjaKun",
+  "repo": "https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer",
+  "category": "arcade",
+  "systems": "Ninjakun / Nova 2001 / Raiders5",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "ninjakun"
+ },
+ {
+  "name": "Pacman",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer",
+  "category": "arcade",
+  "systems": "Ali Baba and 40 Thieves / Beastie Feastie / Birdiy / Crush Roller / Dream Shopper / Eeek! / Eggor / Eyes / Gorkans / Jump Shot / Lizard Wizard / Mr. TNT / Ms. Pac-Man / Number Crash / Pac-Man / Pac-Man Club / Pac-Man Plus / Pac-Manic Miner / Ponpoko / Puck Man / Super Glob / The Glob / Van-Van Car / Woodpecker",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "pacman"
+ },
+ {
+  "name": "Pengo",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Pengo_MiSTer",
+  "category": "arcade",
+  "systems": "Pengo",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "pengo"
+ },
+ {
+  "name": "PenguinKunWars",
+  "repo": "https://github.com/MiSTer-devel/Arcade-PenguinKunWars_MiSTer",
+  "category": "arcade",
+  "systems": "Penguin-Kun Wars",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "penguinkunwars"
+ },
+ {
+  "name": "Performan",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Performan_MiSTer",
+  "category": "arcade",
+  "systems": "Performan",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "performan"
+ },
+ {
+  "name": "Phoenix",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer",
+  "category": "arcade",
+  "systems": "Phoenix / Pleiads",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "phoenix"
+ },
+ {
+  "name": "Pleiads",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Pleiads_MiSTer",
+  "category": "arcade",
+  "systems": "Pleiads",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "pleiads"
+ },
+ {
+  "name": "PolyPlay",
+  "repo": "https://github.com/MiSTer-devel/Arcade-PolyPlay_MiSTer",
+  "category": "arcade",
+  "systems": "Poly Play / Poly Play 2",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "polyplay"
+ },
+ {
+  "name": "Pong",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Pong_MiSTer",
+  "category": "arcade",
+  "systems": "Pong",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "pong"
+ },
+ {
+  "name": "Pooyan",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Pooyan_MiSTer",
+  "category": "arcade",
+  "systems": "Pooyan",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "pooyan"
+ },
+ {
+  "name": "Popeye",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Popeye_MiSTer",
+  "category": "arcade",
+  "systems": "Popeye / Sky Skipper",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "popeye"
+ },
+ {
+  "name": "QBert",
+  "repo": "https://github.com/MiSTer-devel/Arcade-QBert_MiSTer",
+  "category": "arcade",
+  "systems": "Mad Planets / Q*Bert",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "qbert"
+ },
+ {
+  "name": "Rallyx",
+  "repo": "https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer",
+  "category": "arcade",
+  "systems": "New Rally-X / Rally-X",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "rallyx"
+ },
+ {
+  "name": "RiverPatrol",
+  "repo": "https://github.com/MiSTer-devel/Arcade-RiverPatrol_MiSTer",
+  "category": "arcade",
+  "systems": "River Patrol",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "riverpatrol"
+ },
+ {
+  "name": "Robotron",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer",
+  "category": "arcade",
+  "systems": "Alien Arena / Bubbles / Joust / Playball (Prototype) / Robotron 2084 / Sinistar / Splat! / Stargate",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "robotron"
+ },
+ {
+  "name": "RushnAttack",
+  "repo": "https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer",
+  "category": "arcade",
+  "systems": "Green Beret / Mr. Goemon / Rush'n Attack",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "rushnattack"
+ },
+ {
+  "name": "ScooterShooter",
+  "repo": "https://github.com/MiSTer-devel/Arcade-ScooterShooter_MiSTer",
+  "category": "arcade",
+  "systems": "Scooter Shooter",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "scootershooter"
+ },
+ {
+  "name": "SilverLand",
+  "repo": "https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer",
+  "category": "arcade",
+  "systems": "Silver Land",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "silverland"
+ },
+ {
+  "name": "SlapFight",
+  "repo": "https://github.com/MiSTer-devel/Arcade-SlapFight_MiSTer",
+  "category": "arcade",
+  "systems": "Alcon Bootleg / SlapFight Bootleg / Tiger Heli Bootleg",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "slapfight"
+ },
+ {
+  "name": "SNK_TripleZ80",
+  "repo": "https://github.com/MiSTer-devel/Arcade-SNK_TripleZ80_MiSTer",
+  "category": "arcade",
+  "systems": "ASO",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "snk-triplez80"
+ },
+ {
+  "name": "SolomonsKey",
+  "repo": "https://github.com/MiSTer-devel/Arcade-SolomonsKey_MiSTer",
+  "category": "arcade",
+  "systems": "Solomon's Key / Solomon no Kagi",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "solomonskey"
+ },
+ {
+  "name": "SpaceRace",
+  "repo": "https://github.com/MiSTer-devel/Arcade-SpaceRace_MiSTer",
+  "category": "arcade",
+  "systems": "Space Race (TTL)",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "spacerace"
+ },
+ {
+  "name": "Sprint1",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Sprint1_MiSTer",
+  "category": "arcade",
+  "systems": "Sprint 1",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "sprint1"
+ },
+ {
+  "name": "Sprint2",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer",
+  "category": "arcade",
+  "systems": "Sprint 2",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "sprint2"
+ },
+ {
+  "name": "SuperBreakout",
+  "repo": "https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer",
+  "category": "arcade",
+  "systems": "Super Breakout",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "superbreakout"
+ },
+ {
+  "name": "TankBattalion",
+  "repo": "https://github.com/MiSTer-devel/Arcade-TankBattalion_MiSTer",
+  "category": "arcade",
+  "systems": "Tank Battallion",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "tankbattalion"
+ },
+ {
+  "name": "TIAMC1",
+  "repo": "https://github.com/MiSTer-devel/Arcade-TIAMC1_MiSTer",
+  "category": "arcade",
+  "systems": "Billiard / Gorodki / Konek Gorbunok / Kot-Rybolov / S.O.S. / Snezhnaja Koroleva",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "tiamc1"
+ },
+ {
+  "name": "TimePilot",
+  "repo": "https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer",
+  "category": "arcade",
+  "systems": "Time Pilot",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "timepilot"
+ },
+ {
+  "name": "TimePilot84",
+  "repo": "https://github.com/MiSTer-devel/Arcade-TimePilot84_MISTer",
+  "category": "arcade",
+  "systems": "Time Pilot '84",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "timepilot84"
+ },
+ {
+  "name": "TNKIII",
+  "repo": "https://github.com/MiSTer-devel/Arcade-TNKIII_MiSTer",
+  "category": "arcade",
+  "systems": "TNKIII",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "tnkiii"
+ },
+ {
+  "name": "TraverseUSA",
+  "repo": "https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer",
+  "category": "arcade",
+  "systems": "Shot Rider / Traverse USA - Zippy Race",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "traverseusa"
+ },
+ {
+  "name": "TurkeyShoot",
+  "repo": "https://github.com/MiSTer-devel/Arcade-TurkeyShoot_MiSTer",
+  "category": "arcade",
+  "systems": "Turkey Shoot - The Day They Took Over",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "turkeyshoot"
+ },
+ {
+  "name": "Ultratank",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer",
+  "category": "arcade",
+  "systems": "Ultra Tank",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "ultratank"
+ },
+ {
+  "name": "Xevious",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer",
+  "category": "arcade",
+  "systems": "Super Xevious / Xevious",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "xevious"
+ },
+ {
+  "name": "ZigZag",
+  "repo": "https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer",
+  "category": "arcade",
+  "systems": "Zig Zag",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
+  "id": "zigzag"
+ },
+ {
+  "name": "AcornAtom",
+  "repo": "https://github.com/MiSTer-devel/AcornAtom_MiSTer",
+  "category": "computer",
+  "systems": "Acorn Atom",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "acornatom"
+ },
+ {
+  "name": "AcornElectron",
+  "repo": "https://github.com/MiSTer-devel/AcornElectron_MiSTer",
+  "category": "computer",
+  "systems": "Acorn Electron",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "acornelectron"
+ },
+ {
+  "name": "AliceMC10",
+  "repo": "https://github.com/MiSTer-devel/AliceMC10_MiSTer",
+  "category": "computer",
+  "systems": "Matra & Hachette Ordinateur Alice (TRS-80 MC-10 Clone)",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "alicemc10"
+ },
+ {
+  "name": "Altair8800",
+  "repo": "https://github.com/MiSTer-devel/Altair8800_Mister",
+  "category": "computer",
+  "systems": "MITS Altair 8800",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "altair8800"
+ },
+ {
+  "name": "Apogee",
+  "repo": "https://github.com/MiSTer-devel/Apogee_MiSTer",
+  "category": "computer",
+  "systems": "Apogee BK-01 / Radio-86RK",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "apogee"
+ },
+ {
+  "name": "Aquarius",
+  "repo": "https://github.com/MiSTer-devel/Aquarius_MISTer",
+  "category": "computer",
+  "systems": "Mattel Aquarius",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "aquarius"
+ },
+ {
+  "name": "Archie",
+  "repo": "https://github.com/MiSTer-devel/Archie_MiSTer",
+  "category": "computer",
+  "systems": "Acorn Archimedes",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "archie"
+ },
+ {
+  "name": "BK0011M",
+  "repo": "https://github.com/MiSTer-devel/BK0011M_MiSTer",
+  "category": "computer",
+  "systems": "Elektronika BK (BK-0011M CPU)",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "bk0011m"
+ },
+ {
+  "name": "C128",
+  "repo": "https://github.com/MiSTer-devel/C128_MiSTer",
+  "category": "computer",
+  "systems": "Commodore 128",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "c128"
+ },
+ {
+  "name": "C16",
+  "repo": "https://github.com/MiSTer-devel/C16_MiSTer",
+  "category": "computer",
+  "systems": "Commodore C16 / Plus/4",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "c16"
+ },
+ {
+  "name": "Casio_PV-2000",
+  "repo": "https://github.com/MiSTer-devel/Casio_PV-2000_MiSTer",
+  "category": "computer",
+  "systems": "Casio PV-2000",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "casio-pv-2000"
+ },
+ {
+  "name": "Chip8",
+  "repo": "https://github.com/MiSTer-devel/Chip8_MiSTer",
+  "category": "computer",
+  "systems": "CHIP-8 by Joseph Weisbecker",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "chip8"
+ },
+ {
+  "name": "CoCo2",
+  "repo": "https://github.com/MiSTer-devel/CoCo2_MiSTer",
+  "category": "computer",
+  "systems": "Tandy Color Computer 2 / Dragon 32",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "coco2"
+ },
+ {
+  "name": "CoCo3",
+  "repo": "https://github.com/MiSTer-devel/CoCo3_MiSTer",
+  "category": "computer",
+  "systems": "Tandy Color Computer 3",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "coco3"
+ },
+ {
+  "name": "ColecoAdam",
+  "repo": "https://github.com/MiSTer-devel/ColecoAdam_MiSTer",
+  "category": "computer",
+  "systems": "Coleco Adam",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "colecoadam"
+ },
+ {
+  "name": "EDSAC",
+  "repo": "https://github.com/MiSTer-devel/EDSAC_MiSTer",
+  "category": "computer",
+  "systems": "EDSAC",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "edsac"
+ },
+ {
+  "name": "EG2000",
+  "repo": "https://github.com/MiSTer-devel/EG2000_MiSTer",
+  "category": "computer",
+  "systems": "EACA EG2000 Colour Genie",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "eg2000"
+ },
+ {
+  "name": "Galaksija",
+  "repo": "https://github.com/MiSTer-devel/Galaksija_MiSTer",
+  "category": "computer",
+  "systems": "Galaksija by Voja Antonić",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "galaksija"
+ },
+ {
+  "name": "Homelab",
+  "repo": "https://github.com/MiSTer-devel/Homelab-MiSTer",
+  "category": "computer",
+  "systems": "Compukit Homelab",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "homelab"
+ },
+ {
+  "name": "Interact",
+  "repo": "https://github.com/MiSTer-devel/Interact_MiSTer",
+  "category": "computer",
+  "systems": "Interact Home Computer",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "interact"
+ },
+ {
+  "name": "Jupiter",
+  "repo": "https://github.com/MiSTer-devel/Jupiter_MiSTer",
+  "category": "computer",
+  "systems": "Jupiter Ace",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "jupiter"
+ },
+ {
+  "name": "Laser310",
+  "repo": "https://github.com/MiSTer-devel/Laser310_MiSTer",
+  "category": "computer",
+  "systems": "Vtech Laser 310",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "laser310"
+ },
+ {
+  "name": "Lynx48",
+  "repo": "https://github.com/MiSTer-devel/Lynx48_MiSTer",
+  "category": "computer",
+  "systems": "Camputers Lynx 48k, 96k",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "lynx48"
+ },
+ {
+  "name": "Minimig-AGA",
+  "repo": "https://github.com/MiSTer-devel/Minimig-AGA_MiSTer",
+  "category": "computer",
+  "systems": "Commodore Amiga 500 / 600 / 1200 / 4000 / CD32",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "minimig-aga"
+ },
+ {
+  "name": "MSX",
+  "repo": "https://github.com/MiSTer-devel/MSX_MiSTer",
+  "category": "computer",
+  "systems": "Microsoft MSX / MSX2 / Plus / MSX3 / TurboR",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "msx"
+ },
+ {
+  "name": "MSX1",
+  "repo": "https://github.com/MiSTer-devel/MSX1_MiSTer",
+  "category": "computer",
+  "systems": "Microsoft MSX1",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "msx1"
+ },
+ {
+  "name": "MultiComp",
+  "repo": "https://github.com/MiSTer-devel/MultiComp_MiSTer",
+  "category": "computer",
+  "systems": "Grant Searle's MultiComp",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "multicomp"
+ },
+ {
+  "name": "OndraSPO186",
+  "repo": "https://github.com/MiSTer-devel/OndraSPO186_MiSTer",
+  "category": "computer",
+  "systems": "Tesla Ondra SPO-186",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "ondraspo186"
+ },
+ {
+  "name": "Orao",
+  "repo": "https://github.com/MiSTer-devel/Orao_MiSTer",
+  "category": "computer",
+  "systems": "PEL Varaždin Orao / Eagle",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "orao"
+ },
+ {
+  "name": "Oric",
+  "repo": "https://github.com/MiSTer-devel/Oric_MiSTer",
+  "category": "computer",
+  "systems": "Tangerine Oric / Oric-1",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "oric"
+ },
+ {
+  "name": "PCXT",
+  "repo": "https://github.com/MiSTer-devel/PCXT_MiSTer",
+  "category": "computer",
+  "systems": "IBM PC/XT",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "pcxt"
+ },
+ {
+  "name": "PDP1",
+  "repo": "https://github.com/MiSTer-devel/PDP1_MiSTer",
+  "category": "computer",
+  "systems": "DEC PDP-1",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "pdp1"
+ },
+ {
+  "name": "PET2001",
+  "repo": "https://github.com/MiSTer-devel/PET2001_MiSTer",
+  "category": "computer",
+  "systems": "Commodore PET 2001",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "pet2001"
+ },
+ {
+  "name": "PMD85",
+  "repo": "https://github.com/MiSTer-devel/PMD85_MiSTer",
+  "category": "computer",
+  "systems": "Tesla PMD 85",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "pmd85"
+ },
+ {
+  "name": "QL",
+  "repo": "https://github.com/MiSTer-devel/QL_MiSTer",
+  "category": "computer",
+  "systems": "Sinclair QL",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "ql"
+ },
+ {
+  "name": "RX-78",
+  "repo": "https://github.com/MiSTer-devel/RX-78_MiSTer",
+  "category": "computer",
+  "systems": "Bandai RX-78",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "rx-78"
+ },
+ {
+  "name": "SAM-Coupe",
+  "repo": "https://github.com/MiSTer-devel/SAM-Coupe_MiSTer",
+  "category": "computer",
+  "systems": "Miles Gordon Technology SAM Coupé",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "sam-coupe"
+ },
+ {
+  "name": "SharpMZ",
+  "repo": "https://github.com/MiSTer-devel/SharpMZ_MiSTer",
+  "category": "computer",
+  "systems": "Sharp MZ",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "sharpmz"
+ },
+ {
+  "name": "SordM5",
+  "repo": "https://github.com/MiSTer-devel/SordM5_MiSTer",
+  "category": "computer",
+  "systems": "Sord M5",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "sordm5"
+ },
+ {
+  "name": "SVI328",
+  "repo": "https://github.com/MiSTer-devel/SVI328_MiSTer",
+  "category": "computer",
+  "systems": "Spectravideo SV-328",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "svi328"
+ },
+ {
+  "name": "TatungEinstein",
+  "repo": "https://github.com/MiSTer-devel/TatungEinstein_MiSTer",
+  "category": "computer",
+  "systems": "Tatung Einstein TC01 & 256",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "tatungeinstein"
+ },
+ {
+  "name": "TI-99_4A",
+  "repo": "https://github.com/MiSTer-devel/TI-99_4A_MiSTer",
+  "category": "computer",
+  "systems": "Texas Instruments TI-99/4A",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "ti-99-4a"
+ },
+ {
+  "name": "TomyTutor",
+  "repo": "https://github.com/MiSTer-devel/TomyTutor_MiSTer",
+  "category": "computer",
+  "systems": "Tomy Tutor, Pyuta, and Pyuta Jr.",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "tomytutor"
+ },
+ {
+  "name": "TRS-80",
+  "repo": "https://github.com/MiSTer-devel/TRS-80_MiSTer",
+  "category": "computer",
+  "systems": "Radio Shack / Tandy TRS-80 Micro Computer System / Model I",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "trs-80"
+ },
+ {
+  "name": "TSConf",
+  "repo": "https://github.com/MiSTer-devel/TSConf_MiSTer",
+  "category": "computer",
+  "systems": "TSConf (ZX-Evolution Improvement)",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "tsconf"
+ },
+ {
+  "name": "UK101",
+  "repo": "https://github.com/MiSTer-devel/UK101_MiSTer",
+  "category": "computer",
+  "systems": "Compukit UK101",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "uk101"
+ },
+ {
+  "name": "Vector-06C",
+  "repo": "https://github.com/MiSTer-devel/Vector-06C_MiSTer",
+  "category": "computer",
+  "systems": "Vector-06C / Вектор-06Ц",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "vector-06c"
+ },
+ {
+  "name": "VIC20",
+  "repo": "https://github.com/MiSTer-devel/VIC20_MiSTer",
+  "category": "computer",
+  "systems": "Commodore VIC-20",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "vic20"
+ },
+ {
+  "name": "ZX-Spectrum",
+  "repo": "https://github.com/MiSTer-devel/ZX-Spectrum_MISTer",
+  "category": "computer",
+  "systems": "Sinclair ZX Spectrum",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "zx-spectrum"
+ },
+ {
+  "name": "ZX81",
+  "repo": "https://github.com/MiSTer-devel/ZX81_MiSTer",
+  "category": "computer",
+  "systems": "Sinclair ZX80 / ZX81",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "zx81"
+ },
+ {
+  "name": "ZXNext",
+  "repo": "https://github.com/MiSTer-devel/ZXNext_MISTer",
+  "category": "computer",
+  "systems": "ZX Spectrum Next",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "zxnext"
+ },
+ {
+  "name": "Arcadia",
+  "repo": "https://github.com/MiSTer-devel/Arcadia_MiSTer",
+  "category": "console",
+  "systems": "Emerson Arcadia 2001",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "arcadia"
+ },
+ {
+  "name": "Astrocade",
+  "repo": "https://github.com/MiSTer-devel/Astrocade_MiSTer",
+  "category": "console",
+  "systems": "Bally Astrocade",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "astrocade"
+ },
+ {
+  "name": "Atari5200",
+  "repo": "https://github.com/MiSTer-devel/Atari800_MiSTer",
+  "category": "console",
+  "systems": "Atari 5200 SuperSystem",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small enough; core-specific bring-up needed.",
+  "id": "atari5200"
+ },
+ {
+  "name": "Atari7800",
+  "repo": "https://github.com/MiSTer-devel/Atari7800_MiSTer",
+  "category": "console",
+  "systems": "Atari 7800 ProSystem / Atari 2600",
+  "sdram": true,
+  "tier": "likely",
+  "note": "Small enough; core-specific bring-up needed.",
+  "id": "atari7800"
+ },
+ {
+  "name": "AtariLynx",
+  "repo": "https://github.com/MiSTer-devel/AtariLynx_MiSTer",
+  "category": "console",
+  "systems": "Atari Lynx",
+  "sdram": true,
+  "tier": "likely",
+  "note": "Small enough; core-specific bring-up needed.",
+  "id": "atarilynx"
+ },
+ {
+  "name": "AVision",
+  "repo": "https://github.com/MiSTer-devel/AdventureVision_MiSTer",
+  "category": "console",
+  "systems": "Entex Adventure Vision",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "avision"
+ },
+ {
+  "name": "AY-3-8500",
+  "repo": "https://github.com/MiSTer-devel/AY-3-8500-MiSTer",
+  "category": "console",
+  "systems": "\"Pong-on-a-chip\"",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "ay-3-8500"
+ },
+ {
+  "name": "Casio_PV-1000",
+  "repo": "https://github.com/MiSTer-devel/Casio_PV-1000_MiSTer",
+  "category": "console",
+  "systems": "Casio PV-1000",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "casio-pv-1000"
+ },
+ {
+  "name": "ChannelF",
+  "repo": "https://github.com/MiSTer-devel/ChannelF_MiSTer",
+  "category": "console",
+  "systems": "Fairchild Channel F",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "channelf"
+ },
+ {
+  "name": "ColecoVision",
+  "repo": "https://github.com/MiSTer-devel/ColecoVision_MiSTer",
+  "category": "console",
+  "systems": "ColecoVision / Sega SG-1000",
+  "sdram": true,
+  "tier": "likely",
+  "note": "Small enough; core-specific bring-up needed.",
+  "id": "colecovision"
+ },
+ {
+  "name": "CreatiVision",
+  "repo": "https://github.com/MiSTer-devel/CreatiVision_MiSTer",
+  "category": "console",
+  "systems": "VTech CreatiVision / Dick Smith Wizzard",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "creativision"
+ },
+ {
+  "name": "Gamate",
+  "repo": "https://github.com/MiSTer-devel/Gamate_MiSTer",
+  "category": "console",
+  "systems": "Bit Corp Gamate",
+  "sdram": true,
+  "tier": "likely",
+  "note": "Small enough; core-specific bring-up needed.",
+  "id": "gamate"
+ },
+ {
+  "name": "GameBoy",
+  "repo": "https://github.com/MiSTer-devel/Gameboy_MiSTer",
+  "category": "console",
+  "systems": "Nintendo Game Boy",
+  "sdram": true,
+  "tier": "likely",
+  "note": "Small enough; core-specific bring-up needed.",
+  "id": "gameboy"
+ },
+ {
+  "name": "GameNWatch",
+  "repo": "https://github.com/MiSTer-devel/GnW_MiSTer",
+  "category": "console",
+  "systems": "Nintendo Game & Watch Handheld Devices",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "gamenwatch"
+ },
+ {
+  "name": "Intv",
+  "repo": "https://github.com/MiSTer-devel/Intv_MiSTer",
+  "category": "console",
+  "systems": "Mattel Intellivision",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "intv"
+ },
+ {
+  "name": "MyVision",
+  "repo": "https://github.com/MiSTer-devel/MyVision_MiSTer",
+  "category": "console",
+  "systems": "Nichibutsu My Vision",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "myvision"
+ },
+ {
+  "name": "NES",
+  "repo": "https://github.com/MiSTer-devel/NES_MiSTer",
+  "category": "console",
+  "systems": "Nintendo Entertainment System / Famicom Disk System / NSF Music Player",
+  "sdram": true,
+  "tier": "likely",
+  "note": "Small enough; core-specific bring-up needed.",
+  "id": "nes"
+ },
+ {
+  "name": "Odyssey2",
+  "repo": "https://github.com/MiSTer-devel/Odyssey2_MiSTer",
+  "category": "console",
+  "systems": "Magnavox Odyssey 2 / Philips Odyssey 2 / Philips Videopac G7000",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "odyssey2"
+ },
+ {
+  "name": "Pokemon Mini",
+  "repo": "https://github.com/MiSTer-devel/PokemonMini_MiSTer",
+  "category": "console",
+  "systems": "Pokémon Mini",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "pokemon-mini"
+ },
+ {
+  "name": "SMS",
+  "repo": "https://github.com/MiSTer-devel/SMS_MiSTer",
+  "category": "console",
+  "systems": "Sega Master System / Sega Game Gear / Sega SG-1000",
+  "sdram": true,
+  "tier": "likely",
+  "note": "Small enough; core-specific bring-up needed.",
+  "id": "sms"
+ },
+ {
+  "name": "SNES",
+  "repo": "https://github.com/MiSTer-devel/SNES_MiSTer",
+  "category": "console",
+  "systems": "Super Nintendo Entertainment System / Nintendo Satellaview / SPC Music Player",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "snes"
+ },
+ {
+  "name": "Super_Vision_8000",
+  "repo": "https://github.com/MiSTer-devel/Super_Vision_8000_MiSTer",
+  "category": "console",
+  "systems": "Bandai Super Vision 8000",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "super-vision-8000"
+ },
+ {
+  "name": "SuperVision",
+  "repo": "https://github.com/MiSTer-devel/SuperVision_MiSTer",
+  "category": "console",
+  "systems": "Watara SuperVision",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "supervision"
+ },
+ {
+  "name": "VC4000",
+  "repo": "https://github.com/MiSTer-devel/VC4000_MiSTer",
+  "category": "console",
+  "systems": "Interton VC4000 / Acetronic MPU-1000 / Occitane OC2000",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "vc4000"
+ },
+ {
+  "name": "Vectrex",
+  "repo": "https://github.com/MiSTer-devel/Vectrex_MiSTer",
+  "category": "console",
+  "systems": "Vectrex",
+  "sdram": false,
+  "tier": "likely",
+  "note": "Small enough; core-specific bring-up needed.",
+  "id": "vectrex"
+ },
+ {
+  "name": "WonderSwan",
+  "repo": "https://github.com/MiSTer-devel/WonderSwan_MiSTer",
+  "category": "console",
+  "systems": "Bandai WonderSwan / WonderSwan Color / SwanCrystal",
+  "sdram": true,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "wonderswan"
+ },
+ {
+  "name": "Arduboy",
+  "repo": "https://github.com/MiSTer-devel/Arduboy_MiSTer",
+  "category": "other",
+  "systems": "Arduboy",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "arduboy"
+ },
+ {
+  "name": "Chess",
+  "repo": "https://github.com/MiSTer-devel/Chess_MiSTer",
+  "category": "other",
+  "systems": "Chess",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "chess"
+ },
+ {
+  "name": "EpochGalaxyII",
+  "repo": "https://github.com/MiSTer-devel/EpochGalaxy2_MiSTer",
+  "category": "other",
+  "systems": "Epoch Galaxy II",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "epochgalaxyii"
+ },
+ {
+  "name": "FlappyBird",
+  "repo": "https://github.com/MiSTer-devel/FlappyBird_MiSTer",
+  "category": "other",
+  "systems": "Flappy Bird in Verilog",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "flappybird"
+ },
+ {
+  "name": "GameOfLife",
+  "repo": "https://github.com/MiSTer-devel/Life_MiSTer",
+  "category": "other",
+  "systems": "Conway's Game of Life",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "gameoflife"
+ },
+ {
+  "name": "SlugCross",
+  "repo": "https://github.com/MiSTer-devel/SlugCross_MiSTer",
+  "category": "other",
+  "systems": "bhayame's Slug Cross",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "slugcross"
+ },
+ {
+  "name": "TomyScramble",
+  "repo": "https://github.com/MiSTer-devel/TomyScramble_MiSTer",
+  "category": "other",
+  "systems": "TomyTronic Scramble",
+  "sdram": false,
+  "tier": "likely",
+  "note": "8-bit class system; fits the 20K LUT budget in principle.",
+  "id": "tomyscramble"
+ },
+ {
+  "name": "Cave",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Cave_MiSTer",
+  "category": "arcade",
+  "systems": "Dangun Feveron / DoDonPachi / DonPachi / ESP Ra.De. / Fever SOS / Gaia Crusaders / Guwange / Puzzle Uo Poko / Thunder Heroes",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "cave"
+ },
+ {
+  "name": "Cosmic",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Cosmic_MiSTer",
+  "category": "arcade",
+  "systems": "Cosmic Alien / Devil Zone / Magical Spot / No Mans Land / Space Panic",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "cosmic"
+ },
+ {
+  "name": "CosmicGuerilla",
+  "repo": "https://github.com/MiSTer-devel/Arcade-CosmicGuerilla_MiSTer",
+  "category": "arcade",
+  "systems": "Cosmic Guerilla",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "cosmicguerilla"
+ },
+ {
+  "name": "Gauntlet",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Gauntlet_MiSTer",
+  "category": "arcade",
+  "systems": "Gauntlet / Gauntlet II / Vindicators Part II",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "gauntlet"
+ },
+ {
+  "name": "IkariWarriors",
+  "repo": "https://github.com/MiSTer-devel/Arcade-IkariWarriors_MiSTer",
+  "category": "arcade",
+  "systems": "Ikari Warriors / Victory Road",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "ikariwarriors"
+ },
+ {
+  "name": "Inferno",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Inferno_MiSTer",
+  "category": "arcade",
+  "systems": "Inferno (Williams)",
+  "sdram": false,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "inferno"
+ },
+ {
+  "name": "IremM62",
+  "repo": "https://github.com/MiSTer-devel/Arcade-IremM62_MiSTer",
+  "category": "arcade",
+  "systems": "Horizon / Kid Niki - Radical Ninja / Kung-Fu Master / Lode Runner / Lode Runner II - The Bungeling Strikes Back / Lode Runner III - The Golden Labyrinth / Lode Runner IV - Teikoku Kurano Dasshutsu / Spelunker II - 23 no Kagi / Spelunker / The Battle-Road / Youjyuden",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "iremm62"
+ },
+ {
+  "name": "IremM72",
+  "repo": "https://github.com/MiSTer-devel/Arcade-IremM72_MiSTer",
+  "category": "arcade",
+  "systems": "Air duel / Daiku no Gensan(M72 and M84) / Dragon Breed / Gallop - Armed Police Unit / Hammerin' Harry / Image Fight / Legend of Hero Tonma / Mr. HELI no Daibouken / Ninja Spirit / R-Type / R-Type II / X Multiply",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "iremm72"
+ },
+ {
+  "name": "Jackal",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Jackal_MiSTer",
+  "category": "arcade",
+  "systems": "Jackal / Tokushu Butai Jackal / Top Gunner",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "jackal"
+ },
+ {
+  "name": "MCR1",
+  "repo": "https://github.com/MiSTer-devel/Arcade-MCR1_MiSTer",
+  "category": "arcade",
+  "systems": "Kick-Man / Kick / Solar Fox",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "mcr1"
+ },
+ {
+  "name": "MCR2",
+  "repo": "https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer",
+  "category": "arcade",
+  "systems": "Domino Man / Kozmik Krooz'r / Satan's Hollow / Tron / Two Tigers / Wacko",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "mcr2"
+ },
+ {
+  "name": "MCR3",
+  "repo": "https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer",
+  "category": "arcade",
+  "systems": "Discs of Tron / Journey / Tapper / Timber",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "mcr3"
+ },
+ {
+  "name": "MCR3Mono",
+  "repo": "https://github.com/MiSTer-devel/Arcade-MCR3Mono_MiSTer",
+  "category": "arcade",
+  "systems": "Demolition Derby / Max RPM / Power Drive / Rampage / Sarge / Star Guards",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "mcr3mono"
+ },
+ {
+  "name": "MCR3Scroll",
+  "repo": "https://github.com/MiSTer-devel/Arcade-MCR3Scroll_MiSTer",
+  "category": "arcade",
+  "systems": "Crater Raider / Spy Hunter / Turbo Tag (Prototype)",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "mcr3scroll"
+ },
+ {
+  "name": "MoonPatrol",
+  "repo": "https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer",
+  "category": "arcade",
+  "systems": "Moon Patrol",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "moonpatrol"
+ },
+ {
+  "name": "Raizing",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Raizing_MiSTer",
+  "category": "arcade",
+  "systems": "Armed Police Batrider / Battle Bakraid / Battle Garegga / Kingdom Grandprix / Sorcer Striker",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "raizing"
+ },
+ {
+  "name": "Scramble",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer",
+  "category": "arcade",
+  "systems": "Amidar / Anteater / Armored Car / Battle of Atlantis / Calipso / Dark Planet / Frogger (Konami) / Frogger (Sega) / Lost Tomb / Mars / Mighty Monkey / Minefield / Moon War / Rescue / Scramble / Speed Coin / Strategy X / Super Cobra / Tazz-mania / The End / Turtles",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "scramble"
+ },
+ {
+  "name": "SEGASYS1",
+  "repo": "https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer",
+  "category": "arcade",
+  "systems": "4D Warriors / Block Gal / Bull Fight / Flicky / I'm Sorry / Mister Viking / My Hero / Pitfall II / Rafflesia / Regulus / Sega Ninja / Spatter / Star Jacker / Swat / TeddyBoy Blues / Up'n Down / Water Match / Wonder Boy",
+  "sdram": false,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "segasys1"
+ },
+ {
+  "name": "SpaceInvaders",
+  "repo": "https://github.com/MiSTer-devel/Arcade-SpaceInvaders_MiSTer",
+  "category": "arcade",
+  "systems": "280Z-ZZAP / Amazing Maze / Attack Force / Balloon Bomber / Blue Shark / Boot Hill / Clowns / Cosmo / Galaxy Wars / Gun Fight / Laguna Racer / Lunar Rescue / Lupin III / Sea Wolf / Shuffleboard / Space Chaser / Space Encounters / Space Invaders / Space Invaders Part II / Vortex",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "spaceinvaders"
+ },
+ {
+  "name": "Subs",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Subs_MiSTer",
+  "category": "arcade",
+  "systems": "Subs",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "subs"
+ },
+ {
+  "name": "Tecmo",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Tecmo_MiSTer",
+  "category": "arcade",
+  "systems": "Gemini Wing / Rygar / Silkworm",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "tecmo"
+ },
+ {
+  "name": "TropicalAngel",
+  "repo": "https://github.com/MiSTer-devel/Arcade-TropicalAngel_MiSTer",
+  "category": "arcade",
+  "systems": "Tropical Angel",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "tropicalangel"
+ },
+ {
+  "name": "VBall",
+  "repo": "https://github.com/MiSTer-devel/Arcade-VBall_MiSTer",
+  "category": "arcade",
+  "systems": "V'Ball",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "vball"
+ },
+ {
+  "name": "XSleena",
+  "repo": "https://github.com/MiSTer-devel/Arcade-XSleena_MiSTer",
+  "category": "arcade",
+  "systems": "Xaind Sleena",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "xsleena"
+ },
+ {
+  "name": "Zaxxon",
+  "repo": "https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer",
+  "category": "arcade",
+  "systems": "Future Spy / Super Zaxxon / Zaxxon",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Arcade core; depends on ROM size and number of CPUs. Needs per-game fit check.",
+  "id": "zaxxon"
+ },
+ {
+  "name": "Amstrad",
+  "repo": "https://github.com/MiSTer-devel/Amstrad_MiSTer",
+  "category": "computer",
+  "systems": "Amstrad CPC 6128",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Fits only after trimming (no CD/expansion, reduced audio, simple scaler). Research item.",
+  "id": "amstrad"
+ },
+ {
+  "name": "AmstradPCW",
+  "repo": "https://github.com/MiSTer-devel/Amstrad-PCW_MiSTer",
+  "category": "computer",
+  "systems": "Amstrad PCW",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Fits only after trimming (no CD/expansion, reduced audio, simple scaler). Research item.",
+  "id": "amstradpcw"
+ },
+ {
+  "name": "Apple-I",
+  "repo": "https://github.com/MiSTer-devel/Apple-I_MiSTer",
+  "category": "computer",
+  "systems": "Apple I",
+  "sdram": false,
+  "tier": "maybe",
+  "note": "Fits only after trimming (no CD/expansion, reduced audio, simple scaler). Research item.",
+  "id": "apple-i"
+ },
+ {
+  "name": "Apple-II",
+  "repo": "https://github.com/MiSTer-devel/Apple-II_MiSTer",
+  "category": "computer",
+  "systems": "Apple IIe",
+  "sdram": false,
+  "tier": "maybe",
+  "note": "Fits only after trimming (no CD/expansion, reduced audio, simple scaler). Research item.",
+  "id": "apple-ii"
+ },
+ {
+  "name": "Atari800",
+  "repo": "https://github.com/MiSTer-devel/Atari800_MiSTer",
+  "category": "computer",
+  "systems": "Atari 800 / 800XL / 65XE / 130XE",
+  "sdram": false,
+  "tier": "maybe",
+  "note": "Fits only after trimming (no CD/expansion, reduced audio, simple scaler). Research item.",
+  "id": "atari800"
+ },
+ {
+  "name": "BBCMicro",
+  "repo": "https://github.com/MiSTer-devel/BBCMicro_MiSTer",
+  "category": "computer",
+  "systems": "BBC Micro B / Master 128K",
+  "sdram": false,
+  "tier": "maybe",
+  "note": "Fits only after trimming (no CD/expansion, reduced audio, simple scaler). Research item.",
+  "id": "bbcmicro"
+ },
+ {
+  "name": "C64",
+  "repo": "https://github.com/MiSTer-devel/C64_MiSTer",
+  "category": "computer",
+  "systems": "Commodore 64 / Games System / 128",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Fits only after trimming (no CD/expansion, reduced audio, simple scaler). Research item.",
+  "id": "c64"
+ },
+ {
+  "name": "Specialist",
+  "repo": "https://github.com/MiSTer-devel/Specialist_MiSTer",
+  "category": "computer",
+  "systems": "Specialist / Специалист",
+  "sdram": false,
+  "tier": "maybe",
+  "note": "Fits only after trimming (no CD/expansion, reduced audio, simple scaler). Research item.",
+  "id": "specialist"
+ },
+ {
+  "name": "BBCBridgeCompanion",
+  "repo": "https://github.com/MiSTer-devel/BBCBridgeCompanion_MiSTer",
+  "category": "console",
+  "systems": "BBC Bridge Companion",
+  "sdram": false,
+  "tier": "maybe",
+  "note": "Fits only after trimming (no CD/expansion, reduced audio, simple scaler). Research item.",
+  "id": "bbcbridgecompanion"
+ },
+ {
+  "name": "GBA",
+  "repo": "https://github.com/MiSTer-devel/GBA_MiSTer",
+  "category": "console",
+  "systems": "Nintendo Game Boy Advance",
+  "sdram": false,
+  "tier": "maybe",
+  "note": "Fits only after trimming (no CD/expansion, reduced audio, simple scaler). Research item.",
+  "id": "gba"
+ },
+ {
+  "name": "MegaDrive",
+  "repo": "https://github.com/MiSTer-devel/MegaDrive_MiSTer",
+  "category": "console",
+  "systems": "Sega Mega Drive / Sega Genesis",
+  "sdram": true,
+  "tier": "maybe",
+  "note": "Fits only after trimming (no CD/expansion, reduced audio, simple scaler). Research item.",
+  "id": "megadrive"
+ },
+ {
+  "name": "TurboGrafx16",
+  "repo": "https://github.com/MiSTer-devel/TurboGrafx16_MiSTer",
+  "category": "console",
+  "systems": "NEC TurboGrafx-16 / PC Engine / CD-ROM² / Super CD-ROM² / Duo / TurboDuo / SuperGrafx / Arcade Card",
+  "sdram": false,
+  "tier": "maybe",
+  "note": "Fits only after trimming (no CD/expansion, reduced audio, simple scaler). Research item.",
+  "id": "turbografx16"
+ },
+ {
+  "name": "ao486",
+  "repo": "https://github.com/MiSTer-devel/ao486_MiSTer",
+  "category": "computer",
+  "systems": "486DX33 (No FPU) compatible",
+  "sdram": false,
+  "tier": "no",
+  "note": "Too large for 20K LUT4 / 8 MB SDRAM (or needs disc/CD streaming).",
+  "id": "ao486"
+ },
+ {
+  "name": "AtariST",
+  "repo": "https://github.com/MiSTer-devel/AtariST_MiSTer",
+  "category": "computer",
+  "systems": "Atari ST / STe",
+  "sdram": true,
+  "tier": "no",
+  "note": "Too large for 20K LUT4 / 8 MB SDRAM (or needs disc/CD streaming).",
+  "id": "atarist"
+ },
+ {
+  "name": "MacPlus",
+  "repo": "https://github.com/MiSTer-devel/MacPlus_MiSTer",
+  "category": "computer",
+  "systems": "Macintosh Plus",
+  "sdram": true,
+  "tier": "no",
+  "note": "Too large for 20K LUT4 / 8 MB SDRAM (or needs disc/CD streaming).",
+  "id": "macplus"
+ },
+ {
+  "name": "PC88",
+  "repo": "https://github.com/MiSTer-devel/PC88_MiSTer",
+  "category": "computer",
+  "systems": "NEC PC8801 MKII SR",
+  "sdram": true,
+  "tier": "no",
+  "note": "Too large for 20K LUT4 / 8 MB SDRAM (or needs disc/CD streaming).",
+  "id": "pc88"
+ },
+ {
+  "name": "X68000",
+  "repo": "https://github.com/MiSTer-devel/X68000_MiSTer",
+  "category": "computer",
+  "systems": "Sharp X68000",
+  "sdram": true,
+  "tier": "no",
+  "note": "Too large for 20K LUT4 / 8 MB SDRAM (or needs disc/CD streaming).",
+  "id": "x68000"
+ },
+ {
+  "name": "Gameboy2P",
+  "repo": "https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/Gameboy2P",
+  "category": "console",
+  "systems": "2x Game Boy (2-Player)",
+  "sdram": true,
+  "tier": "no",
+  "note": "Too large for 20K LUT4 / 8 MB SDRAM (or needs disc/CD streaming).",
+  "id": "gameboy2p"
+ },
+ {
+  "name": "GBA2P",
+  "repo": "https://github.com/MiSTer-devel/GBA_MiSTer/tree/GBA2P",
+  "category": "console",
+  "systems": "2x Game Boy Advance (2-Player)",
+  "sdram": true,
+  "tier": "no",
+  "note": "Too large for 20K LUT4 / 8 MB SDRAM (or needs disc/CD streaming).",
+  "id": "gba2p"
+ },
+ {
+  "name": "MegaCD",
+  "repo": "https://github.com/MiSTer-devel/MegaCD_MiSTer",
+  "category": "console",
+  "systems": "Sega CD / Sega Mega-CD",
+  "sdram": true,
+  "tier": "no",
+  "note": "Too large for 20K LUT4 / 8 MB SDRAM (or needs disc/CD streaming).",
+  "id": "megacd"
+ },
+ {
+  "name": "N64",
+  "repo": "https://github.com/MiSTer-devel/N64_MiSTer/",
+  "category": "console",
+  "systems": "Nintendo 64",
+  "sdram": true,
+  "tier": "no",
+  "note": "Too large for 20K LUT4 / 8 MB SDRAM (or needs disc/CD streaming).",
+  "id": "n64"
+ },
+ {
+  "name": "NeoGeo",
+  "repo": "https://github.com/MiSTer-devel/NeoGeo_MiSTer",
+  "category": "console",
+  "systems": "SNK Neo Geo AES, MVS & CD",
+  "sdram": true,
+  "tier": "no",
+  "note": "Too large for 20K LUT4 / 8 MB SDRAM (or needs disc/CD streaming).",
+  "id": "neogeo"
+ },
+ {
+  "name": "PSX",
+  "repo": "https://github.com/MiSTer-devel/PSX_MiSTer",
+  "category": "console",
+  "systems": "Sony Playstation",
+  "sdram": true,
+  "tier": "no",
+  "note": "Too large for 20K LUT4 / 8 MB SDRAM (or needs disc/CD streaming).",
+  "id": "psx"
+ },
+ {
+  "name": "S32X",
+  "repo": "https://github.com/MiSTer-devel/S32X_MiSTer",
+  "category": "console",
+  "systems": "Sega 32X",
+  "sdram": true,
+  "tier": "no",
+  "note": "Too large for 20K LUT4 / 8 MB SDRAM (or needs disc/CD streaming).",
+  "id": "s32x"
+ },
+ {
+  "name": "Saturn",
+  "repo": "https://mister-devel.github.io/MkDocs_MiSTer/cores/highlights/saturn.md",
+  "category": "console",
+  "systems": "Sega Saturn",
+  "sdram": true,
+  "tier": "no",
+  "note": "Too large for 20K LUT4 / 8 MB SDRAM (or needs disc/CD streaming).",
+  "id": "saturn"
+ },
+ {
+  "name": "SGB",
+  "repo": "https://github.com/MiSTer-devel/SGB_MiSTer",
+  "category": "console",
+  "systems": "Nintendo Super Game Boy and Super Game Boy 2",
+  "sdram": true,
+  "tier": "no",
+  "note": "Too large for 20K LUT4 / 8 MB SDRAM (or needs disc/CD streaming).",
+  "id": "sgb"
+ },
+ {
+  "name": "DVD",
+  "repo": "https://github.com/owenb321/MiSTer_DVD",
+  "category": "other",
+  "systems": "DVD-Video player (menus, subtitles, AC-3 in fabric)",
+  "sdram": true,
+  "tier": "no",
+  "note": "Too large for 20K LUT4 / 8 MB SDRAM (or needs disc/CD streaming).",
+  "id": "dvd"
+ }
+]

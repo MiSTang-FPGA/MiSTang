@@ -26,7 +26,7 @@
   "systems": "Game Boy / Game Boy Color",
   "sdram": true,
   "tier": "proven",
-  "note": "built and tested on this board",
+  "note": "Same author as MiSTang; its release bitstream loads on this Tang Nano 20K (DONE flag verified over JTAG)",
   "id": "open-pocket-gbc"
  },
  {
@@ -36,7 +36,7 @@
   "systems": "WonderSwan / WonderSwan Color",
   "sdram": true,
   "tier": "proven",
-  "note": "built for this board",
+  "note": "Sister project built for this board (not re-verified here)",
   "id": "open-pocket-ws"
  },
  {

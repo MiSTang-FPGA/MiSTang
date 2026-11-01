@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MiSTang Studio</title>
+<link rel="stylesheet" href="../assets/site.css"><link rel="stylesheet" href="studio.css"></head><body>
+<nav class="top"><div class="wrap"><a class="brand" href="../index.html"><svg viewBox="0 0 32 32" fill="none"><defs><linearGradient id="g" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#ffb347"/><stop offset="1" stop-color="#ff4d00"/></linearGradient></defs><rect x="6" y="6" width="20" height="20" rx="5" fill="url(#g)"/><path d="M11 21V11l5 6 5-6v10" stroke="#190a00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>MiS<b>Tang</b> Studio</span></a>
+<div class="links"><span id="boardState" class="state"><i></i><span>No board</span></span><button id="connect" class="btn primary">Connect board</button></div></div></nav>
+<main class="wrap studio">
+<aside><button class="tab on" data-t="flash">⚡ Flash</button><button class="tab" data-t="capture">▣ Capture</button><button class="tab" data-t="remote">🎮 Remote</button><button class="tab" data-t="sd">💾 SD card</button><button class="tab" data-t="log">≡ Log</button>
+<p class="hint" id="support"></p></aside>
+<div class="panes">
+
+<section id="flash" class="pane">
+<h2>Load a bitstream</h2><p class="sub">Drop a Gowin <code>.fs</code> or <code>.bin</code> for the GW2AR-18. Everything happens in this tab — nothing is uploaded anywhere.</p>
+<label id="drop" class="drop"><input id="file" type="file" accept=".fs,.bin" hidden><b>Drop bitstream here</b><span>or click to choose · .fs / .bin</span></label>
+<div id="info" class="info" hidden></div>
+<div class="grid2">
+<div class="card"><h3>Run now</h3><p>Loads into FPGA SRAM and starts immediately (~5 s). Lost at power-off — perfect for trying cores.</p><button id="runSram" class="btn primary" disabled>Load to SRAM</button></div>
+<div class="card"><h3>Write to flash</h3>
+<label>Target<select id="target"><option value="0x000000">Launcher bitstream · 0x000000</option><option value="0x400000" selected>Core slot A · 0x400000</option><option value="0x500000">Core slot B · 0x500000</option><option value="custom">Custom offset…</option></select></label>
+<label id="customWrap" hidden>Offset (hex)<input id="custom" value="0x600000"></label>
+<label>Multiboot target (RECONFIG_N) <select id="mb"><option value="auto">Auto: slot→0x000000, launcher→0x400000</option><option value="keep">Keep as built</option></select></label>
+<label class="chk"><input id="verify" type="checkbox" checked> Verify after write</label>
+<button id="writeFlash" class="btn" disabled>Write to flash</button></div></div>
+<div class="grid2"><div class="card"><h3>Raw file → flash</h3><p>Firmware or data (e.g. menu firmware at 0x100000).</p><div class="row"><input id="rawOff" value="0x100000"><label class="btn small"><input id="rawFile" type="file" hidden>Choose &amp; write</label></div></div>
+<div class="card"><h3>Board</h3><p>Reload the FPGA from flash (same as a power cycle) or read the flash ID.</p><div class="row"><button id="reload" class="btn small" disabled>Reload from flash</button><button id="flashId" class="btn small" disabled>Flash ID</button></div></div></div>
+<div class="progress"><div id="bar"></div></div><div id="status" class="mono status">Idle.</div>
+</section>
+
+<section id="capture" class="pane" hidden>
+<h2>HDMI capture</h2><p class="sub">Use any UVC capture card (HDMI→USB) on the board's HDMI out. The picture is pixel-perfect, with optional CRT look, screenshots and recording.</p>
+<div class="row"><select id="cams"></select><button id="camStart" class="btn primary">Start</button><button id="camShot" class="btn" disabled>PNG</button><button id="camRec" class="btn" disabled>● Rec</button><button id="camFs" class="btn" disabled>⛶</button></div>
+<div class="row" style="margin-top:10px"><label class="chk"><input type="checkbox" id="crt"> CRT scanlines</label><label class="chk"><input type="checkbox" id="audio" checked> Audio</label><label>Scale <select id="scale"><option value="fit">Fit</option><option value="int">Integer</option></select></label><span id="camInfo" class="mono dim"></span></div>
+<div id="stage" class="stage"><video id="video" autoplay muted playsinline></video><div class="scan" id="scan"></div><div class="empty" id="camEmpty">No signal. Pick your capture device and press Start.</div></div>
+</section>
+
+<section id="remote" class="pane" hidden>
+<h2>USB remote</h2><p class="sub">Controls the board over its USB-UART (Web Serial, interface B) with the Open Pocket remote protocol.</p>
+<div class="row"><button id="serConnect" class="btn">Connect serial</button><span id="serState" class="mono dim">disconnected</span></div>
+<div class="pad" id="pad"><button data-k="U" class="u">▲</button><button data-k="L" class="l">◀</button><button data-k="R" class="r">▶</button><button data-k="D" class="d">▼</button>
+<div class="ab"><button data-k="B">B</button><button data-k="A">A</button></div><div class="ss"><button data-k="S">SELECT</button><button data-k="T">START</button><button data-k="M">MENU</button></div></div>
+<p class="hint">Keyboard: arrows · X = A · Z = B · Enter = Start · Backspace = Select · M = Menu.</p>
+</section>
+
+<section id="sd" class="pane" hidden>
+<h2>Prepare SD card</h2><p class="sub">Writes the MiSTang folder layout to a mounted card and converts bitstreams so each core can return to the menu. Needs the File System Access API (Chrome / Edge).</p>
+<div class="card"><h3>1 · Choose the card</h3><button id="sdPick" class="btn">Select SD root…</button> <span id="sdName" class="mono dim"></span></div>
+<div class="card"><h3>2 · Add a core</h3><p>Uses the bitstream loaded in the Flash tab: header multiboot is rewritten to <b>0x000000</b> (back to launcher) and saved as <code>/MiSTang/cores/&lt;id&gt;.bin</code> + <code>.json</code>.</p>
+<div class="row"><input id="coreId" placeholder="core id, e.g. nes"><input id="coreName" placeholder="Display name"><input id="coreExt" placeholder="ROM ext, e.g. nes,fds"></div><button id="sdAdd" class="btn primary" disabled style="margin-top:10px">Write core to SD</button></div>
+<div class="card"><h3>3 · Folder layout</h3><button id="sdLayout" class="btn" disabled>Create folders</button><pre>MiSTang/
+  cores/     *.bin + *.json      (patched bitstreams)
+  games/     nes/ snes/ gb/ …    (your ROMs)
+  saves/  bios/  screens/</pre></div>
+</section>
+
+<section id="log" class="pane" hidden><h2>Log</h2><pre id="logbox" class="logbox"></pre><button class="btn small" id="logClear">Clear</button></section>
+</div></main>
+<script type="module" src="app.mjs"></script></body></html>

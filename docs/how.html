@@ -1,0 +1,41 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MiSTang — how cores load from SD, and from the web</title><link rel="stylesheet" href="assets/site.css"></head><body><nav class="top"><div class="wrap"><a class="brand" href="index.html"><svg viewBox="0 0 32 32" fill="none"><defs><linearGradient id="g" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#ffb347"/><stop offset="1" stop-color="#ff4d00"/></linearGradient></defs><rect x="6" y="6" width="20" height="20" rx="5" fill="url(#g)"/><g stroke="#ff9a3c" stroke-width="2" stroke-linecap="round"><path d="M11 2v4M16 2v4M21 2v4M11 26v4M16 26v4M21 26v4M2 11h4M2 16h4M2 21h4M26 11h4M26 16h4M26 21h4"/></g><path d="M11 21V11l5 6 5-6v10" stroke="#190a00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>MiS<b>Tang</b></span></a><div class="links"><a class="" href="cores.html">Cores</a><a class="on" href="how.html">How it works</a><a class="" href="studio/">Studio</a><a href="https://github.com/MiSTang-FPGA/MiSTang">GitHub</a><a class="btn primary" href="studio/">Open Studio</a></div></div></nav>
+<section style="padding-top:48px"><div class="wrap prose"><div class="eyebrow">Research notes · 2026-11-01</div><h2>Can a Tang Nano 20K load cores from an SD card?</h2>
+<p class="sub">Short answer: <b>yes, indirectly</b>. A real MiSTer swaps the whole FPGA configuration from a Linux HPS. The Nano 20K has no HPS, but it has a Gowin multiboot path and a SPI flash big enough to stage a core. Everything below is marked with how sure we are.</p>
+
+<h3>What is verified on the real board</h3>
+<div class="callout ok">Measured on a Tang Nano 20K (FT2232 serial 2023030621) from node via the same <code>jtag.mjs</code>/<code>gowin.mjs</code> the browser uses.<br>
+<b>IDCODE</b> 0x0000081B = GW2A(R)-18(C) · <b>Flash</b> Winbond W25Q64 (EF 40 17, 8 MiB) · <b>Flash read</b> 64 KiB in 0.42 s · <b>SRAM load</b> of a 907 418-byte bitstream in 4.8 s at 6 MHz TCK, status <code>0x6020</code> = DONE.</div>
+
+<h3>The loading chain</h3>
+<table><tr><th>Step</th><th>Mechanism</th><th>Status</th></tr>
+<tr><td>1. Launcher boots</td><td>Bitstream at flash 0x000000, menu CPU (RISC-V) firmware at 0x100000 — same layout as Open Pocket GBC.</td><td><span class="pill proven">proven</span></td></tr>
+<tr><td>2. Read core from SD</td><td>FatFs on the soft CPU reads <code>/MiSTang/cores/&lt;name&gt;.bin</code>.</td><td><span class="pill proven">proven</span> (SD + FatFs already in Open Pocket GBC)</td></tr>
+<tr><td>3. Stage in flash</td><td>CPU erases 4 KiB sectors and programs 256 B pages into slot A (0x400000). ≈ 225 sectors for a 0.9 MB bitstream.</td><td><span class="pill proven">proven</span> (<code>flash.c</code> already does saves)</td></tr>
+<tr><td>4. Reconfigure</td><td>Fabric pulls <code>RECONFIG_N</code> low; the FPGA reloads from the address in the <b>bitstream header</b> (key 0x52, 4 KiB granularity, UG290/UG702). Header is patchable: <code>patchMultiboot()</code> in Studio.</td><td><span class="pill maybe">to verify</span> — pad accessibility on the Nano 20K, needs a build with the pin enabled</td></tr>
+<tr><td>5. Back to menu</td><td>Slot A's header points to 0x000000; cores pull RECONFIG_N on a button combo.</td><td><span class="pill maybe">to verify</span></td></tr></table>
+
+<h3>Why not simply …</h3>
+<ul><li><b>Partial reconfiguration:</b> GW2A has no ICAP-style primitive reachable from fabric.</li>
+<li><b>Fabric drives its own JTAG / slave-SSPI:</b> JTAG pins are dedicated and wired to the FT2232; mode pins are fixed for MSPI.</li>
+<li><b>One giant bitstream with all cores:</b> 20 736 LUT4 — a single NES already takes a large part of it.</li></ul>
+<div class="callout">No-fabric alternative that works <b>today</b>: Studio writes the core into the flash slot over JTAG (measured above) and tells the FPGA to reload. SD staging is the standalone version of the same thing.</div>
+
+<h3>Uploading a bitstream from github.io</h3>
+<p>Yes — and it is implemented. Chrome and Edge expose <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebUSB_API">WebUSB</a> on HTTPS pages, and github.io is HTTPS. The Tang Nano 20K’s on-board debugger is an FT2232 (0403:6010); channel A is JTAG. Studio speaks the FTDI MPSSE protocol directly over WebUSB, then the Gowin JTAG commands (ported from openFPGALoader): erase SRAM → <code>XFER_WRITE</code> → done, or JTAG-to-SPI bridge (IR 0x16) for the external flash.</p>
+<table><tr><th>OS</th><th>Notes</th></tr>
+<tr><td>macOS / Linux</td><td>Works with no driver. On Linux add a udev rule for 0403:6010.</td></tr>
+<tr><td>Windows</td><td>Channel A must use WinUSB — install it once with Zadig (interface 0 only; leave interface 1, the serial port, alone).</td></tr>
+<tr><td>Firefox / Safari</td><td>No WebUSB. Use Chrome, Edge or the desktop build.</td></tr>
+<tr><td>Sipeed FT2232 firmware</td><td>Does not implement MPSSE 0x8E/0x8F; the driver uses TMS-only idle clocks.</td></tr></table>
+
+<h3>Which cores can realistically come</h3>
+<p>Budget: 20 736 LUT4, 828 Kbit BSRAM, 8 MB SDRAM. Proven ports exist for NES, SNES (ROM ≤ 3.75 MB), Game Boy/Color, WonderSwan, MSX2+. 8-bit consoles and computers and small arcade boards are the next wave. Genesis, PC Engine, GBA need trimming and are research items. PSX, N64, Saturn, Mega-CD, 32X, Neo Geo, ao486 and the <a href="https://github.com/owenb321/MiSTer_DVD">DVD player</a> need far more logic or memory bandwidth and will not fit. See the <a href="cores.html">catalog</a>.</p>
+
+<h3>Flash map</h3>
+<pre>0x000000  Launcher bitstream   (multiboot -> 0x400000)
+0x100000  Launcher firmware    (u32 length + RV32E code)
+0x200000  Core registry, settings, per-core config
+0x400000  CORE SLOT A          (multiboot -> 0x000000)  &lt;= 1 MiB
+0x500000  CORE SLOT B/C        pinned cores, copy-free A/B swap planned
+0x7FF000  System settings</pre>
+</div></section><footer><div class="wrap"><span>MiSTang · open FPGA retro platform for the Sipeed Tang Nano 20K</span><span>Built on the work of the MiSTer community · not affiliated with MiSTer-devel</span></div></footer></body></html>

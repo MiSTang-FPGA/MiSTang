@@ -1,0 +1,33 @@
+# MiSTang
+
+Multi-core retro FPGA platform for the **Sipeed Tang Nano 20K** (GW2AR-18). Cores from SD card, flashing and HDMI capture from the browser.
+
+**Site / Web Studio:** https://mistang-fpga.github.io/MiSTang/ · [Studio](https://mistang-fpga.github.io/MiSTang/studio/) · [How it works](https://mistang-fpga.github.io/MiSTang/how.html) · [Core catalog](https://mistang-fpga.github.io/MiSTang/cores.html)
+
+## Status (2026-11-01)
+| Piece | State |
+|---|---|
+| Web flasher: WebUSB → FT2232 MPSSE → Gowin JTAG, SRAM load, SPI-flash erase/write/verify | **Working, hardware-tested** (IDCODE, flash ID, 907 KB SRAM load in 4.8 s — same as openFPGALoader — 4 KiB flash write+verify+erase) |
+| Web Studio: HDMI capture (UVC), serial remote, SD-card preparation | Written; capture/remote/SD prep not yet exercised on hardware |
+| Core catalog (230 MiSTer cores + Tang ports, feasibility tiers) | Generated from the MiSTer docs; tiers are estimates, 5 are proven ports by others |
+| SD → flash → `RECONFIG_N` core switching | Designed ([docs/design/launcher.md](docs/design/launcher.md)); **needs the RTL build and a pin check** |
+| Ported cores | None yet. Candidates: NESTang, Open Pocket GBC/WS (existing), small 8-bit systems |
+
+Nothing here claims a MiSTer core already runs on this board unless the catalog says *proven* and links the project that did it.
+
+## Layout
+```
+docs/            GitHub Pages: site, Studio (docs/studio), catalog data
+tools/           gen_catalog.py, gen_pages.py, mkcore.py, hw/ (node hardware tests)
+tests/           node --test tests/core.test.mjs
+```
+
+## Use
+- Studio: open the site in Chrome/Edge, *Connect board*, drop a `.fs`/`.bin`, *Load to SRAM*.
+- Hardware tests from a shell: `cd build/hw && npm i usb`, then `node tools/hw/idcode.mjs`.
+- Package a core for the SD card: `python3 tools/mkcore.py core.fs --id nes --name NES --ext nes -o out/`.
+
+## Русский
+Платформа для запуска разных ядер (в духе MiSTer) на Tang Nano 20K. Прошивка и захват экрана работают прямо из браузера (WebUSB), без Gowin IDE. Загрузка ядер с SD-карты построена на multiboot-переходе Gowin через `RECONFIG_N` (см. `docs/design/launcher.md`): код написан и спроектирован, но для проверки на плате нужна сборка RTL.
+
+Built on open work by the MiSTer community, openFPGALoader (JTAG protocol) and nand2mario's Tang ports.

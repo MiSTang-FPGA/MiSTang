@@ -10,7 +10,8 @@ Multi-core retro FPGA platform for the **Sipeed Tang Nano 20K** (GW2AR-18). Core
 | Web flasher: WebUSB → FT2232 MPSSE → Gowin JTAG, SRAM load, SPI-flash erase/write/verify | **Working, hardware-tested** (IDCODE, flash ID, 907 KB SRAM load in 4.8 s — same as openFPGALoader — 4 KiB flash write+verify+erase) |
 | Web Studio: HDMI capture (UVC), serial remote, SD-card preparation | Written; capture/remote/SD prep not yet exercised on hardware |
 | Core catalog (230 MiSTer cores + Tang ports, feasibility tiers) | Generated from the MiSTer docs; tiers are estimates, 5 are proven ports by others |
-| SD → flash → `RECONFIG_N` core switching | Designed ([docs/design/launcher.md](docs/design/launcher.md)); **needs the RTL build and a pin check** |
+| `RECONFIG_N` multiboot switch from fabric | **Verified on the board** (`hwtest/reconfig`): pin 9 low → FPGA reloads from the header address |
+| SD → flash → switch (launcher firmware) | Designed ([docs/design/launcher.md](docs/design/launcher.md)); launcher RTL/firmware not built yet |
 | Ported cores | None yet. Candidates: NESTang, Open Pocket GBC/WS (existing), small 8-bit systems |
 
 Nothing here claims a MiSTer core already runs on this board unless the catalog says *proven* and links the project that did it.

@@ -24,8 +24,8 @@ Caveat found while testing: a board that previously ran Open Pocket GBC has ROMs
 Gowin parameters (UG290/UG702): address granularity 4 KiB; do **not** build with `--reconfign_as_gpio`; rate in the header is fixed by Apicula.
 
 ## Open items (not yet verified on hardware)
-- Which pad carries `RECONFIG_N` on the Nano 20K, and whether it is accessible to the fabric / header. Build the launcher with the pin enabled and test.
-- Switching time (an Apicula user measured ~1.7 s on another Tang board).
+- ~~RECONFIG_N reachable from fabric~~ **verified 2026-11-01**: pin 9 (IOR31B) driven low from fabric reloads the FPGA from the multiboot address in the loaded bitstream header (`hwtest/reconfig`). Constraint: `IO_LOC "recon" 9;` as `inout`, driven `1'b0 : 1'bz`; do not pass `--reconfign_as_gpio`.
+- Still to test: return trip from a core booted out of flash, and switching time (an Apicula user measured ~1.7 s on another Tang board).
 - Per-core shared services: HDMI scaler, SPI LCD, audio, SD/ROM loader live in the launcher; cores get them as a small wrapper (`mistang_core_if.sv`, planned) so porting a MiSTer core is mostly glue around `hps_io`.
 
 ## Core package (`/MiSTang/cores/<id>.json`)

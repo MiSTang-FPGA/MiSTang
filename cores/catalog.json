@@ -15,7 +15,6 @@
   "category": "console",
   "systems": "Nintendo NES / Famicom (Tang Nano 20K port)",
   "sdram": true,
-  "mistang": "https://github.com/MiSTang-FPGA/mistang-core-nes",
   "tier": "proven",
   "note": "nand2mario/nestang runs on Tang Nano 20K",
   "id": "nestang"

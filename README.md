@@ -19,9 +19,8 @@ Nothing here claims a MiSTer core already runs on this board unless the catalog 
 ## Core repositories
 One core per repository, all built from the same [template](https://github.com/MiSTang-FPGA/mistang-core-template):
 - [mistang-core-gbc](https://github.com/MiSTang-FPGA/mistang-core-gbc) — Game Boy / Color (from open-pocket-gbc)
-- [mistang-core-nes](https://github.com/MiSTang-FPGA/mistang-core-nes) — NES, fork of nand2mario/nestang (Nano 20K project already upstream)
 
-Neither is hooked into the launcher yet.
+It is not hooked into the launcher yet. Policy: cores are the author's own (open-pocket-gbc / open-pocket-ws) or written from scratch here — no forks of other projects.
 
 ## Layout
 ```
@@ -38,4 +37,4 @@ tests/           node --test tests/core.test.mjs
 ## Русский
 Платформа для запуска разных ядер (в духе MiSTer) на Tang Nano 20K. Прошивка и захват экрана работают прямо из браузера (WebUSB), без Gowin IDE. Загрузка ядер с SD-карты построена на multiboot-переходе Gowin через `RECONFIG_N` (см. `docs/design/launcher.md`): код написан и спроектирован, но для проверки на плате нужна сборка RTL.
 
-Built on open work by the MiSTer community, openFPGALoader (JTAG protocol) and nand2mario's Tang ports.
+The JTAG/SPI command sequences in `docs/studio/gowin.mjs` follow the public Gowin protocol as implemented in openFPGALoader (re-written in JavaScript); no other third-party RTL is used.

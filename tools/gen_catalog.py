@@ -61,7 +61,7 @@ def tier(c):
     if c['category'] in ('computer','console','other'): return 'likely','8-bit class system; fits the 20K LUT budget in principle.'
     return 'maybe',''
 
-MISTANG={'NESTang':'mistang-core-nes','Open Pocket GBC':'mistang-core-gbc'}
+MISTANG={'Open Pocket GBC':'mistang-core-gbc'}
 for c in cores:
     if c['name'] in MISTANG: c['mistang']='https://github.com/MiSTang-FPGA/'+MISTANG[c['name']]
     t, why = tier(c); c['tier']=t; c['note']=why

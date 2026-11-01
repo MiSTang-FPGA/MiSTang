@@ -114,8 +114,8 @@ $('#camRec').onclick = () => {
   const mime = ['video/webm;codecs=vp9,opus', 'video/webm;codecs=vp8,opus', 'video/webm'].find(m => MediaRecorder.isTypeSupported(m));
   rec = new MediaRecorder(stream, { mimeType: mime, videoBitsPerSecond: 12e6 }); chunks = [];
   rec.ondataavailable = e => e.data.size && chunks.push(e.data);
-  rec.onstop = () => { download(new Blob(chunks, { type: 'video/webm' }), `mistang-${stamp()}.webm`); rec = null; $('#camRec').textContent = '● Rec'; };
-  rec.start(1000); $('#camRec').textContent = '■ Stop';
+  rec.onstop = () => { download(new Blob(chunks, { type: 'video/webm' }), `mistang-${stamp()}.webm`); rec = null; $('#camRec').textContent = 'Record'; };
+  rec.start(1000); $('#camRec').textContent = 'Stop rec';
 };
 const stamp = () => new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
 function download(blob, name) { const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 5000); }

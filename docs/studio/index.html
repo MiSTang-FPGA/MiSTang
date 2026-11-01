@@ -1,9 +1,8 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MiSTang Studio</title>
-<link rel="stylesheet" href="../assets/site.css"><link rel="stylesheet" href="studio.css"></head><body>
-<nav class="top"><div class="wrap"><a class="brand" href="../index.html"><svg viewBox="0 0 32 32" fill="none"><defs><linearGradient id="g" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#ffb347"/><stop offset="1" stop-color="#ff4d00"/></linearGradient></defs><rect x="6" y="6" width="20" height="20" rx="5" fill="url(#g)"/><path d="M11 21V11l5 6 5-6v10" stroke="#190a00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>MiS<b>Tang</b> Studio</span></a>
-<div class="links"><span id="boardState" class="state"><i></i><span>No board</span></span><button id="connect" class="btn primary">Connect board</button></div></div></nav>
+<link rel="stylesheet" href="../assets/site.css"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="studio.css"></head><body>
+<nav class="top"><a class="brand" href="../index.html">MiSTang Studio</a><div class="links"><a href="../cores.html">Cores</a><a href="../how.html">How it works</a></div><span style="justify-self:end;display:flex;gap:10px;align-items:center"><span id="boardState" class="state"><i></i><span>No board</span></span><button id="connect" class="btn solid" style="padding:8px 16px;font-size:13px">Connect board</button></span></nav>
 <main class="wrap studio">
-<aside><button class="tab on" data-t="flash">⚡ Flash</button><button class="tab" data-t="capture">▣ Capture</button><button class="tab" data-t="remote">🎮 Remote</button><button class="tab" data-t="sd">💾 SD card</button><button class="tab" data-t="log">≡ Log</button>
+<aside><button class="tab on" data-t="flash">Flash</button><button class="tab" data-t="capture">Capture</button><button class="tab" data-t="remote">Remote</button><button class="tab" data-t="sd">SD card</button><button class="tab" data-t="log">Log</button>
 <p class="hint" id="support"></p></aside>
 <div class="panes">
 
@@ -26,7 +25,7 @@
 
 <section id="capture" class="pane" hidden>
 <h2>HDMI capture</h2><p class="sub">Use any UVC capture card (HDMI→USB) on the board's HDMI out. The picture is pixel-perfect, with optional CRT look, screenshots and recording.</p>
-<div class="row"><select id="cams"></select><button id="camStart" class="btn primary">Start</button><button id="camShot" class="btn" disabled>PNG</button><button id="camRec" class="btn" disabled>● Rec</button><button id="camFs" class="btn" disabled>⛶</button></div>
+<div class="row"><select id="cams"></select><button id="camStart" class="btn primary">Start</button><button id="camShot" class="btn" disabled>PNG</button><button id="camRec" class="btn" disabled>Record</button><button id="camFs" class="btn" disabled>Fullscreen</button></div>
 <div class="row" style="margin-top:10px"><label class="chk"><input type="checkbox" id="crt"> CRT scanlines</label><label class="chk"><input type="checkbox" id="audio" checked> Audio</label><label>Scale <select id="scale"><option value="fit">Fit</option><option value="int">Integer</option></select></label><span id="camInfo" class="mono dim"></span></div>
 <div id="stage" class="stage"><video id="video" autoplay muted playsinline></video><div class="scan" id="scan"></div><div class="empty" id="camEmpty">No signal. Pick your capture device and press Start.</div></div>
 </section>

@@ -1,27 +1,47 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MiSTang — retro cores on a $25 FPGA</title>
-<meta name="description" content="MiSTang: load FPGA retro cores from SD card on the Tang Nano 20K. Web flasher, HDMI capture, core catalog."><link rel="stylesheet" href="assets/site.css"></head><body><nav class="top"><div class="wrap"><a class="brand" href="index.html"><svg viewBox="0 0 32 32" fill="none"><defs><linearGradient id="g" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#ffb347"/><stop offset="1" stop-color="#ff4d00"/></linearGradient></defs><rect x="6" y="6" width="20" height="20" rx="5" fill="url(#g)"/><g stroke="#ff9a3c" stroke-width="2" stroke-linecap="round"><path d="M11 2v4M16 2v4M21 2v4M11 26v4M16 26v4M21 26v4M2 11h4M2 16h4M2 21h4M26 11h4M26 16h4M26 21h4"/></g><path d="M11 21V11l5 6 5-6v10" stroke="#190a00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>MiS<b>Tang</b></span></a><div class="links"><a class="" href="cores.html">Cores</a><a class="" href="how.html">How it works</a><a class="" href="studio/">Studio</a><a href="https://github.com/MiSTang-FPGA/MiSTang">GitHub</a><a class="btn primary" href="studio/">Open Studio</a></div></div></nav>
-<header class="hero"><div class="wrap" style="display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:center">
-<div><div class="eyebrow">Sipeed Tang Nano 20K · GW2AR-18</div>
-<h1>Every core.<br><em>One tiny board.</em></h1>
-<p class="lead">MiSTang turns a Tang Nano 20K into a multi-core retro console. Drop bitstreams on an SD card, pick a system from the menu, play. Flash and capture straight from your browser — no vendor IDE, no drivers.</p>
-<div class="cta"><a class="btn primary" href="studio/">⚡ Open Web Studio</a><a class="btn" href="cores.html">Browse 230 cores</a><a class="btn" href="how.html">How cores load from SD</a></div></div>
-<div style="display:grid;place-items:center"><svg class="chip" viewBox="0 0 300 200" fill="none"><defs><linearGradient id="c" x1="0" y1="0" x2="300" y2="200"><stop stop-color="#ffb347"/><stop offset="1" stop-color="#ff4d00"/></linearGradient><pattern id="d" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1" fill="#ffffff22"/></pattern></defs>
-<g stroke="#394058" stroke-width="3" stroke-linecap="round"><path d="M70 20v22M70 158v22"/><path d="M90 20v22M90 158v22"/><path d="M110 20v22M110 158v22"/><path d="M130 20v22M130 158v22"/><path d="M150 20v22M150 158v22"/><path d="M170 20v22M170 158v22"/><path d="M190 20v22M190 158v22"/><path d="M210 20v22M210 158v22"/><path d="M230 20v22M230 158v22"/><path d="M30 60h22M248 60h22"/><path d="M30 80h22M248 80h22"/><path d="M30 100h22M248 100h22"/><path d="M30 120h22M248 120h22"/><path d="M30 140h22M248 140h22"/></g>
-<rect x="50" y="42" width="200" height="116" rx="16" fill="#161923" stroke="#2f3750" stroke-width="2"/><rect x="50" y="42" width="200" height="116" rx="16" fill="url(#d)"/>
-<rect x="70" y="60" width="62" height="80" rx="8" fill="url(#c)" opacity=".95"/><path d="M82 126V74l19 26 19-26v52" stroke="#190a00" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-<g fill="#2de2c5"><rect x="148" y="64" width="86" height="8" rx="4"/><rect x="148" y="82" width="64" height="8" rx="4" opacity=".6"/><rect x="148" y="100" width="76" height="8" rx="4" opacity=".4"/></g>
-<g fill="#5b8cff"><rect x="148" y="122" width="22" height="14" rx="4"/><rect x="176" y="122" width="22" height="14" rx="4" opacity=".6"/><rect x="204" y="122" width="22" height="14" rx="4" opacity=".3"/></g></svg></div></div>
-<div class="wrap"><div class="stats"><div class="stat"><b>20 736</b><span>LUT4 · the hard limit every core must fit</span></div><div class="stat"><b>8 MB</b><span>SDRAM for ROMs and framebuffer</span></div><div class="stat"><b>~5 s</b><span>measured: bitstream into FPGA from the browser</span></div><div class="stat"><b>0</b><span>proprietary tools in the loop</span></div></div></div></header>
-<section><div class="wrap"><h2>What you get</h2><p class="sub">A launcher bitstream with a menu CPU, a library of cores, and tooling that runs in the browser.</p>
-<div class="bento">
-<div class="tile w4"><div class="ico">⇄</div><h3>Cores from SD card</h3><p>The launcher copies the chosen core from SD into a flash slot and reconfigures the FPGA through the Gowin <code>RECONFIG_N</code> multiboot path. Pull RECONFIG_N from the core to come back to the menu. The whole design is explained and measured in <a href="how.html" style="color:var(--tang2)">How it works</a>.</p></div>
-<div class="tile"><div class="ico t">⌁</div><h3>Flash from github.io</h3><p>WebUSB talks MPSSE to the on-board FT2232. JTAG, SRAM load and SPI flash write run entirely in Chrome. Tested on real hardware.</p></div>
-<div class="tile"><div class="ico b">▣</div><h3>HDMI capture</h3><p>Plug any UVC capture card in. Live view, pixel-perfect scaling, CRT filter, PNG screenshots, WebM recording with audio.</p></div>
-<div class="tile w4"><div class="ico">◈</div><h3>A catalog that tells the truth</h3><p>230 MiSTer cores sorted by whether they can fit 20K LUT4: proven ports, likely candidates, research items and honest “no”s — PSX, N64 and the DVD player will not fit.</p></div>
-<div class="tile"><div class="ico t">☰</div><h3>Same display</h3><p>HDMI 480p plus the 1.44″ ST7735S SPI LCD from Open Pocket GBC, shared across cores.</p></div>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MiSTang</title><meta name="description" content="MiSTang: many FPGA cores on one Tang Nano 20K. Web flasher, HDMI capture, core catalog."><link rel="stylesheet" href="assets/site.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=VT323&display=swap" rel="stylesheet"></head><body><nav class="top"><a class="brand" href="index.html">MiSTang</a><div class="links"><a class="" href="cores.html">Cores</a><a class="" href="how.html">How it works</a><a class="" href="studio/">Studio</a></div><a class="gh" href="https://github.com/MiSTang-FPGA/MiSTang">GitHub</a></nav>
+<section class="hero"><div class="wrap">
+<div class="lcd">MULTI-CORE</div>
+<h1>MiSTang.<br>Many cores on<br>one $25 FPGA.</h1>
+<p class="lead">A launcher for the Sipeed Tang Nano 20K. Pick a core from an SD card, play, return to the menu. Flash and capture from your browser, with no vendor tools.</p>
+<div class="btns"><a class="btn solid" href="studio/">Open Studio</a><a class="btn" href="how.html">How it works</a></div>
+<div style="max-width:760px;margin:80px auto 0;text-align:left"><pre><span style="color:#7a7a7a">$ node tools/hw/idcode.mjs          # same code the browser runs</span>
+JTAG IDCODE      0x0000081B  GW2A(R)-18(C)
+SPI flash        Winbond W25Q64  EF 40 17  (8 MiB)
+SRAM load        907 418 bytes in 4.8 s   status 0x6020  DONE
+RECONFIG_N       fabric pulls pin 9 low  → FPGA reloads at header address
+                 USERCODE 0x4EAC → 0xFD4B</pre><p class="caption">Measured on a real Tang Nano 20K, 2026-11-01.</p></div>
+</div></section>
+
+<section class="light"><div class="wrap">
+<p class="eyebrow">Cores from SD</p><h2>One slot.<br>Any core.</h2>
+<p class="lead">The FPGA cannot read an SD card into its own configuration, so the launcher stages the chosen core in a flash slot and asks the FPGA to reload from it.</p>
+<div class="grid4">
+<div class="feat"><h3>1 · Read</h3><p>The menu CPU reads <code>/MiSTang/cores/&lt;id&gt;.bin</code> from the card.</p></div>
+<div class="feat"><h3>2 · Stage</h3><p>It writes the bitstream and the core’s firmware into slot A of the SPI flash.</p></div>
+<div class="feat"><h3>3 · Reload</h3><p>The fabric pulls <code>RECONFIG_N</code> low. The FPGA boots the multiboot address from the bitstream header.</p></div>
+<div class="feat"><h3>4 · Return</h3><p>Holding S1 + S2 pulls the pin again. Slot A points back to the launcher.</p></div>
 </div></div></section>
-<section><div class="wrap"><h2>From click to game</h2><div class="flow">
-<div class="step"><i>01</i><h4>Connect</h4><p>USB-C to the Mac, Windows or Linux. Chrome or Edge.</p></div>
-<div class="step"><i>02</i><h4>Flash launcher</h4><p>Studio writes the launcher bitstream and menu firmware to flash.</p></div>
-<div class="step"><i>03</i><h4>Prepare SD</h4><p>Studio writes /MiSTang/cores and your ROM folders to the card.</p></div>
-<div class="step"><i>04</i><h4>Play &amp; capture</h4><p>Pick a core. Record from the capture card in the same tab.</p></div></div></div></section><footer><div class="wrap"><span>MiSTang · open FPGA retro platform for the Sipeed Tang Nano 20K</span><span>Built on the work of the MiSTer community · not affiliated with MiSTer-devel</span></div></footer></body></html>
+
+<section><div class="wrap split">
+<div><p class="eyebrow">Web Studio</p><h2>Flash from<br>github.io.</h2>
+<p class="lead">WebUSB speaks MPSSE to the board’s FT2232, then Gowin JTAG: load into SRAM, write the SPI flash, verify. Chrome or Edge, no drivers on macOS and Linux.</p>
+<div class="btns" style="justify-content:flex-start;margin-top:30px"><a class="btn solid" href="studio/">Open Studio</a></div></div>
+<div><div class="feat"><h3>Load</h3><p>Drop a Gowin <code>.fs</code> or <code>.bin</code>. Run it from SRAM in five seconds or write it to a flash slot with verification.</p></div>
+<div class="feat" style="margin-top:22px"><h3>Capture</h3><p>Any UVC capture card on the HDMI output: live view, pixel-perfect scaling, PNG screenshots, WebM recording with audio.</p></div>
+<div class="feat" style="margin-top:22px"><h3>SD card</h3><p>Prepare the folder layout and convert bitstreams so every core can find its way back.</p></div></div>
+</div></section>
+
+<section class="light"><div class="wrap">
+<p class="eyebrow">Cores</p><h2>Our own<br>cores.</h2>
+<p class="lead">Cores are written here or come from the Open Pocket projects. The catalog maps the 230 systems of the MiSTer core list to what fits into 20 736 LUT4.</p>
+<div class="grid3">
+<div class="feat"><div class="big-num">2</div><h3>Core repositories</h3><p><a href="https://github.com/MiSTang-FPGA/mistang-core-gbc">Game Boy / Color</a> and <a href="https://github.com/MiSTang-FPGA/mistang-core-ws">WonderSwan / Color</a>, both from Open Pocket.</p></div>
+<div class="feat"><div class="big-num">230</div><h3>Systems in the catalog</h3><p>Console, computer, arcade and other. Sorted by whether they fit, not by hype.</p></div>
+<div class="feat"><div class="big-num">20 736</div><h3>LUT4 to share</h3><p>Plus 828 Kbit of block RAM and 8 MB of SDRAM. PSX, N64 and Saturn will not fit.</p></div>
+</div>
+<div class="btns" style="justify-content:flex-start;margin-top:50px"><a class="btn" href="cores.html">Browse the catalog</a></div>
+</div></section>
+
+<section><div class="wrap"><p class="eyebrow">Read more</p><h2>Details.</h2>
+<div class="doclinks"><a href="how.html">How cores load from SD<span>→</span></a><a href="cores.html">Core catalog<span>→</span></a><a href="studio/">Web Studio<span>→</span></a>
+<a href="https://github.com/MiSTang-FPGA/MiSTang/blob/main/docs/design/launcher.md">Launcher design<span>→</span></a><a href="https://github.com/MiSTang-FPGA/MiSTang/tree/main/hwtest/reconfig">RECONFIG_N test<span>→</span></a><a href="https://github.com/MiSTang-FPGA">GitHub organisation<span>→</span></a></div></div></section><footer><div class="wrap"><span>MiSTang · multi-core FPGA platform for the Sipeed Tang Nano 20K</span><span>Cores are our own or from LakoMoor’s Open Pocket projects. <a href="https://github.com/MiSTang-FPGA">GitHub</a></span></div></footer></body></html>

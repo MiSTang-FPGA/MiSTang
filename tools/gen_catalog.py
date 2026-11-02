@@ -70,7 +70,27 @@ seen=set(); uniq=[]
 for c in cores:
     if c['id'] in seen: continue
     seen.add(c['id']); uniq.append(c)
-order={'proven':0,'likely':1,'maybe':2,'no':3}
+# --- items from the user's project list (cores/xlsx_items.json): not assessed, except obviously oversized systems
+xp = ref.parent / 'cores' / 'xlsx_items.json'
+if xp.exists():
+    norm = lambda t: re.sub(r'[^a-z0-9]+', '', t.lower())
+    have = {norm(c['name']) for c in uniq}
+    GAMEISH = {'Аркадные устройства': 'arcade', 'Карманные устройства': 'console', 'Игровые платформы': 'console'}
+    COMP = {'Компьютеры и рабочие станции', 'Советские и восточноевропейские компьютеры', 'Домашние компьютеры', 'Европейские компьютеры',
+            'Ранние компьютеры', 'Японские компьютеры', 'Исторические мини-компьютеры', 'Рабочие станции', 'Органайзеры и КПК'}
+    HEAVY = ('x68000', 'amiga 1200', 'archimedes', '1040st', 'lisa', 'macintosh', 'sh-3', 'vexriscv', 'linux', 'z486', '486', 'pentium', 'sparc',
+             'sgi', 'nextstation', 'playstation', 'nintendo 64', 'saturn', 'dreamcast', 'xbox', '3do', 'jaguar', 'workstation')
+    for it in json.loads(xp.read_text()):
+        if norm(it['name']) in have: continue
+        have.add(norm(it['name']))
+        cat = GAMEISH.get(it['group']) or ('computer' if it['group'] in COMP else 'other')
+        heavy = any(k in it['name'].lower() for k in HEAVY)
+        search = it['url_kind'].startswith('Поиск')
+        uniq.append(dict(name=it['name'], repo=it['url'], category=cat, systems=it['group'] + (' · ' + it['kind'] if it['kind'] else ''), sdram=False,
+                         tier='no' if heavy else 'idea', source='list', link_is_search=search,
+                         note=('Too large for 20K LUT4 (estimate).' if heavy else 'From the project list; not assessed yet.') + (' Link is a GitHub search, not a repository.' if search else ' Link from the list, not re-checked.'),
+                         id='list-' + norm(it['name'])))
+order={'proven':0,'likely':1,'maybe':2,'idea':3,'no':4}
 uniq.sort(key=lambda c:(order[c['tier']],c['category'],c['name'].lower()))
 out.write_text(json.dumps(uniq,ensure_ascii=False,indent=1))
 from collections import Counter

@@ -1,0 +1,3278 @@
+[
+ {
+  "name": "HyperSquid3 SH-3",
+  "group": "FPGA-процессоры",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/ika-musume/HS3",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Jinix Jupiter / MiSTer Experimental",
+  "group": "FPGA-процессоры",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/austinbland1/MiSTer-Experimental",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Linux on LiteX-VexRiscv",
+  "group": "FPGA-процессоры",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/litex-hub/linux-on-litex-vexriscv",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "VexRiscv CPU",
+  "group": "FPGA-процессоры",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/SpinalHDL/VexRiscv",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "z486 MiSTer",
+  "group": "FPGA-процессоры",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/nand2mario/z486_MiSTer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "BendixKing KLN-90B",
+  "group": "Авиация и навигация",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=BendixKing%20KLN-90B%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "BendixKing KX-155",
+  "group": "Авиация и навигация",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=BendixKing%20KX-155%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Collins Pro Line 21",
+  "group": "Авиация и навигация",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Collins%20Pro%20Line%2021%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Garmin G1000 PFD",
+  "group": "Авиация и навигация",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Garmin%20G1000%20PFD%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Garmin GNS 430",
+  "group": "Авиация и навигация",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Garmin%20GNS%20430%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Garmin GNS 530",
+  "group": "Авиация и навигация",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Garmin%20GNS%20530%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Garmin GTN 750",
+  "group": "Авиация и навигация",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Garmin%20GTN%20750%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Honeywell CDU",
+  "group": "Авиация и навигация",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Honeywell%20CDU%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Honeywell Primus 1000",
+  "group": "Авиация и навигация",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Honeywell%20Primus%201000%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Universal UNS-1F",
+  "group": "Авиация и навигация",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Universal%20UNS-1F%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "1945k III",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=1945k%20III%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "64th Street",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=64th%20Street%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "asturur Mister-cores",
+  "group": "Аркадные устройства",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/asturur/Mister-cores",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Atari Asteroids",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Asteroids%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Asteroids Deluxe",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Asteroids%20Deluxe%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Battlezone",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Battlezone%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Breakout",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Breakout%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Canyon Bomber",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Canyon%20Bomber%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Centipede",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Centipede%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Crystal Castles",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Crystal%20Castles%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Dominos",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Dominos%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Food Fight",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Food%20Fight%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari G1",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Atari%20G1%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari G42",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Atari%20G42%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Gauntlet",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Gauntlet%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Lunar Lander",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Lunar%20Lander%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Missile Command",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Missile%20Command%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Pong",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Pong%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Space Race",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Space%20Race%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Sprint 2",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Sprint%202%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Subs",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Subs%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Super Breakout",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Super%20Breakout%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari Ultra Tank",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Atari%20Ultra%20Tank%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Bally Midway Discs of Tron",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Bally%20Midway%20Discs%20of%20Tron%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Bally Midway Tron",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Bally%20Midway%20Tron%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Batsugun",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Batsugun%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "BloodStorm",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=BloodStorm%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Computer Space 1971",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Computer%20Space%201971%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Dogyuun",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Dogyuun%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "ESD arcade",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=ESD%20arcade%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Final Lap",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Final%20Lap%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "FixEight",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=FixEight%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Gaiapolis",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Gaiapolis%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Gm0rkCores",
+  "group": "Аркадные устройства",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/Gm0rk/Gm0rkCores",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Hyper Neo Geo 64",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Hyper%20Neo%20Geo%2064%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "IGS PGM2",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=IGS%20PGM2%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Jaleco Mega System 32",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Jaleco%20Mega%20System%2032%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "jlrh-misterfpga-db",
+  "group": "Аркадные устройства",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/jlrh/jlrh-misterfpga-db",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Konami GX",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Konami%20GX%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Konami Gyruss",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Konami%20Gyruss%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "kuzecores",
+  "group": "Аркадные устройства",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/kuzearcade/kuzecores",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "LaserDisc Arcade MiSTer",
+  "group": "Аркадные устройства",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/MiSTer-devel/Arcade-LaserdiscGames_MiSTer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Metamorphic Force",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Metamorphic%20Force%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Midway Gun Fight",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Midway%20Gun%20Fight%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Midway Sea Wolf",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Midway%20Sea%20Wolf%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "MiSTer_decoryah",
+  "group": "Аркадные устройства",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/decoryah/MiSTer_decoryah",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "MiSTer_Ongo",
+  "group": "Аркадные устройства",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/OngoGablogian/MiSTer_Ongo",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "MiSTer_ppriest",
+  "group": "Аркадные устройства",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/ppriest/MiSTer_ppriest",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Namco Bosconian",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Namco%20Bosconian%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Playmark",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Playmark%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Ridge Racer",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Ridge%20Racer%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sega Congo Bongo",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Sega%20Congo%20Bongo%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sega Zaxxon",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Sega%20Zaxxon%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "shmupfan Distribution",
+  "group": "Аркадные устройства",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/shmupfan/Distribution",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Slop-Core",
+  "group": "Аркадные устройства",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/TheJesusFish/Slop-Core",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Splash!",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Splash%21%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Street Fighter The Movie",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Street%20Fighter%20The%20Movie%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Taito G-NET",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Taito%20G-NET%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "TomSVR Arcade Cores",
+  "group": "Аркадные устройства",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/TomSVR-Mister/TomSVR-Arcade-Cores",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Violent Storm",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Violent%20Storm%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Williams Defender",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Williams%20Defender%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Williams Robotron 2084",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Williams%20Robotron%202084%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Williams Sinistar",
+  "group": "Аркадные устройства",
+  "kind": "Игровое оборудование",
+  "status": "MiSTer / существующее игровое ядро",
+  "url": "https://github.com/search?q=Williams%20Sinistar%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Yun Sung arcade",
+  "group": "Аркадные устройства",
+  "kind": "Игра / аркадная платформа",
+  "status": "Упоминалась в сторонних базах; проверить работоспособность",
+  "url": "https://github.com/search?q=Yun%20Sung%20arcade%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Datalogic Magellan 9800i",
+  "group": "Банковские и торговые устройства",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Datalogic%20Magellan%209800i%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Diebold Opteva 522",
+  "group": "Банковские и торговые устройства",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Diebold%20Opteva%20522%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Epson TM-T88IV",
+  "group": "Банковские и торговые устройства",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Epson%20TM-T88IV%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "IBM SurePOS 700",
+  "group": "Банковские и торговые устройства",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=IBM%20SurePOS%20700%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Ingenico iCT220",
+  "group": "Банковские и торговые устройства",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Ingenico%20iCT220%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "NCR RealPOS 80",
+  "group": "Банковские и торговые устройства",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=NCR%20RealPOS%2080%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "NCR SelfServ 22",
+  "group": "Банковские и торговые устройства",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=NCR%20SelfServ%2022%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "PAX S80",
+  "group": "Банковские и торговые устройства",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=PAX%20S80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Verifone VX520",
+  "group": "Банковские и торговые устройства",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Verifone%20VX520%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Zebra ZT410",
+  "group": "Банковские и торговые устройства",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Zebra%20ZT410%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "240p Test Suite MiSTer",
+  "group": "Видео и медиа",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/burabure/240p_MiSTer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "DVD Core — Joe Daniels",
+  "group": "Видео и медиа",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/joedaniels198512-gif/dvd-core",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "FPGA FPV Scaler",
+  "group": "Видео и медиа",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/rrk1/FPGA-FPV-scaler",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "FPGAmp",
+  "group": "Видео и медиа",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/ultraembedded/FPGAmp",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Groovy analog GPU",
+  "group": "Видео и медиа",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://misterfpga.org/viewtopic.php?p=81721",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "HDMI 1.4b Generator",
+  "group": "Видео и медиа",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/hdl-util/hdmi",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "MiSTer CD-i VCD Factory",
+  "group": "Видео и медиа",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/mrchrisster/mister_cdi_vcd_creator",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "MiSTer Raster",
+  "group": "Видео и медиа",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/aquasock/MiSTer-Raster",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "MiSTer_DVD",
+  "group": "Видео и медиа",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/owenb321/MiSTer_DVD",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Pioneer LaserActive MiSTer",
+  "group": "Видео и медиа",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/MukiEX/MiSTer-LaserActive",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Project F Display Controller",
+  "group": "Видео и медиа",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/projf/display_controller",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Tang Monitor",
+  "group": "Видео и медиа",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/kami4ka/tang-monitor",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Teletext VHDL",
+  "group": "Видео и медиа",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/deveon95/vhdl-teletext",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Game of Life MiSTer",
+  "group": "Графика",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/hrvach/Life_MiSTer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Mandelbrot FPGA Engine",
+  "group": "Графика",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/rkrajnc/mandelbrot_fpga",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "MiSTer IFS Fractals",
+  "group": "Графика",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/movievertigo/MiSTer-IFSFractals",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "MiSTerbrot",
+  "group": "Графика",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/catallo/MiSTerbrot",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Coleco Adam",
+  "group": "Домашние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Coleco%20Adam%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Commodore VIC-20",
+  "group": "Домашние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Commodore%20VIC-20%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Dragon 32",
+  "group": "Домашние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Dragon%2032%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "EACA Colour Genie EG2000",
+  "group": "Домашние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=EACA%20Colour%20Genie%20EG2000%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Interact Home Computer",
+  "group": "Домашние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Interact%20Home%20Computer%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Matra Alice",
+  "group": "Домашние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Matra%20Alice%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Spectravideo SV-328",
+  "group": "Домашние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Spectravideo%20SV-328%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Tandy Color Computer 2",
+  "group": "Домашние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Tandy%20Color%20Computer%202%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Tandy Color Computer 3",
+  "group": "Домашние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Tandy%20Color%20Computer%203%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "VTech Laser 310",
+  "group": "Домашние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=VTech%20Laser%20310%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Acorn Electron",
+  "group": "Европейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Acorn%20Electron%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Amstrad CPC 6128",
+  "group": "Европейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Amstrad%20CPC%206128%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Amstrad PCW 8256",
+  "group": "Европейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Amstrad%20PCW%208256%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "BBC Master 128",
+  "group": "Европейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=BBC%20Master%20128%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "BBC Micro Model B",
+  "group": "Европейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=BBC%20Micro%20Model%20B%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Camputers Lynx",
+  "group": "Европейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Camputers%20Lynx%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Oric Atmos",
+  "group": "Европейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Oric%20Atmos%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Oric-1",
+  "group": "Европейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Oric-1%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sinclair QL",
+  "group": "Европейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Sinclair%20QL%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Tatung Einstein TC01",
+  "group": "Европейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Tatung%20Einstein%20TC01%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Nintendo 64 80 Hz core",
+  "group": "Игровые платформы",
+  "kind": "Экспериментальное ядро",
+  "status": "Отдельные тестовые сборки / статус не проверен",
+  "url": "https://github.com/search?q=Nintendo%2064%2080%20Hz%20core%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Nintendo 64 80Hz Reddit",
+  "group": "Игровые платформы",
+  "kind": "Обсуждение",
+  "status": "Неофициальная экспериментальная сборка",
+  "url": "https://www.reddit.com/r/MiSTerFPGA/comments/1bvhkmq/",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Reddit из беседы"
+ },
+ {
+  "name": "Panasonic 3DO",
+  "group": "Игровые платформы",
+  "kind": "Экспериментальное ядро",
+  "status": "Отдельные тестовые сборки / статус не проверен",
+  "url": "https://github.com/search?q=Panasonic%203DO%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Panasonic 3DO experimental",
+  "group": "Игровые платформы",
+  "kind": "Обсуждение",
+  "status": "Неофициальная экспериментальная сборка",
+  "url": "https://www.reddit.com/r/MiSTerFPGA/comments/1szgvmx/",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Reddit из беседы"
+ },
+ {
+  "name": "FPGA Audio Spectrum Analyzer",
+  "group": "Измерительные приборы",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/out-of-mana8/fpga-audio-spectrum-analyzer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "LiteScope",
+  "group": "Измерительные приборы",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/enjoy-digital/litescope",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "OpenLogicBit",
+  "group": "Измерительные приборы",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/ultraembedded/openlogicbit",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "DEC PDP-1 fpg1",
+  "group": "Исторические мини-компьютеры",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/hrvach/fpg1",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "EDSAC MiSTer",
+  "group": "Исторические мини-компьютеры",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/MiSTer-devel/EDSAC_MiSTer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Gigatron MiSTer",
+  "group": "Исторические мини-компьютеры",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/sajattack/Gigatron_MiSTer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Karabas-Pro",
+  "group": "Исторические мини-компьютеры",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/andykarpov/karabas-pro",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "MultiComp MiSTer",
+  "group": "Исторические мини-компьютеры",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/MiSTer-devel/MultiComp_MiSTer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "ND-120",
+  "group": "Исторические мини-компьютеры",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/RetroCoreLabs/nd-120",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Bit Corporation Gamate",
+  "group": "Карманные устройства",
+  "kind": "Игровое устройство",
+  "status": "MiSTer / семейное игровое ядро",
+  "url": "https://github.com/search?q=Bit%20Corporation%20Gamate%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Dreamcast VMU libevmu",
+  "group": "Карманные устройства",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/gyrovorbis/libevmu",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Entex Adventure Vision",
+  "group": "Карманные устройства",
+  "kind": "Игровое устройство",
+  "status": "MiSTer / семейное игровое ядро",
+  "url": "https://github.com/search?q=Entex%20Adventure%20Vision%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Epoch Galaxy II",
+  "group": "Карманные устройства",
+  "kind": "Игровое устройство",
+  "status": "MiSTer / семейное игровое ядро",
+  "url": "https://github.com/search?q=Epoch%20Galaxy%20II%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Game & Watch agg23",
+  "group": "Карманные устройства",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/agg23/fpga-gameandwatch/releases/tag/0.2.0",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Nintendo Game & Watch Ball",
+  "group": "Карманные устройства",
+  "kind": "Игровое устройство",
+  "status": "MiSTer / семейное игровое ядро",
+  "url": "https://github.com/search?q=Nintendo%20Game%20%26%20Watch%20Ball%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Nintendo Game & Watch Donkey Kong",
+  "group": "Карманные устройства",
+  "kind": "Игровое устройство",
+  "status": "MiSTer / семейное игровое ядро",
+  "url": "https://github.com/search?q=Nintendo%20Game%20%26%20Watch%20Donkey%20Kong%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Nintendo Game & Watch Fire",
+  "group": "Карманные устройства",
+  "kind": "Игровое устройство",
+  "status": "MiSTer / семейное игровое ядро",
+  "url": "https://github.com/search?q=Nintendo%20Game%20%26%20Watch%20Fire%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Nintendo Game & Watch Oil Panic",
+  "group": "Карманные устройства",
+  "kind": "Игровое устройство",
+  "status": "MiSTer / семейное игровое ядро",
+  "url": "https://github.com/search?q=Nintendo%20Game%20%26%20Watch%20Oil%20Panic%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Nintendo Game & Watch Zelda",
+  "group": "Карманные устройства",
+  "kind": "Игровое устройство",
+  "status": "MiSTer / семейное игровое ядро",
+  "url": "https://github.com/search?q=Nintendo%20Game%20%26%20Watch%20Zelda%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Pokémon Mini",
+  "group": "Карманные устройства",
+  "kind": "Игровое устройство",
+  "status": "MiSTer / семейное игровое ядро",
+  "url": "https://github.com/search?q=Pok%C3%A9mon%20Mini%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Tamagotchi P1 FPGA",
+  "group": "Карманные устройства",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/agg23/fpga-tamagotchi",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "TomyTronic Scramble",
+  "group": "Карманные устройства",
+  "kind": "Игровое устройство",
+  "status": "MiSTer / семейное игровое ядро",
+  "url": "https://github.com/search?q=TomyTronic%20Scramble%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Acorn Archimedes",
+  "group": "Компьютеры и рабочие станции",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Acorn%20Archimedes%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Amiga 1200",
+  "group": "Компьютеры и рабочие станции",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Amiga%201200%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Apple Lisa MiSTer",
+  "group": "Компьютеры и рабочие станции",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/MiSTer-devel/Apple-Lisa_MiSTer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Atari 1040ST",
+  "group": "Компьютеры и рабочие станции",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Atari%201040ST%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Atari STE",
+  "group": "Компьютеры и рабочие станции",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Atari%20STE%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Commodore 128",
+  "group": "Компьютеры и рабочие станции",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Commodore%20128%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "IBM PC110 MiSTer",
+  "group": "Компьютеры и рабочие станции",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/ahmadexp/PC110_MiSTer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "LisaFPGA",
+  "group": "Компьютеры и рабочие станции",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/alexthecat123/LisaFPGA",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Macintosh Plus",
+  "group": "Компьютеры и рабочие станции",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Macintosh%20Plus%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "MSX turboR",
+  "group": "Компьютеры и рабочие станции",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=MSX%20turboR%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "SAM Coupé",
+  "group": "Компьютеры и рабочие станции",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=SAM%20Coup%C3%A9%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sinclair ZX Spectrum Next",
+  "group": "Компьютеры и рабочие станции",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Sinclair%20ZX%20Spectrum%20Next%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Texas Instruments TI-99/4A",
+  "group": "Компьютеры и рабочие станции",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Texas%20Instruments%20TI-99%2F4A%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Alesis ADAT XT20",
+  "group": "Медиаплееры и запись",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Alesis%20ADAT%20XT20%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Apple iPod 5G",
+  "group": "Медиаплееры и запись",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Apple%20iPod%205G%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Archos AV500",
+  "group": "Медиаплееры и запись",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Archos%20AV500%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Cowon iAudio X5",
+  "group": "Медиаплееры и запись",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Cowon%20iAudio%20X5%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Creative Zen Vision:M",
+  "group": "Медиаплееры и запись",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Creative%20Zen%20Vision%3AM%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Rio Karma",
+  "group": "Медиаплееры и запись",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Rio%20Karma%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sony DTC-1000ES",
+  "group": "Медиаплееры и запись",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Sony%20DTC-1000ES%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sony MDS-JE530",
+  "group": "Медиаплееры и запись",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Sony%20MDS-JE530%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sony MZ-R900",
+  "group": "Медиаплееры и запись",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Sony%20MZ-R900%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Tascam DA-88",
+  "group": "Медиаплееры и запись",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Tascam%20DA-88%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Access Virus TI Gearmulator",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/dsp56300/gearmulator",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Akai S1000 Retromulator",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/reales/retromulator",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "DIY Synths",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/Atarity/diy-synths",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Doppler",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/dadamachines/doppler",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "FPGA Hybrid Synthesizer",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/liam-kinslow/fpga-audio-synthesizer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "FPGA Sound Synthesizer",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/mochiruntime/fpga-sound-synthesizer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "FPGA Synth Russell Merrick",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/russell-merrick/fpga-synth",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "MegaVGMPlayer",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/dai-VGM/MegaVGMDrive",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "MiSTer MIDI Player — danik",
+  "group": "Музыка",
+  "kind": "Обсуждение / ссылка",
+  "status": "Обсуждение, не ссылка на готовый HDL",
+  "url": "https://www.reddit.com/r/MiSTerFPGA/comments/1xdij0l/",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Noaidi Synth",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/Thorwegian/noaidi-fpga-synth",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "reDIP-SID",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/daglem/reDIP-SID",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Roland JP-8000 Retromulator",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/reales/retromulator",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Tiliqua",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/apfaudio/tiliqua",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Verilog MIDI Synthesizer",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/nishadsuresh/fpga-verilog-synth",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "VibeBoard",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/electronics-club-iitm/vibeboard",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Waldorf microQ Gearmulator",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/dsp56300/gearmulator",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Yamaha DX7 HDL reference",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/timholzhey/dx7-synthesizer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Yamaha OPL jtopl",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/jotego/jtopl",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Yamaha OPL3 FPGA",
+  "group": "Музыка",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/gtaylormb/opl3_fpga",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Akai MPC60",
+  "group": "Музыкальная студия",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Akai%20MPC60%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "E-mu SP-1200",
+  "group": "Музыкальная студия",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=E-mu%20SP-1200%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Ensoniq ASR-10",
+  "group": "Музыкальная студия",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Ensoniq%20ASR-10%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Korg M1",
+  "group": "Музыкальная студия",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Korg%20M1%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Kurzweil K2000",
+  "group": "Музыкальная студия",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Kurzweil%20K2000%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "LinnDrum LM-2",
+  "group": "Музыкальная студия",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=LinnDrum%20LM-2%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Roland TB-303",
+  "group": "Музыкальная студия",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Roland%20TB-303%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Roland TR-808",
+  "group": "Музыкальная студия",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Roland%20TR-808%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Roland TR-909",
+  "group": "Музыкальная студия",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Roland%20TR-909%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Yamaha SY77",
+  "group": "Музыкальная студия",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Yamaha%20SY77%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Apple ProFile / LisaFPGA",
+  "group": "Накопители",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/alexthecat123/LisaFPGA",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Commodore 1541 / IcePi-Zero-C64",
+  "group": "Накопители",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/m1nl/icepi-zero-c64",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "FlashFloppy",
+  "group": "Накопители",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/keirf/flashfloppy",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Greaseweazle",
+  "group": "Накопители",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/keirf/greaseweazle",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "MiSTer Physical Disc Support",
+  "group": "Накопители",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/theshaneobrien/mister-disc-drive-support",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Pauline FDC",
+  "group": "Накопители",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/jfdelnero/Pauline",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Degauss",
+  "group": "Оболочки",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/giancarloerra/Degauss",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Casio Cassiopeia E-125",
+  "group": "Органайзеры и КПК",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Casio%20Cassiopeia%20E-125%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Compaq iPAQ H3630",
+  "group": "Органайзеры и КПК",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Compaq%20iPAQ%20H3630%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Handspring Visor Deluxe",
+  "group": "Органайзеры и КПК",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Handspring%20Visor%20Deluxe%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "HP 200LX",
+  "group": "Органайзеры и КПК",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=HP%20200LX%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "HP 95LX",
+  "group": "Органайзеры и КПК",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=HP%2095LX%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Palm Tungsten T3",
+  "group": "Органайзеры и КПК",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Palm%20Tungsten%20T3%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Palm V",
+  "group": "Органайзеры и КПК",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Palm%20V%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Psion Series 3a",
+  "group": "Органайзеры и КПК",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Psion%20Series%203a%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Psion Series 5",
+  "group": "Органайзеры и КПК",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Psion%20Series%205%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sharp Zaurus SL-5500",
+  "group": "Органайзеры и КПК",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Sharp%20Zaurus%20SL-5500%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "A2FPGA",
+  "group": "Периферия",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/a2fpga/a2fpga_core",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "MaplePad",
+  "group": "Периферия",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/mackieks/MaplePad",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "QRPlay",
+  "group": "Периферия",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/MintyTrebor/QRPlay",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "reDIP-CIA",
+  "group": "Периферия",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/daglem/reDIP-CIA",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Reflex Adapt",
+  "group": "Периферия",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/misteraddons/Reflex-Adapt",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "TTY2ePaper",
+  "group": "Периферия",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/kconger/MiSTer_tty2epaper",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "TTY2OLED",
+  "group": "Периферия",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/venice1200/MiSTer_tty2oled",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Zaparoo",
+  "group": "Периферия",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://zaparoo.org/docs/platforms/mister/",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "ESP32 Virtual Printer",
+  "group": "Принтеры",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/Manawyrm/ESP32_VirtualPrinter",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Libre Printer",
+  "group": "Принтеры",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/ysard/libre-printer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Allen-Bradley PLC-5",
+  "group": "Промышленная автоматика",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Allen-Bradley%20PLC-5%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Allen-Bradley SLC 500",
+  "group": "Промышленная автоматика",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Allen-Bradley%20SLC%20500%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Beckhoff CX9020",
+  "group": "Промышленная автоматика",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Beckhoff%20CX9020%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "FANUC Series 0i",
+  "group": "Промышленная автоматика",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=FANUC%20Series%200i%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Heidenhain TNC 426",
+  "group": "Промышленная автоматика",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Heidenhain%20TNC%20426%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Mitsubishi MELSEC FX2N",
+  "group": "Промышленная автоматика",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Mitsubishi%20MELSEC%20FX2N%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Omron C200H",
+  "group": "Промышленная автоматика",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Omron%20C200H%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Siemens SIMATIC S5-115U",
+  "group": "Промышленная автоматика",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Siemens%20SIMATIC%20S5-115U%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Siemens SIMATIC S7-300",
+  "group": "Промышленная автоматика",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Siemens%20SIMATIC%20S7-300%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Siemens SINUMERIK 840D",
+  "group": "Промышленная автоматика",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Siemens%20SINUMERIK%20840D%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Blackmagic ATEM Television Studio",
+  "group": "Профессиональное видео",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Blackmagic%20ATEM%20Television%20Studio%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Grass Valley Indigo",
+  "group": "Профессиональное видео",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Grass%20Valley%20Indigo%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "JVC BR-HD50",
+  "group": "Профессиональное видео",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=JVC%20BR-HD50%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Panasonic AG-1980",
+  "group": "Профессиональное видео",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Panasonic%20AG-1980%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Panasonic AJ-D750",
+  "group": "Профессиональное видео",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Panasonic%20AJ-D750%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Roland V-4",
+  "group": "Профессиональное видео",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Roland%20V-4%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sony BVH-2000",
+  "group": "Профессиональное видео",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Sony%20BVH-2000%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sony BVW-75",
+  "group": "Профессиональное видео",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Sony%20BVW-75%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sony DFS-700",
+  "group": "Профессиональное видео",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Sony%20DFS-700%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sony DSR-1500",
+  "group": "Профессиональное видео",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Sony%20DSR-1500%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "HP 9000/715 MiSTer",
+  "group": "Рабочие станции",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/danifunker/hp9000-715_MiSTer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "I/Q Audio Analyzer",
+  "group": "Радио",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/PietroFaraggiana/FPGA-Based-Audio-Analyzer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "RFTool SDR",
+  "group": "Радио",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/daveshah1/RFToolSDR",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Access Virus TI",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=Access%20Virus%20TI%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Akai S1000",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=Akai%20S1000%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Apple Lisa",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=Apple%20Lisa%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Apple ProFile",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=Apple%20ProFile%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Commodore 1541",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=Commodore%201541%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "DEC ND-120",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=DEC%20ND-120%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "DEC PDP-1",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=DEC%20PDP-1%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "DEC VT100",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=DEC%20VT100%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "DEC VT52",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=DEC%20VT52%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "EDSAC",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=EDSAC%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "HP 9000/715",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=HP%209000%2F715%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "IBM Palm Top PC 110",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=IBM%20Palm%20Top%20PC%20110%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Pioneer LaserActive",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=Pioneer%20LaserActive%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Roland JP-8000",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=Roland%20JP-8000%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Roland MT-32",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=Roland%20MT-32%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Roland SC-55",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=Roland%20SC-55%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sony PocketStation",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=Sony%20PocketStation%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Waldorf microQ",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=Waldorf%20microQ%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Yamaha DX7",
+  "group": "Разные неигровые устройства",
+  "kind": "Устройство",
+  "status": "См. связанные ссылки / требуется проверка",
+  "url": "https://github.com/search?q=Yamaha%20DX7%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Acorn Atom",
+  "group": "Ранние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "Семейство/ядро MiSTer упоминалось",
+  "url": "https://github.com/search?q=Acorn%20Atom%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Apple I",
+  "group": "Ранние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "Семейство/ядро MiSTer упоминалось",
+  "url": "https://github.com/search?q=Apple%20I%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Commodore PET 2001",
+  "group": "Ранние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "Семейство/ядро MiSTer упоминалось",
+  "url": "https://github.com/search?q=Commodore%20PET%202001%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Compukit Homelab",
+  "group": "Ранние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "Семейство/ядро MiSTer упоминалось",
+  "url": "https://github.com/search?q=Compukit%20Homelab%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Compukit UK101",
+  "group": "Ранние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "Семейство/ядро MiSTer упоминалось",
+  "url": "https://github.com/search?q=Compukit%20UK101%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Jupiter Ace",
+  "group": "Ранние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "Семейство/ядро MiSTer упоминалось",
+  "url": "https://github.com/search?q=Jupiter%20Ace%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Mattel Aquarius",
+  "group": "Ранние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "Семейство/ядро MiSTer упоминалось",
+  "url": "https://github.com/search?q=Mattel%20Aquarius%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "MITS Altair 8800",
+  "group": "Ранние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "Семейство/ядро MiSTer упоминалось",
+  "url": "https://github.com/search?q=MITS%20Altair%208800%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sinclair ZX80",
+  "group": "Ранние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "Семейство/ядро MiSTer упоминалось",
+  "url": "https://github.com/search?q=Sinclair%20ZX80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sinclair ZX81",
+  "group": "Ранние компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "Семейство/ядро MiSTer упоминалось",
+  "url": "https://github.com/search?q=Sinclair%20ZX81%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "ColorLite",
+  "group": "Сети",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/enjoy-digital/colorlite",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Corundum FPGA NIC",
+  "group": "Сети",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/corundum/corundum",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "LiteEth",
+  "group": "Сети",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/enjoy-digital/liteeth",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Cisco 1841 ISR",
+  "group": "Сети, серверы и терминалы",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Cisco%201841%20ISR%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Cisco Catalyst 3750",
+  "group": "Сети, серверы и терминалы",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Cisco%20Catalyst%203750%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "DEC VT220",
+  "group": "Сети, серверы и терминалы",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=DEC%20VT220%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "DEC VT420",
+  "group": "Сети, серверы и терминалы",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=DEC%20VT420%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "IBM 3278",
+  "group": "Сети, серверы и терминалы",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=IBM%203278%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "MikroTik RB2011",
+  "group": "Сети, серверы и терминалы",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=MikroTik%20RB2011%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "SGI Indy",
+  "group": "Сети, серверы и терминалы",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=SGI%20Indy%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "SGI O2",
+  "group": "Сети, серверы и терминалы",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=SGI%20O2%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sun SPARCstation 20",
+  "group": "Сети, серверы и терминалы",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Sun%20SPARCstation%2020%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sun Ultra 5",
+  "group": "Сети, серверы и терминалы",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Sun%20Ultra%205%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Galaksija",
+  "group": "Советские и восточноевропейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Galaksija%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "MC1201",
+  "group": "Советские и восточноевропейские компьютеры",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/xolod79/MC1201",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Orao",
+  "group": "Советские и восточноевропейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Orao%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Tesla Ondra SPO-186",
+  "group": "Советские и восточноевропейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Tesla%20Ondra%20SPO-186%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Tesla PMD 85",
+  "group": "Советские и восточноевропейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=Tesla%20PMD%2085%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Апогей БК-01",
+  "group": "Советские и восточноевропейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=%D0%90%D0%BF%D0%BE%D0%B3%D0%B5%D0%B9%20%D0%91%D0%9A-01%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Вектор-06Ц",
+  "group": "Советские и восточноевропейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=%D0%92%D0%B5%D0%BA%D1%82%D0%BE%D1%80-06%D0%A6%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Радио-86РК",
+  "group": "Советские и восточноевропейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE-86%D0%A0%D0%9A%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Специалист",
+  "group": "Советские и восточноевропейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D1%81%D1%82%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Электроника БК-0010",
+  "group": "Советские и восточноевропейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%B8%D0%BA%D0%B0%20%D0%91%D0%9A-0010%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Электроника БК-0011М",
+  "group": "Советские и восточноевропейские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / проверить конкретную сборку",
+  "url": "https://github.com/search?q=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%B8%D0%BA%D0%B0%20%D0%91%D0%9A-0011%D0%9C%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "MiSTer2MEGA65",
+  "group": "Средства портирования",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/sy2002/MiSTer2MEGA65",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Cisco CP-7960G",
+  "group": "Телекоммуникации",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Cisco%20CP-7960G%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Digits vintage VoIP",
+  "group": "Телекоммуникации",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/justinlindh/digits",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "Hayes Smartmodem 1200",
+  "group": "Телекоммуникации",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Hayes%20Smartmodem%201200%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Motorola Pageboy II",
+  "group": "Телекоммуникации",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Motorola%20Pageboy%20II%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Motorola RADIUS GM300",
+  "group": "Телекоммуникации",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Motorola%20RADIUS%20GM300%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Nortel Meridian 1",
+  "group": "Телекоммуникации",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Nortel%20Meridian%201%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Polycom SoundStation 2",
+  "group": "Телекоммуникации",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Polycom%20SoundStation%202%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Siemens Hicom 300",
+  "group": "Телекоммуникации",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Siemens%20Hicom%20300%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Tait TM8100",
+  "group": "Телекоммуникации",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Tait%20TM8100%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Telebit TrailBlazer",
+  "group": "Телекоммуникации",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Telebit%20TrailBlazer%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "USRobotics Courier V.Everything",
+  "group": "Телекоммуникации",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=USRobotics%20Courier%20V.Everything%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "VT100 fpga-vt",
+  "group": "Терминалы",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/howardjones/fpga-vt",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "VT52 MiSTer",
+  "group": "Терминалы",
+  "kind": "Репозиторий / инструмент",
+  "status": "Ссылка из беседы; доступность и статус требуют проверки",
+  "url": "https://github.com/MiSTer-devel/VT52_MiSTer",
+  "url_kind": "Конкретная ссылка",
+  "origin": "Ранее приведённая ссылка"
+ },
+ {
+  "name": "DDS-генератор",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=DDS-%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "DSP-эквалайзер",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=DSP-%D1%8D%D0%BA%D0%B2%D0%B0%D0%BB%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Ethernet-пакетный генератор",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=Ethernet-%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%D0%BD%D1%8B%D0%B9%20%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "HDMI-паттерн-генератор",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=HDMI-%D0%BF%D0%B0%D1%82%D1%82%D0%B5%D1%80%D0%BD-%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "I²C-анализатор",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=I%C2%B2C-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "LCR-измеритель",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=LCR-%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "MIDI-маршрутизатор",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=MIDI-%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "MIDI-секвенсор",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=MIDI-%D1%81%D0%B5%D0%BA%D0%B2%D0%B5%D0%BD%D1%81%D0%BE%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "PS/2-контроллер",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=PS%2F2-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "PWM-генератор",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=PWM-%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "SPI-анализатор",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=SPI-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "UART-терминал",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=UART-%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "VGA-тестовый генератор",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=VGA-%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Аппаратный криптопроцессор",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=%D0%90%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B9%20%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Аппаратный сетевой коммутатор",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=%D0%90%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9%20%D0%BA%D0%BE%D0%BC%D0%BC%D1%83%D1%82%D0%B0%D1%82%D0%BE%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Аудиоосциллограф",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=%D0%90%D1%83%D0%B4%D0%B8%D0%BE%D0%BE%D1%81%D1%86%D0%B8%D0%BB%D0%BB%D0%BE%D0%B3%D1%80%D0%B0%D1%84%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Контроллер дисплея VFD",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D1%80%20%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D1%8F%20VFD%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Промышленный контроллер",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=%D0%9F%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Ревербератор",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=%D0%A0%D0%B5%D0%B2%D0%B5%D1%80%D0%B1%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Телетекст-декодер",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=%D0%A2%D0%B5%D0%BB%D0%B5%D1%82%D0%B5%D0%BA%D1%81%D1%82-%D0%B4%D0%B5%D0%BA%D0%BE%D0%B4%D0%B5%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Цифровой VU-meter",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=%D0%A6%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B9%20VU-meter%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Цифровой микшер",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=%D0%A6%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%BC%D0%B8%D0%BA%D1%88%D0%B5%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Частотомер",
+  "group": "Технические устройства и модули",
+  "kind": "Идея устройства",
+  "status": "Без подтверждённой конкретной реализации",
+  "url": "https://github.com/search?q=%D0%A7%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%BE%D0%BC%D0%B5%D1%80%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Canon PowerShot A20",
+  "group": "Фото и камеры",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Canon%20PowerShot%20A20%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Casio QV-10",
+  "group": "Фото и камеры",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Casio%20QV-10%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Connectix QuickCam",
+  "group": "Фото и камеры",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Connectix%20QuickCam%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Fujifilm FinePix S1 Pro",
+  "group": "Фото и камеры",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Fujifilm%20FinePix%20S1%20Pro%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Kodak DC40",
+  "group": "Фото и камеры",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Kodak%20DC40%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Logitech QuickCam VC",
+  "group": "Фото и камеры",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Logitech%20QuickCam%20VC%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Nikon Coolpix 990",
+  "group": "Фото и камеры",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Nikon%20Coolpix%20990%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Olympus C-2000 Zoom",
+  "group": "Фото и камеры",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Olympus%20C-2000%20Zoom%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sony Mavica MVC-CD1000",
+  "group": "Фото и камеры",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Sony%20Mavica%20MVC-CD1000%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sony Mavica MVC-FD91",
+  "group": "Фото и камеры",
+  "kind": "Устройство / кандидат",
+  "status": "FPGA-реализация не подтверждена",
+  "url": "https://github.com/search?q=Sony%20Mavica%20MVC-FD91%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Bandai RX-78",
+  "group": "Японские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / отдельные позиции требуют проверки",
+  "url": "https://github.com/search?q=Bandai%20RX-78%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Casio PV-2000",
+  "group": "Японские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / отдельные позиции требуют проверки",
+  "url": "https://github.com/search?q=Casio%20PV-2000%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Fujitsu FM Towns",
+  "group": "Японские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / отдельные позиции требуют проверки",
+  "url": "https://github.com/search?q=Fujitsu%20FM%20Towns%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "NEC PC-8801mkII SR",
+  "group": "Японские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / отдельные позиции требуют проверки",
+  "url": "https://github.com/search?q=NEC%20PC-8801mkII%20SR%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sharp MZ-700",
+  "group": "Японские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / отдельные позиции требуют проверки",
+  "url": "https://github.com/search?q=Sharp%20MZ-700%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sharp MZ-80K",
+  "group": "Японские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / отдельные позиции требуют проверки",
+  "url": "https://github.com/search?q=Sharp%20MZ-80K%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sharp X68000",
+  "group": "Японские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / отдельные позиции требуют проверки",
+  "url": "https://github.com/search?q=Sharp%20X68000%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Sord M5",
+  "group": "Японские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / отдельные позиции требуют проверки",
+  "url": "https://github.com/search?q=Sord%20M5%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Tomy Pyūta Jr.",
+  "group": "Японские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / отдельные позиции требуют проверки",
+  "url": "https://github.com/search?q=Tomy%20Py%C5%ABta%20Jr.%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ },
+ {
+  "name": "Tomy Tutor",
+  "group": "Японские компьютеры",
+  "kind": "Исторический компьютер",
+  "status": "MiSTer / отдельные позиции требуют проверки",
+  "url": "https://github.com/search?q=Tomy%20Tutor%20FPGA&type=repositories",
+  "url_kind": "Поиск, не подтверждение",
+  "origin": "Поиск GitHub — НЕ подтверждённый репозиторий"
+ }
+]

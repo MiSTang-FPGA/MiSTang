@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "rev": 5,
+  "savedAt": "2026-11-02T02:37:30.480Z",
+  "id": "project-xqqfx1",
+  "name": "MiSTang-FPGA",
+  "color": "#0a84ff",
+  "viewport": {
+    "x": -300,
+    "y": -130,
+    "zoom": 1
+  },
+  "nodes": [
+    {
+      "id": "term-mvyne4q3-ac3f9a58",
+      "kind": "terminal",
+      "position": {
+        "x": 380,
+        "y": 210
+      },
+      "size": {
+        "width": 640,
+        "height": 440
+      },
+      "title": "Перенос ядер MiSTer на Tang Nano 20K",
+      "titleAuto": true,
+      "color": "#d97757",
+      "group": null,
+      "tags": [],
+      "hideFanout": false,
+      "cwd": ".",
+      "agentId": "claude",
+      "agentSessionId": "c06e2189-857e-45d5-a6b8-a5f4ac2fc3c0"
+    }
+  ],
+  "bridges": [],
+  "ropes": []
+}

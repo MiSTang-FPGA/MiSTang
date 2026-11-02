@@ -47,7 +47,7 @@ RECONFIG_N       fabric pulls pin 9 low  → FPGA reloads at header address
 
 <section class="light"><div class="wrap">
 <p class="eyebrow">Cores</p><h2>Our own<br>cores.</h2>
-<p class="lead">Cores are written here or come from the Open Pocket projects. The catalog maps the {N} systems of the MiSTer core list to what fits into 20 736 LUT4.</p>
+<p class="lead">Cores are written here or come from the Open Pocket projects. The catalog lists {N} systems from the MiSTer core lists and our own project list, and marks what fits into 20 736 LUT4.</p>
 <div class="grid3">
 <div class="feat"><div class="big-num">2</div><h3>Core repositories</h3><p><a href="https://github.com/MiSTang-FPGA/mistang-core-gbc">Game Boy / Color</a> and <a href="https://github.com/MiSTang-FPGA/mistang-core-ws">WonderSwan / Color</a>, both from Open Pocket.</p></div>
 <div class="feat"><div class="big-num">{N}</div><h3>Systems in the catalog</h3><p>Console, computer, arcade and other. Sorted by whether they fit, not by hype.</p></div>
@@ -62,7 +62,7 @@ RECONFIG_N       fabric pulls pin 9 low  → FPGA reloads at header address
 
 page('cores.html', 'MiSTang · Catalog', 'cores.html', '''
 <section class="page"><div class="wrap"><p class="eyebrow">Catalog</p><h1>What fits in 20 736 LUT4.</h1>
-<p class="lead">The systems of the MiSTer core lists, sorted by an honest guess. “Proven” means a port already runs on a Tang Nano 20K. Links lead to the original projects as reference; MiSTang cores are our own.</p>
+<p class="lead">The MiSTer core lists plus our own project list, sorted by an honest guess. “Not assessed” entries have a search link, not a repository. “Proven” means a port already runs on a Tang Nano 20K. Links lead to the original projects as reference; MiSTang cores are our own.</p>
 <div id="tiers" style="display:flex;gap:8px;flex-wrap:wrap;margin:40px 0 14px"></div>
 <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px"><input id="q" placeholder="Search — nes, pac-man, amstrad…" style="flex:1;min-width:240px"><select id="cat"><option value="">All types</option><option>console</option><option>computer</option><option>arcade</option><option>other</option></select></div>
 <div id="count" class="caption" style="margin-bottom:10px"></div><div id="grid"></div></div></section>
@@ -72,8 +72,8 @@ page('cores.html', 'MiSTang · Catalog', 'cores.html', '''
 .row b{font-weight:500;font-size:17px}.row small{color:#7a7a7a;font-size:14px}.row .k{color:#7a7a7a;font-size:13px;white-space:nowrap}
 @media(max-width:760px){.row{grid-template-columns:1fr auto}.row small,.row .k{display:none}}</style>
 <script type="module">
-const data=await (await fetch('data/catalog.json')).json();const $=s=>document.querySelector(s);let tier='';const T=['proven','likely','maybe','no'];
-const names={proven:'Proven on 20K',likely:'Likely',maybe:'Research',no:'Will not fit'};
+const data=await (await fetch('data/catalog.json')).json();const $=s=>document.querySelector(s);let tier='';const T=['proven','likely','maybe','idea','no'];
+const names={proven:'Proven on 20K',likely:'Likely',maybe:'Research',idea:'Not assessed',no:'Will not fit'};
 $('#tiers').innerHTML=['',...T].map(t=>`<button class="tb" data-t="${t}">${t?names[t]:'All'} ${t?data.filter(c=>c.tier===t).length:data.length}</button>`).join('');
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function draw(){const q=$('#q').value.toLowerCase(),cat=$('#cat').value;const rows=data.filter(c=>(!tier||c.tier===tier)&&(!cat||c.category===cat)&&(c.name+' '+c.systems).toLowerCase().includes(q));

@@ -21,10 +21,15 @@ try {
   await g.loadSram(sramBytes(coreBytes), null);
   const base = await g.reg32(0x13); console.log('core running, usercode', hex(base), '- HOLD S1+S2 for 2 s now (window', WIN, 's)');
   let changed = null;
-  for (let t = 0; t < WIN * 2; t++) { await sleep(500); const u = await g.reg32(0x13); if (u !== base) { changed = [t / 2, u]; break; } }
+  for (let t = 0; t < WIN * 2; t++) { await sleep(500); const u = await g.reg32(0x13); if (u !== base) { // 0x0 = read during reconfiguration; wait for the new design to settle
+      let v = u; for (let k = 0; k < 20 && (v === 0 || v === base); k++) { await sleep(500); v = await g.reg32(0x13); }
+      for (let k = 0; k < 6; k++) { console.log(`  +${k * 0.5}s after reload: status ${hex(await g.status())} usercode ${hex(await g.reg32(0x13))}`); await sleep(500); }
+      changed = [t / 2, v]; break; } }
   console.log(changed ? `RELOADED at +${changed[0]}s, usercode ${hex(changed[1])} (stub B expected 0xfd4b)` : 'NO RELOAD within window');
 } finally {
   if (dirty) { await g.flashOpen(); for (let a = ADDR; a < ADDR + len; a += 4096) { await g.spi([0x06]); await g.spi([0x20, a >> 16 & 255, a >> 8 & 255, a & 255]); await g.spiBusy(); }
     console.log('flash region restored blank:', (await g.flashRead(ADDR, len)).every(b => b === 0xFF)); }
+  // leave a bitstream with multiboot=0 loaded before RELOAD, so the reload cannot target the (now blank) test region
+  await g.loadSram(sramBytes(B.bytes), null).catch(e => console.log('cleanup load failed', e.message));
   await g.flashClose(); await j.close();
 }

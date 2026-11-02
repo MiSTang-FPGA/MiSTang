@@ -1,6 +1,6 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MiSTang · Catalog</title><meta name="description" content="MiSTang: many FPGA cores on one Tang Nano 20K. Web flasher, HDMI capture, core catalog."><link rel="stylesheet" href="assets/site.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=VT323&display=swap" rel="stylesheet"></head><body><nav class="top"><a class="brand" href="index.html">MiSTang</a><div class="links"><a class="" href="cores.html">Cores</a><a class="" href="how.html">How it works</a><a class="" href="studio/">Studio</a></div><a class="gh" href="https://github.com/MiSTang-FPGA/MiSTang">GitHub</a></nav>
 <section class="page"><div class="wrap"><p class="eyebrow">Catalog</p><h1>What fits in 20 736 LUT4.</h1>
-<p class="lead">The systems of the MiSTer core lists, sorted by an honest guess. “Proven” means a port already runs on a Tang Nano 20K. Links lead to the original projects as reference; MiSTang cores are our own.</p>
+<p class="lead">The MiSTer core lists plus our own project list, sorted by an honest guess. “Not assessed” entries have a search link, not a repository. “Proven” means a port already runs on a Tang Nano 20K. Links lead to the original projects as reference; MiSTang cores are our own.</p>
 <div id="tiers" style="display:flex;gap:8px;flex-wrap:wrap;margin:40px 0 14px"></div>
 <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px"><input id="q" placeholder="Search — nes, pac-man, amstrad…" style="flex:1;min-width:240px"><select id="cat"><option value="">All types</option><option>console</option><option>computer</option><option>arcade</option><option>other</option></select></div>
 <div id="count" class="caption" style="margin-bottom:10px"></div><div id="grid"></div></div></section>
@@ -10,8 +10,8 @@
 .row b{font-weight:500;font-size:17px}.row small{color:#7a7a7a;font-size:14px}.row .k{color:#7a7a7a;font-size:13px;white-space:nowrap}
 @media(max-width:760px){.row{grid-template-columns:1fr auto}.row small,.row .k{display:none}}</style>
 <script type="module">
-const data=await (await fetch('data/catalog.json')).json();const $=s=>document.querySelector(s);let tier='';const T=['proven','likely','maybe','no'];
-const names={proven:'Proven on 20K',likely:'Likely',maybe:'Research',no:'Will not fit'};
+const data=await (await fetch('data/catalog.json')).json();const $=s=>document.querySelector(s);let tier='';const T=['proven','likely','maybe','idea','no'];
+const names={proven:'Proven on 20K',likely:'Likely',maybe:'Research',idea:'Not assessed',no:'Will not fit'};
 $('#tiers').innerHTML=['',...T].map(t=>`<button class="tb" data-t="${t}">${t?names[t]:'All'} ${t?data.filter(c=>c.tier===t).length:data.length}</button>`).join('');
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function draw(){const q=$('#q').value.toLowerCase(),cat=$('#cat').value;const rows=data.filter(c=>(!tier||c.tier===tier)&&(!cat||c.category===cat)&&(c.name+' '+c.systems).toLowerCase().includes(q));

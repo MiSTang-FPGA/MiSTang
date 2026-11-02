@@ -16,6 +16,13 @@ Multi-core retro FPGA platform for the **Sipeed Tang Nano 20K** (GW2AR-18). Core
 
 Nothing here claims a MiSTer core already runs on this board unless the catalog says *proven* and links the project that did it.
 
+## Screenshots
+Real captures from the board over USB-UART (`tools/capture_screen.py`, no capture card needed):
+
+![Game Boy core menu on the Tang Nano 20K](docs/img/gbc-menu-board.png)
+
+*Game Boy / Color core (Open Pocket GBC 1.9.1 bitstream, loaded with MiSTang's JTAG code), menu composite as sent by the board.*
+
 ## Core repositories
 One core per repository, all built from the same [template](https://github.com/MiSTang-FPGA/mistang-core-template):
 - [mistang-core-gbc](https://github.com/MiSTang-FPGA/mistang-core-gbc) — Game Boy / Color (from open-pocket-gbc)

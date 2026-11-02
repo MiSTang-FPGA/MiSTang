@@ -30,6 +30,7 @@ One core per repository, all built from the same [template](https://github.com/M
 - [mistang-core-ws](https://github.com/MiSTang-FPGA/mistang-core-ws) — WonderSwan / Color (from open-pocket-ws)
 - [mistang-core-chip8](https://github.com/MiSTang-FPGA/mistang-core-chip8) — CHIP-8, written from scratch (CPU verified against a reference interpreter in simulation)
 - [mistang-core-pong](https://github.com/MiSTang-FPGA/mistang-core-pong) — Pong, written from scratch (frame verified against a reference model in simulation)
+- [mistang-core-apple1](https://github.com/MiSTang-FPGA/mistang-core-apple1) — Apple I style computer: 6502, monitor, 40x24 terminal (CPU and system verified against references in simulation)
 
 Neither is hooked into the launcher yet. Policy: cores are the author's own (open-pocket-gbc / open-pocket-ws) or written from scratch here — no forks of other projects.
 

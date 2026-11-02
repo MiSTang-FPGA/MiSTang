@@ -2060,6 +2060,7 @@
   "category": "computer",
   "systems": "Apple I",
   "sdram": false,
+  "mistang": "https://github.com/MiSTang-FPGA/mistang-core-apple1",
   "tier": "maybe",
   "note": "Fits only after trimming (no CD/expansion, reduced audio, simple scaler). Research item.",
   "id": "apple-i"

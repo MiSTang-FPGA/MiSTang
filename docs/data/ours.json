@@ -11,7 +11,7 @@
  {"name": "Pong", "system": "AY-3-8500 style", "repo": "mistang-core-pong", "origin": "Written from scratch",
   "state": "sim", "verified": "Game logic matches a reference model after 900 steps; the UART screenshot stream matches in a top-level simulation. Bitstream meets timing. Board screenshot pending.",
   "image": "img/core-pong-sim.png", "image_note": "Frame from simulation"},
- {"name": "Apple I", "system": "6502 computer", "repo": "", "origin": "Written from scratch",
-  "state": "wip", "verified": "6502 CPU in progress: 37 of 40 random-program tests match the reference in binary mode, 31 of 40 with decimal mode. System, monitor and text screen not started.",
-  "image": "", "image_note": ""}
+ {"name": "Apple I", "system": "6502 computer", "repo": "mistang-core-apple1", "origin": "Written from scratch",
+  "state": "sim", "verified": "6502 passes 200 of 200 random-program comparisons with a reference (binary and decimal). A monitor session through the UART matches a reference model screen. Bitstream meets timing (pixel clock 108 MHz at 74.25 needed). Board screenshot pending.",
+  "image": "img/core-apple1-sim.png", "image_note": "Monitor session from simulation"}
 ]

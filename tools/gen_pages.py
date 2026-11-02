@@ -5,7 +5,7 @@ D = pathlib.Path(__file__).resolve().parent.parent / 'docs'
 N = len(json.loads((D/'data/catalog.json').read_text()))
 FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=VT323&display=swap" rel="stylesheet">'
 def nav(active, base=''):
-    items = [('cores', 'Cores', 'cores.html'), ('how', 'How it works', 'how.html'), ('studio', 'Studio', 'studio/')]
+    items = [('ours', 'Our cores', 'ours.html'), ('cores', 'Catalog', 'cores.html'), ('how', 'How it works', 'how.html'), ('studio', 'Studio', 'studio/')]
     a = ''.join(f'<a class="{"on" if k == active else ""}" href="{base}{h}">{t}</a>' for k, t, h in items)
     return f'<nav class="top"><a class="brand" href="{base}index.html">MiSTang</a><div class="links">{a}</div><a class="gh" href="https://github.com/MiSTang-FPGA/MiSTang">GitHub</a></nav>'
 FOOT = '<footer><div class="wrap"><span>MiSTang · multi-core FPGA platform for the Sipeed Tang Nano 20K</span><span>Cores are our own or from LakoMoor’s Open Pocket projects. <a href="https://github.com/MiSTang-FPGA">GitHub</a></span></div></footer>'
@@ -49,7 +49,7 @@ RECONFIG_N       fabric pulls pin 9 low  → FPGA reloads at header address
 <p class="eyebrow">Cores</p><h2>Our own<br>cores.</h2>
 <p class="lead">Cores are written here or come from the Open Pocket projects. The catalog lists {N} systems from the MiSTer core lists and our own project list, and marks what fits into 20 736 LUT4.</p>
 <div class="grid3">
-<div class="feat"><div class="big-num">2</div><h3>Core repositories</h3><p><a href="https://github.com/MiSTang-FPGA/mistang-core-gbc">Game Boy / Color</a> and <a href="https://github.com/MiSTang-FPGA/mistang-core-ws">WonderSwan / Color</a>, both from Open Pocket.</p></div>
+<div class="feat"><div class="big-num">4</div><h3>Core repositories</h3><p><a href="https://github.com/MiSTang-FPGA/mistang-core-gbc">Game Boy / Color</a> and <a href="https://github.com/MiSTang-FPGA/mistang-core-ws">WonderSwan / Color</a> from Open Pocket, plus <a href="https://github.com/MiSTang-FPGA/mistang-core-chip8">CHIP-8</a> and <a href="https://github.com/MiSTang-FPGA/mistang-core-pong">Pong</a> written from scratch. <a href="ours.html">Status of each</a>.</p></div>
 <div class="feat"><div class="big-num">{N}</div><h3>Systems in the catalog</h3><p>Console, computer, arcade and other. Sorted by whether they fit, not by hype.</p></div>
 <div class="feat"><div class="big-num">20 736</div><h3>LUT4 to share</h3><p>Plus 828 Kbit of block RAM and 8 MB of SDRAM. PSX, N64 and Saturn will not fit.</p></div>
 </div>
@@ -60,7 +60,25 @@ RECONFIG_N       fabric pulls pin 9 low  → FPGA reloads at header address
 <div class="doclinks"><a href="how.html">How cores load from SD<span>→</span></a><a href="cores.html">Core catalog<span>→</span></a><a href="studio/">Web Studio<span>→</span></a>
 <a href="https://github.com/MiSTang-FPGA/MiSTang/blob/main/docs/design/launcher.md">Launcher design<span>→</span></a><a href="https://github.com/MiSTang-FPGA/MiSTang/tree/main/hwtest/reconfig">RECONFIG_N test<span>→</span></a><a href="https://github.com/MiSTang-FPGA">GitHub organisation<span>→</span></a></div></div></section>''')
 
-page('cores.html', 'MiSTang · Catalog', 'cores.html', '''
+page('ours.html', 'MiSTang · Our cores', 'ours', '''
+<section class="page"><div class="wrap"><p class="eyebrow">Our cores</p><h1>What we have built.</h1>
+<p class="lead">Every core here is our own: written from scratch or taken from LakoMoor’s Open Pocket projects. Each one lives in its own repository and is checked before it is listed. “Simulation” means verified against a reference model, “Board” means it runs on a Tang Nano 20K.</p>
+<div id="ours" style="margin-top:50px"></div></div></section>
+<style>.oc{display:grid;grid-template-columns:minmax(240px,1fr) 2fr;gap:34px;padding:34px 0;border-top:1px solid var(--hair)}
+.oc img{width:100%;image-rendering:pixelated;border:1px solid #3c3c3c;background:#0b0b0b}.oc .noimg{display:flex;align-items:center;justify-content:center;aspect-ratio:4/3;border:1px dashed #3c3c3c;color:#7a7a7a;font-size:14px}
+.oc h3{margin:0 0 6px;font-weight:500;font-size:24px}.oc .sys{color:#7a7a7a;margin-bottom:14px}.oc p{color:#bdbdbd;line-height:1.55}.oc a{color:#fff}
+.st{display:inline-block;margin-right:10px;padding:4px 12px;border:1px solid #3c3c3c;border-radius:100px;font-size:13px;color:#a6a6a6}.st.board{background:#fff;color:#000;border-color:#fff}
+@media(max-width:760px){.oc{grid-template-columns:1fr}}</style>
+<script type="module">
+const data=await (await fetch('data/ours.json')).json();
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const label={board:'Board',sim:'Simulation',wip:'In progress'};
+document.querySelector('#ours').innerHTML=data.map(c=>`<div class="oc"><div>${c.image?`<img src="${esc(c.image)}" alt="${esc(c.name)}"><div class="caption" style="margin-top:8px">${esc(c.image_note)}</div>`:'<div class="noimg">no screenshot yet</div>'}</div>
+<div><h3>${esc(c.name)}</h3><div class="sys">${esc(c.system)} · ${esc(c.origin)}</div><span class="st ${c.state}">${label[c.state]||c.state}</span>
+<p>${esc(c.verified)}</p>${c.repo?`<p><a href="https://github.com/MiSTang-FPGA/${esc(c.repo)}">github.com/MiSTang-FPGA/${esc(c.repo)}</a></p>`:''}</div></div>`).join('');
+</script>''')
+
+page('cores.html', 'MiSTang · Catalog', 'cores', '''
 <section class="page"><div class="wrap"><p class="eyebrow">Catalog</p><h1>What fits in 20 736 LUT4.</h1>
 <p class="lead">The MiSTer core lists plus our own project list, sorted by an honest guess. “Not assessed” entries have a search link, not a repository. “Proven” means a port already runs on a Tang Nano 20K. Links lead to the original projects as reference; MiSTang cores are our own.</p>
 <div id="tiers" style="display:flex;gap:8px;flex-wrap:wrap;margin:40px 0 14px"></div>
@@ -83,7 +101,7 @@ for(const b of document.querySelectorAll('.tb'))b.classList.toggle('on',b.datase
 $('#tiers').onclick=e=>{const b=e.target.closest('.tb');if(b){tier=b.dataset.t;draw()}};$('#q').oninput=draw;$('#cat').onchange=draw;draw();
 </script>''')
 
-page('how.html', 'MiSTang · How it works', 'how.html', '''
+page('how.html', 'MiSTang · How it works', 'how', '''
 <section class="page"><div class="wrap prose"><p class="eyebrow">Research notes · 2026-11-01</p><h1>Cores from an SD card.</h1>
 <p class="lead">A MiSTer swaps the whole FPGA configuration from a Linux HPS. The Nano 20K has none, but it has a Gowin multiboot path and a SPI flash large enough to stage a core.</p>
 

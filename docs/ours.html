@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MiSTang · Our cores</title><meta name="description" content="MiSTang: many FPGA cores on one Tang Nano 20K. Web flasher, HDMI capture, core catalog."><link rel="stylesheet" href="assets/site.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=VT323&display=swap" rel="stylesheet"></head><body><nav class="top"><a class="brand" href="index.html">MiSTang</a><div class="links"><a class="on" href="ours.html">Our cores</a><a class="" href="cores.html">Catalog</a><a class="" href="how.html">How it works</a><a class="" href="studio/">Studio</a></div><a class="gh" href="https://github.com/MiSTang-FPGA/MiSTang">GitHub</a></nav>
+<section class="page"><div class="wrap"><p class="eyebrow">Our cores</p><h1>What we have built.</h1>
+<p class="lead">Every core here is our own: written from scratch or taken from LakoMoor’s Open Pocket projects. Each one lives in its own repository and is checked before it is listed. “Simulation” means verified against a reference model, “Board” means it runs on a Tang Nano 20K.</p>
+<div id="ours" style="margin-top:50px"></div></div></section>
+<style>.oc{display:grid;grid-template-columns:minmax(240px,1fr) 2fr;gap:34px;padding:34px 0;border-top:1px solid var(--hair)}
+.oc img{width:100%;image-rendering:pixelated;border:1px solid #3c3c3c;background:#0b0b0b}.oc .noimg{display:flex;align-items:center;justify-content:center;aspect-ratio:4/3;border:1px dashed #3c3c3c;color:#7a7a7a;font-size:14px}
+.oc h3{margin:0 0 6px;font-weight:500;font-size:24px}.oc .sys{color:#7a7a7a;margin-bottom:14px}.oc p{color:#bdbdbd;line-height:1.55}.oc a{color:#fff}
+.st{display:inline-block;margin-right:10px;padding:4px 12px;border:1px solid #3c3c3c;border-radius:100px;font-size:13px;color:#a6a6a6}.st.board{background:#fff;color:#000;border-color:#fff}
+@media(max-width:760px){.oc{grid-template-columns:1fr}}</style>
+<script type="module">
+const data=await (await fetch('data/ours.json')).json();
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const label={board:'Board',sim:'Simulation',wip:'In progress'};
+document.querySelector('#ours').innerHTML=data.map(c=>`<div class="oc"><div>${c.image?`<img src="${esc(c.image)}" alt="${esc(c.name)}"><div class="caption" style="margin-top:8px">${esc(c.image_note)}</div>`:'<div class="noimg">no screenshot yet</div>'}</div>
+<div><h3>${esc(c.name)}</h3><div class="sys">${esc(c.system)} · ${esc(c.origin)}</div><span class="st ${c.state}">${label[c.state]||c.state}</span>
+<p>${esc(c.verified)}</p>${c.repo?`<p><a href="https://github.com/MiSTang-FPGA/${esc(c.repo)}">github.com/MiSTang-FPGA/${esc(c.repo)}</a></p>`:''}</div></div>`).join('');
+</script><footer><div class="wrap"><span>MiSTang · multi-core FPGA platform for the Sipeed Tang Nano 20K</span><span>Cores are our own or from LakoMoor’s Open Pocket projects. <a href="https://github.com/MiSTang-FPGA">GitHub</a></span></div></footer></body></html>

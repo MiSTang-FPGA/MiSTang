@@ -677,6 +677,7 @@
   "category": "arcade",
   "systems": "Pong",
   "sdram": false,
+  "mistang": "https://github.com/MiSTang-FPGA/mistang-core-pong",
   "tier": "likely",
   "note": "Small 8-bit arcade board: ROM into SDRAM from SD, video via the shared HDMI scaler.",
   "id": "pong"
@@ -1057,6 +1058,7 @@
   "category": "computer",
   "systems": "CHIP-8 by Joseph Weisbecker",
   "sdram": false,
+  "mistang": "https://github.com/MiSTang-FPGA/mistang-core-chip8",
   "tier": "likely",
   "note": "8-bit class system; fits the 20K LUT budget in principle.",
   "id": "chip8"
@@ -1517,6 +1519,7 @@
   "category": "console",
   "systems": "\"Pong-on-a-chip\"",
   "sdram": false,
+  "mistang": "https://github.com/MiSTang-FPGA/mistang-core-pong",
   "tier": "likely",
   "note": "8-bit class system; fits the 20K LUT budget in principle.",
   "id": "ay-3-8500"

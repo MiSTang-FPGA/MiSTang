@@ -32,7 +32,12 @@ One core per repository, all built from the same [template](https://github.com/M
 - [mistang-core-pong](https://github.com/MiSTang-FPGA/mistang-core-pong) — Pong, written from scratch (frame verified against a reference model in simulation)
 - [mistang-core-apple1](https://github.com/MiSTang-FPGA/mistang-core-apple1) — Apple I style computer: 6502, monitor, 40x24 terminal (CPU and system verified against references in simulation)
 
-Neither is hooked into the launcher yet. Policy: cores are the author's own (open-pocket-gbc / open-pocket-ws) or written from scratch here — no forks of other projects.
+Policy (updated 2026-11-04): cores are the author's own, written from scratch, or **ports of GPL MiSTer cores with LICENSE and upstream credit kept**. Start a port with `python tools/portcore.py <MiSTer repo URL> --id <id>`: it clones the core, lists the MiSTer framework dependencies to replace and writes a scaffold with a checklist. No port has been built yet.
+
+## Launcher (SD → flash → switch)
+`launcher/` holds the launcher firmware (`launcher/fw/main.c`: lists `/MiSTang/cores/*.json`, copies the `.bin` to flash slot A, verifies, pulls `RECONFIG_N`) and `launcher/build.sh`, which patches an Open Pocket GBC checkout with one extra pin. **Status: the firmware passes a host-compiler syntax check only; it has not been built with the RISC-V toolchain, synthesised, or run on the board.**
+
+Other design notes: [RISC-V soft cores and why XNU/Darwin is out of reach](docs/design/riscv.md).
 
 ## Layout
 ```

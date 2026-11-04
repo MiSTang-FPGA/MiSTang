@@ -1,17 +1,102 @@
 [
- {"name": "Game Boy / Game Boy Color", "system": "Nintendo handheld", "repo": "mistang-core-gbc", "origin": "Open Pocket GBC (LakoMoor)",
-  "state": "board", "verified": "Runs on the Tang Nano 20K (HDMI + LCD). Return to the launcher via RECONFIG_N is being added.",
-  "image": "img/gbc-menu-board.png", "image_note": "Menu on the real board, over the UART screen stream"},
- {"name": "WonderSwan / WonderSwan Color", "system": "Bandai handheld", "repo": "mistang-core-ws", "origin": "Open Pocket WS (LakoMoor)",
-  "state": "board", "verified": "Builds for the Tang Nano 20K at about 75 percent of the LUTs. Return hook not built yet.",
-  "image": "", "image_note": ""},
- {"name": "CHIP-8", "system": "COSMAC VIP interpreter", "repo": "mistang-core-chip8", "origin": "Written from scratch",
-  "state": "sim", "verified": "All 35 opcodes. The whole frame matches an independent reference interpreter in simulation. The board bitstream builds and meets timing (pixel clock 82 MHz at 74.25 needed). Board screenshot pending.",
-  "image": "img/core-chip8-sim.png", "image_note": "Frame from simulation"},
- {"name": "Pong", "system": "AY-3-8500 style", "repo": "mistang-core-pong", "origin": "Written from scratch",
-  "state": "sim", "verified": "Game logic matches a reference model after 900 steps; the UART screenshot stream matches in a top-level simulation. Bitstream meets timing. Board screenshot pending.",
-  "image": "img/core-pong-sim.png", "image_note": "Frame from simulation"},
- {"name": "Apple I", "system": "6502 computer", "repo": "mistang-core-apple1", "origin": "Written from scratch",
-  "state": "sim", "verified": "6502 passes 200 of 200 random-program comparisons with a reference (binary and decimal). A monitor session through the UART matches a reference model screen. Bitstream meets timing (pixel clock 108 MHz at 74.25 needed). Board screenshot pending.",
-  "image": "img/core-apple1-sim.png", "image_note": "Monitor session from simulation"}
+ {
+  "name": "Game Boy / Game Boy Color",
+  "system": "Nintendo handheld",
+  "repo": "mistang-core-gbc",
+  "origin": "Open Pocket GBC (LakoMoor)",
+  "state": "board",
+  "verified": "Runs on the Tang Nano 20K (HDMI + LCD). Return to the launcher via RECONFIG_N is being added.",
+  "image": "img/gbc-menu-board.png",
+  "image_note": "Menu on the real board, over the UART screen stream"
+ },
+ {
+  "name": "WonderSwan / WonderSwan Color",
+  "system": "Bandai handheld",
+  "repo": "mistang-core-ws",
+  "origin": "Open Pocket WS (LakoMoor)",
+  "state": "board",
+  "verified": "Builds for the Tang Nano 20K at about 75 percent of the LUTs. Return hook not built yet.",
+  "image": "",
+  "image_note": ""
+ },
+ {
+  "name": "CHIP-8",
+  "system": "COSMAC VIP interpreter",
+  "repo": "mistang-core-chip8",
+  "origin": "Written from scratch",
+  "state": "sim",
+  "verified": "All 35 opcodes. The whole frame matches an independent reference interpreter in simulation. The board bitstream builds and meets timing (pixel clock 82 MHz at 74.25 needed). Board screenshot pending.",
+  "image": "img/core-chip8-sim.png",
+  "image_note": "Frame from simulation"
+ },
+ {
+  "name": "Pong",
+  "system": "AY-3-8500 style",
+  "repo": "mistang-core-pong",
+  "origin": "Written from scratch",
+  "state": "sim",
+  "verified": "Game logic matches a reference model after 900 steps; the UART screenshot stream matches in a top-level simulation. Bitstream meets timing. Board screenshot pending.",
+  "image": "img/core-pong-sim.png",
+  "image_note": "Frame from simulation"
+ },
+ {
+  "name": "Apple I",
+  "system": "6502 computer",
+  "repo": "mistang-core-apple1",
+  "origin": "Written from scratch",
+  "state": "sim",
+  "verified": "6502 passes 200 of 200 random-program comparisons with a reference (binary and decimal). A monitor session through the UART matches a reference model screen. Bitstream meets timing (pixel clock 108 MHz at 74.25 needed). Board screenshot pending.",
+  "image": "img/core-apple1-sim.png",
+  "image_note": "Monitor session from simulation"
+ },
+ {
+  "name": "Breakout",
+  "system": "Brick breaker",
+  "repo": "mistang-core-breakout",
+  "origin": "Written from scratch",
+  "state": "board",
+  "verified": "Game logic matches an independent reference model in simulation (5 checkpoints, whole frame). Runs on the Tang Nano 20K, started from flash slot A through the launcher's multiboot jump; frame captured over the UART. HDMI output not yet checked on a display.",
+  "image": "img/core-breakout-board.png",
+  "image_note": "Real capture from the board over the UART"
+ },
+ {
+  "name": "Sega Master System / Game Gear",
+  "system": "Sega 8-bit",
+  "repo": "mistang-core-sms",
+  "origin": "Port of MiSTer SMS (GPL)",
+  "state": "wip",
+  "verified": "Scaffold only: upstream HDL and a porting audit. Nothing synthesised for the GW2AR-18 yet. No screenshot until a frame exists.",
+  "image": "",
+  "image_note": ""
+ },
+ {
+  "name": "ColecoVision / SG-1000",
+  "system": "Coleco console",
+  "repo": "mistang-core-colecovision",
+  "origin": "Port of MiSTer ColecoVision (GPL)",
+  "state": "wip",
+  "verified": "Core logic (Z80, TMS9918, SN76489, AY) converts with GHDL and synthesises: about 5 700 LUT4, 30 percent of the device. No top level or board run yet. No screenshot until a frame exists.",
+  "image": "",
+  "image_note": ""
+ },
+ {
+  "name": "Commodore VIC-20",
+  "system": "Commodore computer",
+  "repo": "mistang-core-vic20",
+  "origin": "Port of MiSTer VIC20 (GPL)",
+  "state": "wip",
+  "verified": "Scaffold only: upstream HDL and a porting audit. Nothing synthesised for the GW2AR-18 yet. No screenshot until a frame exists.",
+  "image": "",
+  "image_note": ""
+ },
+ {
+  "name": "ZX Spectrum",
+  "system": "Sinclair computer",
+  "repo": "mistang-core-zx-spectrum",
+  "origin": "Port of MiSTer ZX-Spectrum (GPL)",
+  "state": "wip",
+  "verified": "Scaffold only: upstream HDL and a porting audit. Nothing synthesised for the GW2AR-18 yet. No screenshot until a frame exists.",
+  "image": "",
+  "image_note": ""
+ }
 ]

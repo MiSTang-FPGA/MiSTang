@@ -93,6 +93,8 @@ static void scan(void) {
         while (j >= 0 && strcmp(cores[j].name, t.name) > 0) { cores[j + 1] = cores[j]; j--; }
         cores[j + 1] = t;
     }
+    logf("cores: %d\n", ncores);
+    for (int i = 0; i < ncores; i++) logf("  %s \"%s\" %u bytes\n", cores[i].id, cores[i].name, cores[i].size);
 }
 
 // ---- UI
@@ -172,6 +174,7 @@ static void fail(const char *a, const char *b, uint32_t ms) { message(a, b, CL_R
 
 static int boot_core(const core_t *c) {
     char path[48]; FIL f; UINT br;
+    logf("start %s\n", c->id);
     sfmt(path, sizeof path, "/MiSTang/cores/%s.bin", c->id);
     if (f_open(&f, path, FA_READ) != FR_OK) { fail("Can't open core file", path, 1800); return -1; }
     uint32_t size = f_size(&f);

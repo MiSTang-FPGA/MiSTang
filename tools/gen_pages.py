@@ -26,6 +26,11 @@ RECONFIG_N       fabric pulls pin 9 low  → FPGA reloads at header address
                  USERCODE 0x4EAC → 0xFD4B</pre><p class="caption">Measured on a real Tang Nano 20K, 2026-11-01.</p></div>
 </div></section>
 
+<section><div class="wrap"><p class="eyebrow">On the board</p><h2>Real captures.</h2>
+<p class="lead">Frames taken from a Tang Nano 20K over its USB-UART. Cores that have only run in simulation are on the <a href="ours.html" style="color:#fff">Our cores</a> page and are labelled as such.</p>
+<div class="grid3"><div class="feat"><img src="img/gbc-menu-board.png" alt="Game Boy core menu" style="width:100%;image-rendering:pixelated;border:1px solid #3c3c3c"><h3 style="margin-top:14px">Game Boy / Color</h3><p>Menu of the Open Pocket GBC bitstream, loaded with MiSTang’s JTAG code.</p></div>
+<div class="feat"><img src="img/core-breakout-board.png" alt="Breakout on the board" style="width:100%;image-rendering:pixelated;border:1px solid #3c3c3c"><h3 style="margin-top:14px">Breakout</h3><p>Written here. Started from flash slot A by the launcher’s multiboot jump.</p></div></div></div></section>
+
 <section class="light"><div class="wrap">
 <p class="eyebrow">Cores from SD</p><h2>One slot.<br>Any core.</h2>
 <p class="lead">The FPGA cannot read an SD card into its own configuration, so the launcher stages the chosen core in a flash slot and asks the FPGA to reload from it.</p>

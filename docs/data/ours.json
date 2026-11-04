@@ -64,10 +64,10 @@
   "system": "Atari VCS",
   "repo": "mistang-core-atari2600",
   "origin": "Written from scratch",
-  "state": "sim",
-  "verified": "Cycle-exact 6502: 3 of 3 random programs match a reference model cycle for cycle. The demo frame and the collision latches match a TIA reference. The bitstream builds, meets timing (87 MHz against 74.25 MHz needed) and loads onto the board. No HDMI image yet: the capture card showed black for every core on 2026-11-04, so there is no board screenshot.",
-  "image": "img/core-atari2600-sim.png",
-  "image_note": "Frame from simulation"
+  "state": "board",
+  "verified": "Cycle-exact 6502: 3 of 3 random programs match a reference model cycle for cycle; the demo frame and collision latches match a TIA reference. The first bitstream (Mac toolchain) ran on the Tang Nano 20K and its HDMI frame was captured. Two later builds with the Windows toolchain did not give a stable picture on the capture card; cause not found, so this counts as worked once.",
+  "image": "img/core-atari2600-board.png",
+  "image_note": "HDMI frame from the real board (first bitstream)"
  },
  {
   "name": "Sega Master System / Game Gear",
@@ -83,11 +83,11 @@
   "name": "ColecoVision / SG-1000",
   "system": "Coleco console",
   "repo": "mistang-core-colecovision",
-  "origin": "Port of MiSTer ColecoVision (GPL)",
-  "state": "wip",
-  "verified": "Core logic (Z80, TMS9918, SN76489, AY) converts with GHDL and synthesises: about 5 700 LUT4, 30 percent of the device. No top level or board run yet. No screenshot until a frame exists.",
-  "image": "",
-  "image_note": ""
+  "origin": "ColecoVision_MiSTer (Z80, TMS9918A, SN76489) with a new Tang top level",
+  "state": "board",
+  "verified": "The upstream console core runs the real ColecoVision BIOS and an original test cartridge on the Tang Nano 20K (6 200 LUT4, 30 percent). The HDMI frame was captured; about 95 percent of its pixels match an independent render of what the cartridge draws, the rest are capture-card colour smear. Sound, controllers other than one button, and loading cartridges from the SD card are not done.",
+  "image": "img/core-colecovision-board.png",
+  "image_note": "HDMI frame from the real board: test cartridge, Graphics I mode"
  },
  {
   "name": "Commodore VIC-20",

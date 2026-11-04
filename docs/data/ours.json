@@ -60,6 +60,16 @@
   "image_note": "Real capture from the board over the UART"
  },
  {
+  "name": "Atari 2600 style",
+  "system": "Atari VCS",
+  "repo": "mistang-core-atari2600",
+  "origin": "Written from scratch",
+  "state": "sim",
+  "verified": "Cycle-exact 6502: 3 of 3 random programs match a reference model cycle for cycle. The demo frame and the collision latches match a TIA reference. The bitstream builds, meets timing (87 MHz against 74.25 MHz needed) and loads onto the board. No HDMI image yet: the capture card showed black for every core on 2026-11-04, so there is no board screenshot.",
+  "image": "img/core-atari2600-sim.png",
+  "image_note": "Frame from simulation"
+ },
+ {
   "name": "Sega Master System / Game Gear",
   "system": "Sega 8-bit",
   "repo": "mistang-core-sms",

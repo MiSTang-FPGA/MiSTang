@@ -1,0 +1,90 @@
+/* Product-illustration grid for the home page. Follows the Stageshow rules (benjitaylor/skills): one hero tile with
+   window chrome, other tiles of different kinds, short copy outside the picture, one frame (radius, gap, padding),
+   real words only where the story is, filler as quiet bars. Plain CSS, no framework. */
+.bento{--gap:14px;--pad:30px;--tile:#111;--tile-edge:#232323;display:grid;grid-template-columns:repeat(3,1fr);gap:var(--gap);margin-top:56px}
+.tile{position:relative;overflow:hidden;background:var(--tile);border:1px solid var(--tile-edge);border-radius:26px;padding:var(--pad);min-height:340px;display:flex;flex-direction:column;isolation:isolate}
+.tile.lead-tile{min-height:470px}.tile.span2{grid-column:span 2}.tile.span3{grid-column:span 3}
+.tile h3{font-size:clamp(18px,1.7vw,22px);font-weight:500;letter-spacing:-.035em;line-height:1.2;margin:0;max-width:30ch;color:#fff}
+.tile h3 span{color:#7a7a7a;font-weight:500}
+.tile .pic{position:relative;flex:1;margin-top:26px;min-height:0}
+@media(max-width:900px){.bento{grid-template-columns:1fr 1fr}.tile.span2,.tile.span3{grid-column:span 2}}
+@media(max-width:560px){.bento{grid-template-columns:1fr}.tile.span2,.tile.span3{grid-column:auto}.tile{min-height:0}}
+
+/* arrival: once, staggered in reading order */
+.tile{opacity:0;transform:translateY(14px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1);transition-delay:calc(var(--i,0) * 90ms)}
+.bento.in .tile{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.tile{opacity:1;transform:none;transition:none}}
+
+/* ---------- hero: the launcher menu, drawn from the firmware layout (42 x 24 OSD cells) ---------- */
+.win{position:absolute;left:0;right:-60px;top:0;bottom:-70px;border-radius:14px 0 0 0;overflow:hidden;background:#161616;box-shadow:0 0 0 1px #2c2c2c,0 30px 80px rgba(0,0,0,.6)}
+.win .bar{height:36px;display:flex;align-items:center;gap:7px;padding:0 15px;background:#1f1f1f;border-bottom:1px solid #2c2c2c}
+.win .bar i{width:11px;height:11px;border-radius:50%;background:#3a3a3a}
+.win .bar b{margin-left:14px;font:400 12px/1 var(--sans);color:#7a7a7a;font-weight:400;letter-spacing:-.01em}
+.osd{font-family:VT323,ui-monospace,monospace;font-size:clamp(17px,1.9vw,24px);line-height:1.22;letter-spacing:.02em;background:#10163a;color:#e9ecff;height:100%;padding:22px 26px 0;position:relative}
+.osd .pill{display:flex;justify-content:space-between;align-items:center;background:#2f55d4;border-radius:100px;padding:3px 20px;color:#fff}
+.osd .pill em{font-style:normal;color:#cfd8ff}
+.osd ul{list-style:none;margin:18px 0 0;padding:0}
+.osd li{display:flex;justify-content:space-between;padding:1px 16px;border-radius:6px;color:#e9ecff}
+.osd li small{font-size:inherit;color:#8e98d6}
+.osd li.sel{background:#fff;color:#0b0f2c}.osd li.sel small{color:#4a5390}
+.osd li .dot{color:#ffd54a;margin-right:8px;display:inline-block;width:.6em}
+.osd .hint{margin:20px 0 0 16px;color:#8e98d6}
+.osd .cur{display:inline-block;width:.5em;height:1em;background:#fff;vertical-align:-.12em;margin-left:2px;animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@media(prefers-reduced-motion:reduce){.osd .cur{animation:none}}
+.tag{position:absolute;right:var(--pad);bottom:calc(var(--pad) - 6px);font-size:12px;color:#7a7a7a;z-index:3;background:linear-gradient(90deg,transparent,#111 30%);padding-left:40px}
+
+/* ---------- stat ---------- */
+.stat{justify-content:center}
+.stat .lead{font-size:15px;color:#7a7a7a;margin:0}
+.stat .num{font-size:clamp(72px,9vw,124px);font-weight:500;letter-spacing:-.06em;line-height:.95;white-space:nowrap;margin:8px 0 0}
+.stat .num u{text-decoration:none;font-size:.42em;letter-spacing:-.03em;color:#a6a6a6;margin-left:.12em}
+.stat p.s{margin:18px 0 0;font-size:15px;line-height:1.35;color:#a6a6a6;max-width:26ch}
+.stat .ticks{display:flex;gap:4px;margin-top:34px}
+.stat .ticks i{flex:1;height:5px;border-radius:3px;background:#262626;overflow:hidden;position:relative}
+.stat .ticks i::after{content:"";position:absolute;inset:0;background:#fff;transform:scaleX(0);transform-origin:left;transition:transform .9s cubic-bezier(.2,.7,.2,1);transition-delay:calc(.4s + var(--k) * 90ms)}
+.bento.in .stat .ticks i::after{transform:none}
+@media(prefers-reduced-motion:reduce){.stat .ticks i::after{transform:none;transition:none}}
+
+/* ---------- collection: real captures from the board ---------- */
+.shots{position:absolute;left:0;right:-90px;top:0;bottom:-30px}
+.shots img{position:absolute;width:62%;aspect-ratio:4/3;object-fit:cover;object-position:center;image-rendering:pixelated;border-radius:10px;box-shadow:0 0 0 1px #303030,0 18px 40px rgba(0,0,0,.55);background:#000}
+.shots img:nth-child(1){left:0;top:0;transform:rotate(-2.2deg)}
+.shots img:nth-child(2){left:22%;top:26%;transform:rotate(1.6deg)}
+.shots img:nth-child(3){left:44%;top:52%;transform:rotate(-1deg)}
+
+/* ---------- component: write and verify ---------- */
+.flash{position:absolute;left:0;right:0;top:0;border-radius:14px;background:#181818;box-shadow:0 0 0 1px #2c2c2c;padding:20px}
+.flash .row{display:flex;align-items:center;gap:12px;font-size:14px;color:#cfcfcf}
+.flash .ic{width:34px;height:34px;border-radius:9px;background:#262626;display:grid;place-items:center;color:#a6a6a6;font:500 10px/1 var(--mono)}
+.flash .nm{flex:1;min-width:0}.flash .nm b{display:block;font-weight:500;color:#fff;letter-spacing:-.02em}.flash .nm span{font-size:12px;color:#7a7a7a}
+.flash .bar{height:8px;border-radius:5px;background:#2a2a2a;margin:20px 0 14px;overflow:hidden}
+.flash .bar i{display:block;height:100%;width:100%;background:#fff;border-radius:5px;transform:scaleX(0);transform-origin:left;transition:transform 2.2s cubic-bezier(.3,.6,.2,1) .5s}
+.bento.in .flash .bar i{transform:none}
+.flash .meta{display:flex;justify-content:space-between;font-size:12px;color:#7a7a7a}
+.flash .ok{margin-top:18px;display:flex;align-items:center;gap:8px;padding:9px 14px;border-radius:100px;background:#fff;color:#000;font-size:13px;font-weight:500;width:max-content;opacity:0;transition:opacity .4s 2.6s}
+.bento.in .flash .ok{opacity:1}
+.flash .ghost{margin-top:18px;height:8px;border-radius:4px;background:#1f1f1f}
+@media(prefers-reduced-motion:reduce){.flash .bar i{transform:none;transition:none}.flash .ok{opacity:1;transition:none}}
+
+/* ---------- diagram: the 8 MiB flash ---------- */
+.map{position:absolute;left:0;right:0;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.map .seg{display:flex;height:54px;border-radius:12px;overflow:hidden;box-shadow:0 0 0 1px #2c2c2c;background:#1b1b1b}
+.map .seg i{display:block;height:100%;border-right:1px solid #111}
+.map .seg .a{flex:1;background:#2a2a2a}.map .seg .b{flex:.55;background:#383838}.map .seg .c{flex:.35;background:#242424}
+.map .seg .d{flex:2.6;background:#fff}.map .seg .e{flex:3.2;background:#1b1b1b;background-image:repeating-linear-gradient(135deg,#1b1b1b 0 6px,#202020 6px 12px)}
+.map .lab{display:flex;font:400 11px/1.3 var(--mono);color:#7a7a7a}
+.map .lab span{display:block}.map .lab .a{flex:1.9}.map .lab .d{flex:2.6;color:#fff}.map .lab .e{flex:3.2;text-align:right}
+.map .jump{position:relative;height:34px;margin-top:6px}
+.map .jump svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.map .jump .hd{fill:#a6a6a6;stroke:none;animation:none}.map .jump path{fill:none;stroke:#a6a6a6;stroke-width:1.4;stroke-dasharray:4 5;animation:dash 2.4s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-18}}
+@media(prefers-reduced-motion:reduce){.map .jump path{animation:none}}
+
+/* ---------- statement ---------- */
+.state{flex-direction:row;align-items:flex-end;justify-content:space-between;gap:40px;min-height:260px;background:#fff;color:#111;border-color:#fff}
+.state .big{font-size:clamp(36px,5.2vw,68px);font-weight:500;letter-spacing:-.055em;line-height:1;margin:0;max-width:16ch}
+.state .big span{color:#9a9a9a}
+.state .side{max-width:300px}.state .side p{margin:0 0 18px;font-size:16px;line-height:1.35;color:#555;letter-spacing:-.02em}
+.state .btn{border-color:#111}.state .btn.solid{background:#111;color:#fff;border-color:#111}
+@media(max-width:760px){.state{flex-direction:column;align-items:flex-start}}

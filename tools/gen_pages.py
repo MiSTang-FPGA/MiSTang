@@ -9,8 +9,8 @@ def nav(active, base=''):
     a = ''.join(f'<a class="{"on" if k == active else ""}" href="{base}{h}">{t}</a>' for k, t, h in items)
     return f'<nav class="top"><a class="brand" href="{base}index.html">MiSTang</a><div class="links">{a}</div><a class="gh" href="https://github.com/MiSTang-FPGA/MiSTang">GitHub</a></nav>'
 FOOT = '<footer><div class="wrap"><span>MiSTang · multi-core FPGA platform for the Sipeed Tang Nano 20K</span><span>Cores are our own or from LakoMoor’s Open Pocket projects. <a href="https://github.com/MiSTang-FPGA">GitHub</a></span></div></footer>'
-def page(name, title, active, body):
-    (D/name).write_text(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}</title><meta name="description" content="MiSTang: many FPGA cores on one Tang Nano 20K. Web flasher, HDMI capture, core catalog."><link rel="stylesheet" href="assets/site.css">{FONTS}</head><body>{nav(active)}{body}{FOOT}</body></html>')
+def page(name, title, active, body, head=''):
+    (D/name).write_text(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}</title><meta name="description" content="MiSTang: many FPGA cores on one Tang Nano 20K. Web flasher, HDMI capture, core catalog."><link rel="stylesheet" href="assets/site.css">{head}{FONTS}</head><body>{nav(active)}{body}{FOOT}</body></html>')
 
 page('index.html', 'MiSTang', '', f'''
 <section class="hero"><div class="wrap">
@@ -26,11 +26,36 @@ RECONFIG_N       fabric pulls pin 9 low  → FPGA reloads at header address
                  USERCODE 0x4EAC → 0xFD4B</pre><p class="caption">Measured on a real Tang Nano 20K, 2026-11-01.</p></div>
 </div></section>
 
-<section><div class="wrap"><p class="eyebrow">On the board</p><h2>Real captures.</h2>
-<p class="lead">Frames taken from a Tang Nano 20K, over its USB-UART or with an HDMI capture card. Cores that have only run in simulation are on the <a href="ours.html" style="color:#fff">Our cores</a> page and are labelled as such.</p>
-<div class="grid3"><div class="feat"><img src="img/gbc-menu-board.png" alt="Game Boy core menu" style="width:100%;image-rendering:pixelated;border:1px solid #3c3c3c"><h3 style="margin-top:14px">Game Boy / Color</h3><p>Menu of the Open Pocket GBC bitstream, loaded with MiSTang’s JTAG code.</p></div>
-<div class="feat"><img src="img/core-breakout-board.png" alt="Breakout on the board" style="width:100%;image-rendering:pixelated;border:1px solid #3c3c3c"><h3 style="margin-top:14px">Breakout</h3><p>Written here. Started from flash slot A by the launcher’s multiboot jump.</p></div><div class="feat"><img src="img/core-pong-board.png" alt="Pong, HDMI capture" style="width:100%;border:1px solid #3c3c3c"><h3 style="margin-top:14px">Pong</h3><p>Written here. 720p HDMI captured from the board with a UVC capture card.</p></div>
-<div class="feat"><img src="img/core-apple1-board.png" alt="Apple I, HDMI capture" style="width:100%;border:1px solid #3c3c3c"><h3 style="margin-top:14px">Apple I</h3><p>6502, monitor ROM and a 40x24 terminal, written here.</p></div></div></div></section>
+<section id="stage"><div class="wrap"><p class="eyebrow">Inside</p><h2>One board.<br>Every piece, shown.</h2>
+<p class="lead">The launcher menu below is drawn from the firmware’s layout. The frames are real captures from the board.</p>
+<div class="bento" id="bento">
+<div class="tile span2 lead-tile" style="--i:0"><h3>Pick a core. <span>The launcher lists what is on your SD card.</span></h3>
+<div class="pic"><div class="win"><div class="bar"><i></i><i></i><i></i><b>MiSTang launcher</b></div>
+<div class="osd"><div class="pill"><span>MiSTang</span><em>choose a core</em></div>
+<ul><li><span>Apple I</span><small>886 KB</small></li><li><span><span class="dot">*</span>Breakout</span><small>563 KB</small></li><li class="sel"><span>CHIP-8</span><small>886 KB</small></li><li><span>Pong</span><small>563 KB</small></li></ul>
+<div class="hint">A: start&nbsp;&nbsp; Y: rescan&nbsp;&nbsp; * = in flash<span class="cur"></span></div></div></div></div>
+<span class="tag">Illustration, not a photo</span></div>
+
+<div class="tile stat" style="--i:1"><div><p class="lead">Loads in</p><p class="num">4.8<u>s</u></p><p class="s">A 907 KB bitstream into the FPGA from your browser. Measured on the board.</p></div>
+<div class="ticks"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i><i style="--k:5"></i></div></div>
+
+<div class="tile" style="--i:2"><h3>Real frames.</h3>
+<div class="pic"><div class="shots"><img src="img/core-pong-board.png" alt="Pong captured from the board"><img src="img/core-apple1-board.png" alt="Apple I captured from the board"><img src="img/core-breakout-hdmi.png" alt="Breakout captured from the board"></div></div></div>
+
+<div class="tile" style="--i:3"><h3>Write and verify. <span>From the browser.</span></h3>
+<div class="pic"><div class="flash"><div class="row"><div class="ic">.fs</div><div class="nm"><b>launcher.fs</b><span>907 418 bytes · slot 0x000000</span></div></div>
+<div class="bar"><i></i></div><div class="meta"><span>Erase · write · read back</span><span>31 s</span></div><div class="ok">Verified</div><div class="ghost"></div></div></div></div>
+
+<div class="tile" style="--i:4"><h3>One slot. <span>Any core.</span></h3>
+<div class="pic"><div class="map"><div class="seg"><i class="a"></i><i class="b"></i><i class="c"></i><i class="d"></i><i class="e"></i></div>
+<div class="lab"><span class="a">Launcher</span><span class="d">Core slot A</span><span class="e">8 MiB flash</span></div>
+<div class="jump"><svg viewBox="0 0 300 34" preserveAspectRatio="none"><path d="M150 2 C150 30 40 30 18 7"/><path class="hd" d="M12 4 L22 4 L18 12 Z" style="stroke:none"/></svg></div></div></div></div>
+
+<div class="tile span3 state" style="--i:5"><p class="big">574 systems mapped. <span>Six cores of our own.</span></p>
+<div class="side"><p>Sorted by whether they fit into 20 736 LUT4, not by hype.</p><div class="btns" style="justify-content:flex-start"><a class="btn solid" href="cores.html">Browse the catalog</a><a class="btn" href="ours.html">Our cores</a></div></div></div>
+</div></div></section>
+<script>(function(){{var b=document.getElementById('bento');if(!b)return;if(!('IntersectionObserver'in window)){{b.classList.add('in');return}}
+var o=new IntersectionObserver(function(e){{if(e[0].isIntersecting){{b.classList.add('in');o.disconnect()}}}},{{threshold:.15}});o.observe(b)}})()</script>
 
 <section class="light"><div class="wrap">
 <p class="eyebrow">Cores from SD</p><h2>One slot.<br>Any core.</h2>
@@ -64,7 +89,7 @@ RECONFIG_N       fabric pulls pin 9 low  → FPGA reloads at header address
 
 <section><div class="wrap"><p class="eyebrow">Read more</p><h2>Details.</h2>
 <div class="doclinks"><a href="how.html">How cores load from SD<span>→</span></a><a href="cores.html">Core catalog<span>→</span></a><a href="studio/">Web Studio<span>→</span></a>
-<a href="https://github.com/MiSTang-FPGA/MiSTang/blob/main/docs/design/launcher.md">Launcher design<span>→</span></a><a href="https://github.com/MiSTang-FPGA/MiSTang/tree/main/hwtest/reconfig">RECONFIG_N test<span>→</span></a><a href="https://github.com/MiSTang-FPGA">GitHub organisation<span>→</span></a></div></div></section>''')
+<a href="https://github.com/MiSTang-FPGA/MiSTang/blob/main/docs/design/launcher.md">Launcher design<span>→</span></a><a href="https://github.com/MiSTang-FPGA/MiSTang/tree/main/hwtest/reconfig">RECONFIG_N test<span>→</span></a><a href="https://github.com/MiSTang-FPGA">GitHub organisation<span>→</span></a></div></div></section>''', head='<link rel="stylesheet" href="assets/stage.css">')
 
 page('ours.html', 'MiSTang · Our cores', 'ours', '''
 <section class="page"><div class="wrap"><p class="eyebrow">Our cores</p><h1>What we have built.</h1>

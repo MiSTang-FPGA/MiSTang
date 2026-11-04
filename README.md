@@ -35,7 +35,10 @@ One core per repository, all built from the same [template](https://github.com/M
 Policy (updated 2026-11-04): cores are the author's own, written from scratch, or **ports of GPL MiSTer cores with LICENSE and upstream credit kept**. Start a port with `python tools/portcore.py <MiSTer repo URL> --id <id>`: it clones the core, lists the MiSTer framework dependencies to replace and writes a scaffold with a checklist. No port has been built yet.
 
 ## Launcher (SD → flash → switch)
-`launcher/` holds the launcher firmware (`launcher/fw/main.c`: lists `/MiSTang/cores/*.json`, copies the `.bin` to flash slot A, verifies, pulls `RECONFIG_N`) and `launcher/build.sh`, which patches an Open Pocket GBC checkout with one extra pin. **Status: the firmware passes a host-compiler syntax check only; it has not been built with the RISC-V toolchain, synthesised, or run on the board.**
+`launcher/` holds the launcher firmware (`launcher/fw/main.c`: lists `/MiSTang/cores/*.json`, copies the `.bin` to flash slot A, verifies, pulls `RECONFIG_N`) and `launcher/build.sh`, which patches an Open Pocket GBC checkout with one extra pin and builds it on Windows or macOS.
+
+**Verified on the board (2026-11-04, Windows host):** built with the open toolchain (timing met: `clk_sys` 38.7 MHz vs 33.75 needed); `tools/hw/flashwrite.mjs` wrote launcher bitstream, firmware and a core into flash with verification; the launcher firmware boots (`MiSTang launcher 0.1`, flash `ef4017`, SD mounted); a reload from the launcher jumps to the core in slot A (multiboot header `0x400000`) and a reload from the core returns to the launcher.
+**Not verified yet:** the menu on a display, copying a core from the SD card, and pulling `RECONFIG_N` from the firmware (`ctrl[31]`); the jump above was triggered over JTAG.
 
 Other design notes: [RISC-V soft cores and why XNU/Darwin is out of reach](docs/design/riscv.md).
 

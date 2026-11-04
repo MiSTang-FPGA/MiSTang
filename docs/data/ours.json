@@ -73,11 +73,11 @@
   "name": "Sega Master System / Game Gear",
   "system": "Sega 8-bit",
   "repo": "mistang-core-sms",
-  "origin": "Port of MiSTer SMS (GPL)",
-  "state": "wip",
-  "verified": "Scaffold only: upstream HDL and a porting audit. Nothing synthesised for the GW2AR-18 yet. No screenshot until a frame exists.",
-  "image": "",
-  "image_note": ""
+  "origin": "SMS_MiSTer (Z80, VDP, mappers) with a new Tang top level",
+  "state": "board",
+  "verified": "The upstream console core runs an original test cartridge on the Tang Nano 20K (6 800 LUT4, 32 percent). In simulation the whole 256x192 frame equals an independent render exactly. The HDMI frame from the board matches it at 98 percent of the pixels (capture-card smear). Sound is silent, there is no BIOS, no Game Gear, and cartridges are not loaded from the SD card yet.",
+  "image": "img/core-sms-board.png",
+  "image_note": "HDMI frame from the real board: test cartridge, mode 4"
  },
  {
   "name": "ColecoVision / SG-1000",

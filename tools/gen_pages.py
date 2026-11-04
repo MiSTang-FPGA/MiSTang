@@ -5,7 +5,7 @@ D = pathlib.Path(__file__).resolve().parent.parent / 'docs'
 N = len(json.loads((D/'data/catalog.json').read_text()))
 FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=VT323&display=swap" rel="stylesheet">'
 def nav(active, base=''):
-    items = [('ours', 'Our cores', 'ours.html'), ('cores', 'Catalog', 'cores.html'), ('how', 'How it works', 'how.html'), ('studio', 'Studio', 'studio/')]
+    items = [('ours', 'Our cores', 'ours.html'), ('cores', 'Catalog', 'cores.html'), ('how', 'How it works', 'how.html'), ('roadmap', 'Roadmap', 'roadmap.html'), ('studio', 'Studio', 'studio/')]
     a = ''.join(f'<a class="{"on" if k == active else ""}" href="{base}{h}">{t}</a>' for k, t, h in items)
     return f'<nav class="top"><a class="brand" href="{base}index.html">MiSTang</a><div class="links">{a}</div><a class="gh" href="https://github.com/MiSTang-FPGA/MiSTang">GitHub</a></nav>'
 FOOT = '<footer><div class="wrap"><span>MiSTang · multi-core FPGA platform for the Sipeed Tang Nano 20K</span><span>Cores are our own or from LakoMoor’s Open Pocket projects. <a href="https://github.com/MiSTang-FPGA">GitHub</a></span></div></footer>'
@@ -140,3 +140,16 @@ IDCODE <code>0x0000081B</code> (GW2A(R)-18) · SPI flash Winbond W25Q64, 8 MiB �
 0x7FF000  System settings</pre>
 <p class="caption">A board that ran Open Pocket GBC holds ROMs and saves across most of this range. Dump the flash before writing.</p>
 </div></section>''')
+
+page('roadmap.html', 'MiSTang · Roadmap', 'roadmap', '''
+<section class="hero" style="min-height:auto;padding-bottom:40px"><div class="wrap"><div class="lcd">ROADMAP</div><h1>What works.<br>What is next.</h1>
+<p class="lead">Ordered by priority. Status is what has actually been run, not what is planned.</p></div></section>
+<section class="light"><div class="wrap"><table>
+<tr><th>#</th><th>Item</th><th>Status</th></tr>
+<tr><td>1</td><td>Web flasher: JTAG, SRAM load, SPI flash write and verify</td><td>Working, tested on a board</td></tr>
+<tr><td>2</td><td>Launcher: SD card → flash slot → RECONFIG_N switch (<a href="https://github.com/MiSTang-FPGA/MiSTang/tree/main/launcher">launcher/</a>)</td><td>Firmware written, syntax-checked only. Not built or run yet</td></tr>
+<tr><td>3</td><td>Studio capture, serial remote, SD preparation</td><td>Written, not yet exercised on hardware</td></tr>
+<tr><td>4</td><td>Ports of small GPL MiSTer cores (<code>tools/portcore.py</code> scaffolds them): SMS, ColecoVision, VIC-20 and similar</td><td>Tooling only, no port built</td></tr>
+<tr><td>5</td><td>RISC-V soft cores (<a href="https://github.com/MiSTang-FPGA/MiSTang/blob/main/docs/design/riscv.md">notes</a>), then uClinux nommu with busybox</td><td>Desk study</td></tr>
+<tr><td>6</td><td>XNU / Darwin, zsh, fastfetch</td><td>Last. No RISC-V port of XNU exists and the board has 8 MB of RAM; see the notes above</td></tr>
+</table></div></section>''')

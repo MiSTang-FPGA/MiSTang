@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MiSTang · Roadmap</title><meta name="description" content="MiSTang: many FPGA cores on one Tang Nano 20K. Web flasher, HDMI capture, core catalog."><link rel="stylesheet" href="assets/site.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=VT323&display=swap" rel="stylesheet"></head><body><nav class="top"><a class="brand" href="index.html">MiSTang</a><div class="links"><a class="" href="ours.html">Our cores</a><a class="" href="cores.html">Catalog</a><a class="" href="how.html">How it works</a><a class="on" href="roadmap.html">Roadmap</a><a class="" href="studio/">Studio</a></div><a class="gh" href="https://github.com/MiSTang-FPGA/MiSTang">GitHub</a></nav>
+<section class="hero" style="min-height:auto;padding-bottom:40px"><div class="wrap"><div class="lcd">ROADMAP</div><h1>What works.<br>What is next.</h1>
+<p class="lead">Ordered by priority. Status is what has actually been run, not what is planned.</p></div></section>
+<section class="light"><div class="wrap"><table>
+<tr><th>#</th><th>Item</th><th>Status</th></tr>
+<tr><td>1</td><td>Web flasher: JTAG, SRAM load, SPI flash write and verify</td><td>Working, tested on a board</td></tr>
+<tr><td>2</td><td>Launcher: SD card → flash slot → RECONFIG_N switch (<a href="https://github.com/MiSTang-FPGA/MiSTang/tree/main/launcher">launcher/</a>)</td><td>Firmware written, syntax-checked only. Not built or run yet</td></tr>
+<tr><td>3</td><td>Studio capture, serial remote, SD preparation</td><td>Written, not yet exercised on hardware</td></tr>
+<tr><td>4</td><td>Ports of small GPL MiSTer cores (<code>tools/portcore.py</code> scaffolds them): SMS, ColecoVision, VIC-20 and similar</td><td>Tooling only, no port built</td></tr>
+<tr><td>5</td><td>RISC-V soft cores (<a href="https://github.com/MiSTang-FPGA/MiSTang/blob/main/docs/design/riscv.md">notes</a>), then uClinux nommu with busybox</td><td>Desk study</td></tr>
+<tr><td>6</td><td>XNU / Darwin, zsh, fastfetch</td><td>Last. No RISC-V port of XNU exists and the board has 8 MB of RAM; see the notes above</td></tr>
+</table></div></section><footer><div class="wrap"><span>MiSTang · multi-core FPGA platform for the Sipeed Tang Nano 20K</span><span>Cores are our own or from LakoMoor’s Open Pocket projects. <a href="https://github.com/MiSTang-FPGA">GitHub</a></span></div></footer></body></html>

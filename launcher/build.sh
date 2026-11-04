@@ -31,6 +31,8 @@ cp build/fw.bin "$OUT/fw.bin"
 
 # gateware: do NOT pass --reconfign_as_gpio, the pin is RECONFIG_N
 cd "$WORK/tree"
+# VIDEO=720p builds the 720p HDMI mode (the default is 480p)
+[ "${VIDEO:-}" = 720p ] && export DEFS="-DVIDEO_720P ${DEFS:-}"
 PACK_EXTRA="--mspi_as_gpio --multiboot_address 0x400000" ./build.sh gbc_top   # default OUT_DIR is relative: Windows yosys cannot open /e/... paths
 cp build/gbc_top/gbc_top.fs "$OUT/launcher.fs"
 echo "next: write launcher.fs to 0x000000 and fw.bin to 0x100000 (Studio > Flash, or openFPGALoader)"

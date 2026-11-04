@@ -123,6 +123,14 @@ static void progress(const char *what, const char *name, uint32_t done, uint32_t
     osd_present();
 }
 
+static int trace_y = 4;
+static void trace(const char *a, uint32_t v) {      // boot trace on the OSD, one line per step
+    char t[40]; sfmt(t, sizeof t, "%s %x", a, v);
+    if (trace_y == 4) header("boot");
+    osd_text(3, trace_y++, t, AT(CL_WHITE, CL_NAVY));
+    osd_present();
+}
+
 static uint32_t held;
 static uint32_t keys(void) {                 // newly pressed keys
     uint32_t cur = REG_IN & 0xFFFF;
@@ -226,11 +234,14 @@ int main(void) {
     if (flash_size(id) < 0x800000u) { message("Needs 8 MB flash", "W25Q64 expected", CL_RED); for (;;) wait_ms(1000); }
     flash_read(REG_SECTOR, &reg, sizeof reg);
     if (reg.magic != REG_MAGIC) memset(&reg, 0, sizeof reg);
-    ctrl &= ~(C_OSD | C_DIM); ctrl_write();
+    ctrl |= C_OSD; ctrl &= ~C_DIM; ctrl_write();       // the menu is drawn on the OSD layer
 
     int sel = 0, top = 0;
     sd_ok_mounted = mount();
+    trace("sd mounted", sd_ok_mounted);
     if (sd_ok_mounted) scan();
+    trace("cores", ncores);
+    wait_ms(1500);
     for (;;) {
         if (sel >= ncores) sel = ncores ? ncores - 1 : 0;
         if (sel < top) top = sel;
